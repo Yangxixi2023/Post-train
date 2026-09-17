@@ -74,9 +74,18 @@ def compute_grpo_clip_loss(
     return loss, metadata
 
 
+def compute_grpo_no_clip_loss(
+    advantages: torch.Tensor,
+    policy_log_probs: torch.Tensor,
+    old_log_probs: torch.Tensor,
+) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:
+    ratio = torch.exp(policy_log_probs - old_log_probs)
+    return -(ratio * advantages), {"ratio": ratio.detach(), "ratio_mean": ratio.mean().detach()}
+
+
 def compute_policy_gradient_loss(
     policy_log_probs: torch.Tensor,
-    loss_type: Literal["no_baseline", "reinforce_with_baseline", "grpo_clip"],
+    loss_type: Literal["no_baseline", "reinforce_with_baseline", "grpo_clip", "grpo_no_clip"],
     raw_rewards: Optional[torch.Tensor] = None,
     advantages: Optional[torch.Tensor] = None,
     old_log_probs: Optional[torch.Tensor] = None,
@@ -91,6 +100,9 @@ def compute_policy_gradient_loss(
     if loss_type == "grpo_clip":
         assert advantages is not None and old_log_probs is not None and cliprange is not None
         return compute_grpo_clip_loss(advantages, policy_log_probs, old_log_probs, cliprange)
+    if loss_type == "grpo_no_clip":
+        assert advantages is not None and old_log_probs is not None
+        return compute_grpo_no_clip_loss(advantages, policy_log_probs, old_log_probs)
     raise ValueError(f"unknown loss_type={loss_type}")
 
 
@@ -103,11 +115,13 @@ def grpo_microbatch_train_step(
     policy_log_probs: torch.Tensor,
     response_mask: torch.Tensor,
     gradient_accumulation_steps: int,
-    loss_type: Literal["no_baseline", "reinforce_with_baseline", "grpo_clip"],
+    loss_type: Literal["no_baseline", "reinforce_with_baseline", "grpo_clip", "grpo_no_clip"],
     raw_rewards: torch.Tensor | None = None,
     advantages: torch.Tensor | None = None,
     old_log_probs: torch.Tensor | None = None,
     cliprange: float | None = None,
+    length_normalization: str = "mean",
+    constant_normalizer: float | None = None,
 ) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:
     if gradient_accumulation_steps <= 0:
         raise ValueError("gradient_accumulation_steps must be positive")
@@ -119,7 +133,15 @@ def grpo_microbatch_train_step(
         old_log_probs=old_log_probs,
         cliprange=cliprange,
     )
-    per_example = masked_mean(per_token_loss, response_mask, dim=1)
+    if length_normalization == "mean":
+        per_example = masked_mean(per_token_loss, response_mask, dim=1)
+    elif length_normalization == "constant":
+        if constant_normalizer is None or constant_normalizer <= 0:
+            raise ValueError("constant_normalizer must be positive for constant length normalization")
+        m = response_mask.to(per_token_loss.dtype)
+        per_example = (per_token_loss * m).sum(dim=1) / constant_normalizer
+    else:
+        raise ValueError(f"unknown length_normalization={length_normalization}")
     unscaled = per_example.mean()
     loss = unscaled / gradient_accumulation_steps
     loss.backward()
