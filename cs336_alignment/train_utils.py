@@ -83,3 +83,10 @@ def evaluate_vllm(llm, reward_fn:Callable, prompts:list[str], golds:list[str], *
 def save_run_metadata(path:str, payload:dict):
     Path(path).parent.mkdir(parents=True,exist_ok=True)
     with open(path,'w',encoding='utf-8') as f: json.dump(payload,f,ensure_ascii=False,indent=2)
+
+def log_generations(rows: list[dict], path: str) -> None:
+    """Serialize prompt, response, ground truth and reward metadata for qualitative inspection."""
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as f:
+        for row in rows:
+            f.write(json.dumps(row, ensure_ascii=False) + '\n')

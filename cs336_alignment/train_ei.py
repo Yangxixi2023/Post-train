@@ -57,17 +57,18 @@ def main():
             t=tokenize_prompt_and_output([ex['prompt']],[ex['response']],tok)
             if t['input_ids'].shape[1] <= args.max_seq_len: fitted.append(ex)
         policy.train()
-        order=list(range(len(fitted)))
+        order=list(range(len(fitted))); entropy_sum=0.0; entropy_count=0
         for ep in range(args.sft_epochs):
             rng.shuffle(order); opt.zero_grad(set_to_none=True); accum=0; loss_sum=0.0
             for j,idx in enumerate(order):
                 ex=fitted[idx]; t=tokenize_prompt_and_output([ex['prompt']],[ex['response']],tok)
                 ids=t['input_ids'].to(args.policy_device); lab=t['labels'].to(args.policy_device); mask=t['response_mask'].to(args.policy_device)
-                lp=get_response_log_probs(policy,ids,lab,False)['log_probs']
+                lp_out=get_response_log_probs(policy,ids,lab,True); lp=lp_out['log_probs']
+                entropy_sum += float((lp_out['token_entropy'] * mask).sum().detach()); entropy_count += int(mask.sum())
                 loss,_=sft_microbatch_train_step(lp,mask,args.grad_accum,1.0); loss_sum += loss.item()*args.grad_accum; accum+=1
                 if accum==args.grad_accum or j==len(order)-1:
                     gn=torch.nn.utils.clip_grad_norm_(policy.parameters(),1.0); opt.step(); opt.zero_grad(set_to_none=True); accum=0
-            logf.write(json.dumps({'ei_step':ei,'epoch':ep+1,'sft_loss_sum':loss_sum})+'\n'); logf.flush()
+            logf.write(json.dumps({'ei_step':ei,'epoch':ep+1,'sft_loss_sum':loss_sum,'mean_token_entropy':entropy_sum/max(1,entropy_count)})+'\n'); logf.flush()
         eval_now(ei)
         ck=out/f'checkpoint_ei{ei}'; policy.save_pretrained(ck,safe_serialization=True); tok.save_pretrained(ck)
     final=out/'checkpoint_final'; policy.save_pretrained(final,safe_serialization=True); tok.save_pretrained(final)
