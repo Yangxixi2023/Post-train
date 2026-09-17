@@ -13,7 +13,7 @@ def convert(src: Path, dst: Path, template: str) -> int:
             else: rationale, final=ans, ans
             final=final.strip().replace(',','')
             prompt=template.replace('{question}', ex['question'])
-            response=f"{rationale.strip()}\n</think>\n<answer>{final}</answer>"
+            response=f"{rationale.strip()} </think> <answer>{final}</answer>"
             fo.write(json.dumps({'question':ex['question'],'prompt':prompt,'response':response,'answer':final},ensure_ascii=False)+'\n')
             n+=1
     return n
