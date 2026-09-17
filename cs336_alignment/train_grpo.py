@@ -1,5 +1,5 @@
 from __future__ import annotations
-import argparse, json, random, subprocess
+import argparse, json, random, subprocess, time
 from pathlib import Path
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -29,11 +29,11 @@ def main():
     opt=torch.optim.AdamW(policy.parameters(),lr=args.lr,weight_decay=0.0,betas=(.9,.95))
     llm=init_vllm(args.model,args.vllm_device,args.seed,args.vllm_gpu_util,max_model_len=max(1024,args.max_seq_len+args.max_new_tokens))
     valp=[format_prompt(x,tpl) for x in val]; valg=[extract_gold(x) for x in val]
-    logf=(out/'metrics.jsonl').open('w')
+    logf=(out/'metrics.jsonl').open('w'); run_start=time.time()
     def eval_now(step):
         policy.eval(); load_policy_into_vllm_instance(policy,llm)
         m,_=evaluate_vllm(llm,reward_fn,valp,valg,temperature=1.0,max_tokens=args.max_new_tokens,seed=args.seed+1000+step,output_path=str(out/f'eval_grpo{step}.jsonl'))
-        logf.write(json.dumps({'grpo_step':step,'eval':m})+'\n'); logf.flush(); print({'grpo_step':step,'eval':m},flush=True); policy.train(); return m
+        logf.write(json.dumps({'grpo_step':step,'elapsed_seconds':time.time()-run_start,'eval':m})+'\n'); logf.flush(); print({'grpo_step':step,'eval':m},flush=True); policy.train(); return m
     eval_now(0)
     rollout_params=SamplingParams(n=args.group_size,temperature=1.0,top_p=1.0,max_tokens=args.max_new_tokens,min_tokens=4,stop=['</answer>'],include_stop_str_in_output=True)
     for step in range(1,args.grpo_steps+1):
@@ -70,7 +70,7 @@ def main():
                 loss_sum += float(loss.detach())*accum_target; clip_sum += float(meta.get('clip_fraction',torch.tensor(0.0))); entropy_sum += float((lp['token_entropy'] * mask).sum().detach()); entropy_count += int(mask.sum()); acc+=1
                 if acc==accum_target or pos==len(order)-1:
                     gn=torch.nn.utils.clip_grad_norm_(policy.parameters(),1.0); grad_norm_sum += float(gn); opt.step(); opt.zero_grad(set_to_none=True); acc=0; updates+=1
-        rec={'grpo_step':step,'reward_meta':rmeta,'samples':len(items),'updates':updates,'loss_sum':loss_sum,'mean_clip_fraction':clip_sum/max(1,len(items)*args.epochs_per_rollout),'mean_token_entropy':entropy_sum/max(1,entropy_count),'mean_grad_norm':grad_norm_sum/max(1,updates),'mean_response_tokens':sum(len(t['labels'][0]) for _,t in items)/max(1,len(items)),'train_batch_size':accum_target,'epochs_per_rollout':args.epochs_per_rollout}
+        rec={'grpo_step':step,'elapsed_seconds':time.time()-run_start,'reward_meta':rmeta,'samples':len(items),'updates':updates,'loss_sum':loss_sum,'mean_clip_fraction':clip_sum/max(1,len(items)*args.epochs_per_rollout),'mean_token_entropy':entropy_sum/max(1,entropy_count),'mean_grad_norm':grad_norm_sum/max(1,updates),'mean_response_tokens':sum(len(t['labels'][0]) for _,t in items)/max(1,len(items)),'train_batch_size':accum_target,'epochs_per_rollout':args.epochs_per_rollout}
         logf.write(json.dumps(rec)+'\n'); logf.flush(); print(rec,flush=True)
         if step%args.eval_every==0: eval_now(step)
         
