@@ -30,11 +30,14 @@ def extract_gold(ex:dict)->str:
 
 
 def format_prompt(ex:dict, template:str)->str:
-    if 'prompt' in ex and '<think>' in str(ex['prompt']):
-        return str(ex['prompt'])
+    # Always honor the requested experiment template when a raw question/problem is available.
+    # This is required for the R1-Zero vs question-only prompt ablation.
     q=ex.get('question', ex.get('problem'))
-    if q is None: raise KeyError('question/problem not found')
-    return template.replace('{question}', str(q))
+    if q is not None:
+        return template.replace('{question}', str(q))
+    if 'prompt' in ex:
+        return str(ex['prompt'])
+    raise KeyError('question/problem/prompt not found')
 
 
 def init_vllm(model_id:str, device:str, seed:int, gpu_memory_utilization:float=0.55, max_model_len:int=2048):
