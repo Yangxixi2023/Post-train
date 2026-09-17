@@ -14,7 +14,7 @@ def main():
     ap.add_argument('--ei-steps',type=int,default=2); ap.add_argument('--questions-per-step',type=int,default=32); ap.add_argument('--group-size',type=int,default=4)
     ap.add_argument('--sft-epochs',type=int,default=1); ap.add_argument('--lr',type=float,default=1e-5); ap.add_argument('--grad-accum',type=int,default=8)
     ap.add_argument('--max-seq-len',type=int,default=768); ap.add_argument('--max-new-tokens',type=int,default=256); ap.add_argument('--eval-examples',type=int,default=64)
-    ap.add_argument('--seed',type=int,default=42); ap.add_argument('--policy-device',default='cuda:0'); ap.add_argument('--vllm-device',default='cuda:1'); ap.add_argument('--vllm-gpu-util',type=float,default=.5)
+    ap.add_argument('--save-intermediate',action=argparse.BooleanOptionalAction,default=False); ap.add_argument('--seed',type=int,default=42); ap.add_argument('--policy-device',default='cuda:0'); ap.add_argument('--vllm-device',default='cuda:1'); ap.add_argument('--vllm-gpu-util',type=float,default=.5)
     args=ap.parse_args(); seed_everything(args.seed)
     out=Path(args.output_dir); out.mkdir(parents=True,exist_ok=True)
     train=read_jsonl(args.train_data); val=read_jsonl(args.val_data)[:args.eval_examples]; tpl=Path('cs336_alignment/prompts/r1_zero.prompt').read_text()
@@ -70,7 +70,9 @@ def main():
                     gn=torch.nn.utils.clip_grad_norm_(policy.parameters(),1.0); opt.step(); opt.zero_grad(set_to_none=True); accum=0
             logf.write(json.dumps({'ei_step':ei,'epoch':ep+1,'sft_loss_sum':loss_sum,'mean_token_entropy':entropy_sum/max(1,entropy_count)})+'\n'); logf.flush()
         eval_now(ei)
-        ck=out/f'checkpoint_ei{ei}'; policy.save_pretrained(ck,safe_serialization=True); tok.save_pretrained(ck)
+        
+        if args.save_intermediate:
+            ck=out/f'checkpoint_ei{ei}'; policy.save_pretrained(ck,safe_serialization=True); tok.save_pretrained(ck)
     final=out/'checkpoint_final'; policy.save_pretrained(final,safe_serialization=True); tok.save_pretrained(final)
     commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(); save_run_metadata(str(out/'run.json'),{'git_commit':commit,'args':vars(args),'checkpoint':str(final.resolve())})
     logf.close()
