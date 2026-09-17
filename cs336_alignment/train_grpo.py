@@ -44,6 +44,9 @@ def main():
         for p,g,o in zip(prompts,golds,outs):
             for cand in o.outputs: flatp.append(p); flatr.append(cand.text); flatg.append(g)
         adv,raw,rmeta=compute_group_normalized_rewards(reward_fn,flatr,flatg,args.group_size,1e-6,args.normalize_by_std)
+        with (out/'rollouts.jsonl').open('a',encoding='utf-8') as rf:
+            for j in range(min(8,len(flatr))):
+                rf.write(json.dumps({'grpo_step':step,'prompt':flatp[j],'response':flatr[j],'ground_truth':flatg[j],'reward':float(raw[j])},ensure_ascii=False)+'\n')
         # tokenize individually and keep only samples fitting max length. Retain group order; training can skip overlong samples.
         items=[]
         for i,(p,r) in enumerate(zip(flatp,flatr)):
