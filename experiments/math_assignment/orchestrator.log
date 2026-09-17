@@ -32,3 +32,15 @@ BEST_LR=3e-5
 [2026-09-17T20:31:39+08:00] GRPO length_constant start
 [2026-09-17T20:45:23+08:00] GRPO length_constant done
 [2026-09-17T20:45:24+08:00] GRPO std_false start
+[2026-09-17T21:00:12+08:00] GRPO std_false done
+[2026-09-17T21:00:12+08:00] GRPO off_e2_b256 start
+[2026-09-17T21:17:42+08:00] GRPO off_e2_b256 done
+[2026-09-17T21:17:43+08:00] GRPO off_e4_b128 start
+[2026-09-17T21:35:27+08:00] GRPO off_e4_b128 done
+BEST_OFF=off_e4_b128
+[2026-09-17T21:35:28+08:00] GRPO off_focused start
+[2026-09-17T22:56:27+08:00] GRPO off_focused done
+[2026-09-17T22:56:27+08:00] GRPO off_no_clip start
+[2026-09-17T23:17:25+08:00] GRPO off_no_clip done
+[2026-09-17T23:17:25+08:00] GRPO prompt_question_only start
+[2026-09-17T23:37:13+08:00] GRPO prompt_question_only done
