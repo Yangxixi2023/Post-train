@@ -1,0 +1,26 @@
+{
+  "git_commit": "ef5d04400fcd2a6694d97c5c8c3ec3d3739a8943",
+  "args": {
+    "model": "/workspace/models/Qwen2.5-Math-1.5B",
+    "train_data": "experiments/data/gsm8k_train_r1.jsonl",
+    "val_data": "experiments/data/gsm8k_test_r1.jsonl",
+    "output_dir": "experiments/formal_sft/run2",
+    "steps": 160,
+    "lr": 1e-05,
+    "micro_batch_size": 1,
+    "grad_accum": 4,
+    "max_seq_len": 768,
+    "train_examples": 2048,
+    "eval_examples": 256,
+    "eval_every": 40,
+    "max_new_tokens": 256,
+    "seed": 42,
+    "policy_device": "cuda:0",
+    "vllm_device": "cuda:1",
+    "vllm_gpu_util": 0.45
+  },
+  "seed": 42,
+  "policy_gpu": "cuda:0",
+  "vllm_gpu": "cuda:1",
+  "checkpoint": "/workspace/assignment5-alignment/experiments/formal_sft/run2/checkpoint_final"
+}

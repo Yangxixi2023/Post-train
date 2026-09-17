@@ -1,0 +1,33 @@
+{
+  "git_commit": "8e182fa6e5ffe4d03f3dd80fabcf67dd2129d108",
+  "args": {
+    "model": "/workspace/models/Qwen2.5-Math-1.5B",
+    "train_data": "experiments/data/MATH/train.jsonl",
+    "val_data": "experiments/data/MATH/validation.jsonl",
+    "output_dir": "experiments/math_assignment/grpo/reinforce_best",
+    "grpo_steps": 12,
+    "prompts_per_rollout": 32,
+    "group_size": 8,
+    "epochs_per_rollout": 1,
+    "loss_type": "reinforce_with_baseline",
+    "cliprange": 0.2,
+    "normalize_by_std": true,
+    "length_normalization": "mean",
+    "constant_normalizer": 256.0,
+    "prompt_template": "cs336_alignment/prompts/r1_zero.prompt",
+    "reward_type": "r1_zero",
+    "lr": 3e-05,
+    "grad_accum": 256,
+    "train_batch_size": 256,
+    "max_seq_len": 1536,
+    "max_new_tokens": 1024,
+    "eval_examples": 1024,
+    "eval_every": 4,
+    "save_intermediate": false,
+    "seed": 122,
+    "policy_device": "cuda:0",
+    "vllm_device": "cuda:1",
+    "vllm_gpu_util": 0.45
+  },
+  "checkpoint": "/workspace/assignment5-alignment/experiments/math_assignment/grpo/reinforce_best/checkpoint_final"
+}

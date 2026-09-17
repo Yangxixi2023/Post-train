@@ -1,0 +1,9 @@
+{
+  "git_commit": "d8bf7cd76d8595d26e539779858b44634389e139",
+  "command": ".venv_run/bin/python -m cs336_alignment.evaluate --model /workspace/models/Qwen2.5-Math-1.5B --data experiments/data/gsm8k_test_r1.jsonl --gpu cuda:1 --n 1319 --temperature 1.0 --max-tokens 1024 --seed 42 --gpu-memory-utilization 0.55 --output experiments/math_baseline_gsm8k/base_full.jsonl",
+  "seed": 42,
+  "dataset": "GSM8K open-source substitute",
+  "n": 1319,
+  "temperature": 1.0,
+  "max_tokens": 1024
+}

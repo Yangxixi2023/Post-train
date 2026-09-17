@@ -1,0 +1,11 @@
+{
+  "git_commit": "ef5d04400fcd2a6694d97c5c8c3ec3d3739a8943",
+  "command": ".venv_run/bin/python -m cs336_alignment.train_ei --model experiments/formal_sft/run2/checkpoint_final --train-data experiments/data/gsm8k_train_r1.jsonl --val-data experiments/data/gsm8k_test_r1.jsonl --output-dir experiments/formal_ei/run1 --ei-steps 3 --questions-per-step 128 --group-size 8 --sft-epochs 1 --lr 5e-6 --grad-accum 4 --max-seq-len 768 --max-new-tokens 256 --eval-examples 256 --seed 43 --policy-device cuda:0 --vllm-device cuda:1 --vllm-gpu-util 0.45",
+  "seed": 43,
+  "gpu": {
+    "policy": "cuda:0",
+    "rollout_eval": "cuda:1"
+  },
+  "base_checkpoint": "experiments/formal_sft/run2/checkpoint_final",
+  "log": "experiments/formal_ei/run1.log"
+}

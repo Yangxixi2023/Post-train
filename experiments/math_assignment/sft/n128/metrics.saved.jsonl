@@ -1,0 +1,37 @@
+{"step": 0, "eval": {"reward": 0.0859375, "format_reward": 0.234375, "answer_reward": 0.0859375, "avg_response_tokens": 257.12109375}}
+{"step": 1, "train_loss": 112.25, "grad_norm": 608.0}
+{"step": 2, "train_loss": 81.75, "grad_norm": 500.0}
+{"step": 3, "train_loss": 68.25, "grad_norm": 426.0}
+{"step": 4, "train_loss": 109.5, "grad_norm": 592.0}
+{"step": 5, "train_loss": 67.625, "grad_norm": 400.0}
+{"step": 6, "train_loss": 72.125, "grad_norm": 414.0}
+{"step": 7, "train_loss": 67.5625, "grad_norm": 384.0}
+{"step": 8, "train_loss": 70.0625, "grad_norm": 434.0}
+{"step": 8, "eval": {"reward": 0.15234375, "format_reward": 0.49609375, "answer_reward": 0.15234375, "avg_response_tokens": 144.6953125}}
+{"step": 9, "train_loss": 45.53125, "grad_norm": 328.0}
+{"step": 10, "train_loss": 70.375, "grad_norm": 424.0}
+{"step": 11, "train_loss": 77.8125, "grad_norm": 392.0}
+{"step": 12, "train_loss": 74.84375, "grad_norm": 428.0}
+{"step": 13, "train_loss": 51.03125, "grad_norm": 376.0}
+{"step": 14, "train_loss": 54.453125, "grad_norm": 428.0}
+{"step": 15, "train_loss": 64.296875, "grad_norm": 422.0}
+{"step": 16, "train_loss": 55.1875, "grad_norm": 398.0}
+{"step": 16, "eval": {"reward": 0.19140625, "format_reward": 0.57421875, "answer_reward": 0.19140625, "avg_response_tokens": 131.91015625}}
+{"step": 17, "train_loss": 54.125, "grad_norm": 416.0}
+{"step": 18, "train_loss": 49.40625, "grad_norm": 418.0}
+{"step": 19, "train_loss": 48.40625, "grad_norm": 420.0}
+{"step": 20, "train_loss": 41.140625, "grad_norm": 294.0}
+{"step": 21, "train_loss": 54.75, "grad_norm": 394.0}
+{"step": 22, "train_loss": 61.265625, "grad_norm": 384.0}
+{"step": 23, "train_loss": 54.90625, "grad_norm": 358.0}
+{"step": 24, "train_loss": 53.5, "grad_norm": 350.0}
+{"step": 24, "eval": {"reward": 0.171875, "format_reward": 0.53515625, "answer_reward": 0.171875, "avg_response_tokens": 127.76171875}}
+{"step": 25, "train_loss": 39.0625, "grad_norm": 288.0}
+{"step": 26, "train_loss": 47.0625, "grad_norm": 334.0}
+{"step": 27, "train_loss": 52.875, "grad_norm": 384.0}
+{"step": 28, "train_loss": 36.65625, "grad_norm": 326.0}
+{"step": 29, "train_loss": 70.875, "grad_norm": 404.0}
+{"step": 30, "train_loss": 37.125, "grad_norm": 286.0}
+{"step": 31, "train_loss": 49.40625, "grad_norm": 366.0}
+{"step": 32, "train_loss": 34.21875, "grad_norm": 284.0}
+{"step": 32, "eval": {"reward": 0.19921875, "format_reward": 0.6875, "answer_reward": 0.19921875, "avg_response_tokens": 127.03515625}}

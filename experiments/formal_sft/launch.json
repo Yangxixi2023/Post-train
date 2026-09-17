@@ -1,0 +1,11 @@
+{
+  "git_commit": "4d186f5aa355e26b5a361c56b4c725f6e1fc11dd",
+  "command": ".venv_run/bin/python -m cs336_alignment.train_sft --model /workspace/models/Qwen2.5-Math-1.5B --train-data experiments/data/gsm8k_train_r1.jsonl --val-data experiments/data/gsm8k_test_r1.jsonl --output-dir experiments/formal_sft/run1 --steps 80 --lr 2e-5 --micro-batch-size 1 --grad-accum 4 --max-seq-len 768 --train-examples 1024 --eval-examples 128 --eval-every 20 --max-new-tokens 256 --seed 42 --policy-device cuda:0 --vllm-device cuda:1 --vllm-gpu-util 0.45",
+  "seed": 42,
+  "gpu": {
+    "policy": "cuda:0",
+    "rollout_eval": "cuda:1"
+  },
+  "checkpoint": "experiments/formal_sft/run1/checkpoint_final",
+  "log": "experiments/formal_sft/run1.log"
+}

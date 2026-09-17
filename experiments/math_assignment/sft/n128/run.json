@@ -1,0 +1,26 @@
+{
+  "git_commit": "8e182fa6e5ffe4d03f3dd80fabcf67dd2129d108",
+  "args": {
+    "model": "/workspace/models/Qwen2.5-Math-1.5B",
+    "train_data": "experiments/data/MATH/sft.jsonl",
+    "val_data": "experiments/data/MATH/validation.jsonl",
+    "output_dir": "experiments/math_assignment/sft/n128",
+    "steps": 32,
+    "lr": 2e-05,
+    "micro_batch_size": 1,
+    "grad_accum": 4,
+    "max_seq_len": 1536,
+    "train_examples": 128,
+    "eval_examples": 256,
+    "eval_every": 8,
+    "max_new_tokens": 1024,
+    "seed": 101,
+    "policy_device": "cuda:0",
+    "vllm_device": "cuda:1",
+    "vllm_gpu_util": 0.45
+  },
+  "seed": 101,
+  "policy_gpu": "cuda:0",
+  "vllm_gpu": "cuda:1",
+  "checkpoint": "/workspace/assignment5-alignment/experiments/math_assignment/sft/n128/checkpoint_final"
+}

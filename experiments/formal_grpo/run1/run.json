@@ -1,0 +1,27 @@
+{
+  "git_commit": "ef5d04400fcd2a6694d97c5c8c3ec3d3739a8943",
+  "args": {
+    "model": "experiments/formal_ei/run1/checkpoint_final",
+    "train_data": "experiments/data/gsm8k_train_r1.jsonl",
+    "val_data": "experiments/data/gsm8k_test_r1.jsonl",
+    "output_dir": "experiments/formal_grpo/run1",
+    "grpo_steps": 12,
+    "prompts_per_rollout": 32,
+    "group_size": 8,
+    "epochs_per_rollout": 1,
+    "loss_type": "grpo_clip",
+    "cliprange": 0.2,
+    "normalize_by_std": true,
+    "lr": 5e-06,
+    "grad_accum": 4,
+    "max_seq_len": 768,
+    "max_new_tokens": 256,
+    "eval_examples": 256,
+    "eval_every": 3,
+    "seed": 44,
+    "policy_device": "cuda:0",
+    "vllm_device": "cuda:1",
+    "vllm_gpu_util": 0.45
+  },
+  "checkpoint": "/workspace/assignment5-alignment/experiments/formal_grpo/run1/checkpoint_final"
+}

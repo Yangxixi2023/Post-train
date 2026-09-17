@@ -1,0 +1,27 @@
+{
+  "git_commit": "90429627fa8f652ebdad153c22452471ce4253ce",
+  "args": {
+    "model": "experiments/smoke_sft/run1/checkpoint_final",
+    "train_data": "experiments/data/gsm8k_train_r1.jsonl",
+    "val_data": "experiments/data/gsm8k_test_r1.jsonl",
+    "output_dir": "experiments/smoke_grpo/run1",
+    "grpo_steps": 1,
+    "prompts_per_rollout": 2,
+    "group_size": 2,
+    "epochs_per_rollout": 1,
+    "loss_type": "grpo_clip",
+    "cliprange": 0.2,
+    "normalize_by_std": true,
+    "lr": 1e-05,
+    "grad_accum": 1,
+    "max_seq_len": 512,
+    "max_new_tokens": 64,
+    "eval_examples": 2,
+    "eval_every": 1,
+    "seed": 44,
+    "policy_device": "cuda:0",
+    "vllm_device": "cuda:1",
+    "vllm_gpu_util": 0.35
+  },
+  "checkpoint": "/workspace/assignment5-alignment/experiments/smoke_grpo/run1/checkpoint_final"
+}

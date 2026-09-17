@@ -1,0 +1,16 @@
+{"ei_step": 0, "eval": {"reward": 0.046875, "format_reward": 0.10546875, "answer_reward": 0.046875, "avg_response_tokens": 303.75390625}}
+{"ei_step": 1, "expert_examples": 52, "rollouts": 2048, "rollout_success_rate": 0.025390625, "question_solve_rate": 0.091796875}
+{"ei_step": 1, "epoch": 1, "sft_loss_sum": 3601.75, "mean_token_entropy": 0.6320680844048796}
+{"ei_step": 1, "eval": {"reward": 0.09765625, "format_reward": 0.46484375, "answer_reward": 0.09765625, "avg_response_tokens": 160.8046875}}
+{"ei_step": 2, "expert_examples": 106, "rollouts": 2048, "rollout_success_rate": 0.0517578125, "question_solve_rate": 0.1875}
+{"ei_step": 2, "epoch": 1, "sft_loss_sum": 6698.0625, "mean_token_entropy": 0.5266144083613289}
+{"ei_step": 2, "eval": {"reward": 0.12890625, "format_reward": 0.51171875, "answer_reward": 0.12890625, "avg_response_tokens": 195.359375}}
+{"ei_step": 3, "expert_examples": 151, "rollouts": 2048, "rollout_success_rate": 0.07373046875, "question_solve_rate": 0.228515625}
+{"ei_step": 3, "epoch": 1, "sft_loss_sum": 12145.96875, "mean_token_entropy": 0.6162541069295101}
+{"ei_step": 3, "eval": {"reward": 0.05859375, "format_reward": 0.20703125, "answer_reward": 0.05859375, "avg_response_tokens": 218.5546875}}
+{"ei_step": 4, "expert_examples": 171, "rollouts": 2048, "rollout_success_rate": 0.08349609375, "question_solve_rate": 0.25390625}
+{"ei_step": 4, "epoch": 1, "sft_loss_sum": 13448.53125, "mean_token_entropy": 0.6108394730966734}
+{"ei_step": 4, "eval": {"reward": 0.234375, "format_reward": 0.6640625, "answer_reward": 0.234375, "avg_response_tokens": 197.18359375}}
+{"ei_step": 5, "expert_examples": 168, "rollouts": 2048, "rollout_success_rate": 0.08203125, "question_solve_rate": 0.26171875}
+{"ei_step": 5, "epoch": 1, "sft_loss_sum": 14600.5, "mean_token_entropy": 0.633804052043029}
+{"ei_step": 5, "eval": {"reward": 0.1875, "format_reward": 0.62890625, "answer_reward": 0.1875, "avg_response_tokens": 207.8515625}}

@@ -1,0 +1,21 @@
+{"ei_step": 0, "eval": {"reward": 0.04296875, "format_reward": 0.2265625, "answer_reward": 0.04296875, "avg_response_tokens": 265.13671875}}
+{"ei_step": 1, "expert_examples": 200, "rollouts": 8192, "rollout_success_rate": 0.0244140625, "question_solve_rate": 0.0888671875}
+{"ei_step": 1, "epoch": 1, "sft_loss_sum": 13054.28125, "mean_token_entropy": 0.4953798165468925}
+{"ei_step": 1, "epoch": 2, "sft_loss_sum": 12307.28125, "mean_token_entropy": 0.479114378317865}
+{"ei_step": 1, "eval": {"reward": 0.05859375, "format_reward": 0.265625, "answer_reward": 0.05859375, "avg_response_tokens": 234.72265625}}
+{"ei_step": 2, "expert_examples": 841, "rollouts": 8192, "rollout_success_rate": 0.1026611328125, "question_solve_rate": 0.291015625}
+{"ei_step": 2, "epoch": 1, "sft_loss_sum": 53458.0625, "mean_token_entropy": 0.47053752228318246}
+{"ei_step": 2, "epoch": 2, "sft_loss_sum": 51166.59375, "mean_token_entropy": 0.4606271850499316}
+{"ei_step": 2, "eval": {"reward": 0.25, "format_reward": 0.82421875, "answer_reward": 0.25, "avg_response_tokens": 143.22265625}}
+{"ei_step": 3, "expert_examples": 1062, "rollouts": 8192, "rollout_success_rate": 0.129638671875, "question_solve_rate": 0.345703125}
+{"ei_step": 3, "epoch": 1, "sft_loss_sum": 77294.0625, "mean_token_entropy": 0.5564490263254087}
+{"ei_step": 3, "epoch": 2, "sft_loss_sum": 74504.921875, "mean_token_entropy": 0.5479401245672757}
+{"ei_step": 3, "eval": {"reward": 0.25, "format_reward": 0.78125, "answer_reward": 0.25, "avg_response_tokens": 173.734375}}
+{"ei_step": 4, "expert_examples": 1126, "rollouts": 8192, "rollout_success_rate": 0.137451171875, "question_solve_rate": 0.3623046875}
+{"ei_step": 4, "epoch": 1, "sft_loss_sum": 79058.5546875, "mean_token_entropy": 0.5847994709881446}
+{"ei_step": 4, "epoch": 2, "sft_loss_sum": 76200.45703125, "mean_token_entropy": 0.5746493748041709}
+{"ei_step": 4, "eval": {"reward": 0.25390625, "format_reward": 0.765625, "answer_reward": 0.25390625, "avg_response_tokens": 145.984375}}
+{"ei_step": 5, "expert_examples": 1203, "rollouts": 8192, "rollout_success_rate": 0.1468505859375, "question_solve_rate": 0.3740234375}
+{"ei_step": 5, "epoch": 1, "sft_loss_sum": 86474.87109375, "mean_token_entropy": 0.5967205404480931}
+{"ei_step": 5, "epoch": 2, "sft_loss_sum": 83108.759765625, "mean_token_entropy": 0.5865144518556524}
+{"ei_step": 5, "eval": {"reward": 0.28125, "format_reward": 0.703125, "answer_reward": 0.28125, "avg_response_tokens": 178.73046875}}

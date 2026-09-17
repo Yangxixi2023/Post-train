@@ -1,0 +1,1 @@
+{"git_commit":"90429627fa8f652ebdad153c22452471ce4253ce","seed":43,"model":"experiments/smoke_sft/run1/checkpoint_final","questions_per_step":2,"group_size":2,"ei_steps":1,"gpus":{"policy":"cuda:0","vllm":"cuda:1"}}
