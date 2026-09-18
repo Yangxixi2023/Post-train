@@ -1,0 +1,32 @@
+{
+  "base": {
+    "reward": 0.022,
+    "format_reward": 0.1304,
+    "answer_reward": 0.022,
+    "avg_response_tokens": 323.001
+  },
+  "sft": {
+    "reward": 0.36,
+    "format_reward": 0.7552,
+    "answer_reward": 0.36,
+    "avg_response_tokens": 150.3068
+  },
+  "filtered_sft": {
+    "reward": 0.423,
+    "format_reward": 0.9788,
+    "answer_reward": 0.423,
+    "avg_response_tokens": 140.0334
+  },
+  "ei": {
+    "reward": 0.2258,
+    "format_reward": 0.8626,
+    "answer_reward": 0.2258,
+    "avg_response_tokens": 227.226
+  },
+  "grpo_fixed100": {
+    "reward": 0.3886,
+    "format_reward": 0.8148,
+    "answer_reward": 0.3886,
+    "avg_response_tokens": 288.8254
+  }
+}

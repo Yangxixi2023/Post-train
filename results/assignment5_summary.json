@@ -923,5 +923,23 @@
     "format_reward": 0.8148,
     "answer_reward": 0.3886,
     "avg_response_tokens": 288.8254
+  },
+  "sft_full_5000": {
+    "reward": 0.36,
+    "format_reward": 0.7552,
+    "answer_reward": 0.36,
+    "avg_response_tokens": 150.3068
+  },
+  "sft_filtered_5000": {
+    "reward": 0.423,
+    "format_reward": 0.9788,
+    "answer_reward": 0.423,
+    "avg_response_tokens": 140.0334
+  },
+  "ei_final_5000": {
+    "reward": 0.2258,
+    "format_reward": 0.8626,
+    "answer_reward": 0.2258,
+    "avg_response_tokens": 227.226
   }
 }

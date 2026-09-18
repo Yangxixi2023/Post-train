@@ -91,7 +91,17 @@ The repaired 100-step GRPO final checkpoint was evaluated on the complete 5,000-
 
 The full per-example generations and rewards are in `experiments/math_assignment/final_fixed100_eval/validation_5000.jsonl`.
 
-A separate common 5,000-example evaluation of the final SFT, filtered-SFT and EI checkpoints is run by `experiments/math_assignment/final_stage_eval/run_all.sh`; its metrics are incorporated into `results/assignment5_summary.json` once complete.
+For a strict apples-to-apples comparison, the final stage checkpoints were also evaluated independently on the same complete 5,000-example MATH validation set:
+
+| Stage | Answer reward / accuracy | Format reward | Avg. response tokens |
+|---|---:|---:|---:|
+| Base Qwen2.5-Math-1.5B | 2.20% | 25.16% | 1,008.0 |
+| SFT, 1,767 traces | 36.00% | 75.52% | 150.31 |
+| Filtered SFT, 1,408 traces | **42.30%** | **97.88%** | 140.03 |
+| Expert Iteration final | 22.58% | 86.26% | 227.23 |
+| Repaired GRPO, 100 logical steps | 38.86% | 81.48% | 288.83 |
+
+On this common full-validation evaluation, reward-filtered SFT is the strongest final stage checkpoint. GRPO substantially improves over the base model and the evaluated EI final checkpoint, but does not exceed filtered SFT on the full 5,000-example set. This differs from several smaller periodic validation subsets, illustrating why final conclusions should use a common evaluation population.
 
 ## Repository map
 

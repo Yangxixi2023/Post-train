@@ -6,3 +6,17 @@ DONE sft_full 2026-09-18T23:46:16+08:00
   "answer_reward": 0.36,
   "avg_response_tokens": 150.3068
 }START sft_filtered 2026-09-18T23:46:16+08:00
+DONE sft_filtered 2026-09-18T23:49:18+08:00
+{
+  "reward": 0.423,
+  "format_reward": 0.9788,
+  "answer_reward": 0.423,
+  "avg_response_tokens": 140.0334
+}START ei_final 2026-09-18T23:49:18+08:00
+DONE ei_final 2026-09-18T23:53:27+08:00
+{
+  "reward": 0.2258,
+  "format_reward": 0.8626,
+  "answer_reward": 0.2258,
+  "avg_response_tokens": 227.226
+}

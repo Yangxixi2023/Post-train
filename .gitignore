@@ -175,3 +175,6 @@ experiments/**/checkpoint*/
 experiments/**/*.safetensors
 experiments/**/*.bin
 experiments/**/*.pt
+
+# Runtime PID files
+*.pid
