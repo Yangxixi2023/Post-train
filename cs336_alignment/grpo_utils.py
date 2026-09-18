@@ -58,10 +58,15 @@ def compute_grpo_clip_loss(
 ) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:
     if cliprange < 0:
         raise ValueError("cliprange must be nonnegative")
-    ratio = torch.exp(policy_log_probs - old_log_probs)
-    unclipped = ratio * advantages
+    # Importance ratios are especially sensitive in BF16: exp() can overflow long before
+    # the PPO/GRPO clipped branch is selected. Compute this path in FP32. This is
+    # algebraically identical for ordinary ratios and preserves the assignment tests.
+    log_ratio = policy_log_probs.float() - old_log_probs.float()
+    ratio = torch.exp(log_ratio)
+    adv = advantages.float()
+    unclipped = ratio * adv
     clipped_ratio = torch.clamp(ratio, 1.0 - cliprange, 1.0 + cliprange)
-    clipped = clipped_ratio * advantages
+    clipped = clipped_ratio * adv
     loss = -torch.minimum(unclipped, clipped)
     with torch.no_grad():
         clipped_mask = clipped < unclipped
@@ -70,6 +75,8 @@ def compute_grpo_clip_loss(
             "clipped": clipped_mask,
             "ratio": ratio.detach(),
             "ratio_mean": ratio.mean(),
+            "log_ratio_min": log_ratio.min().detach(),
+            "log_ratio_max": log_ratio.max().detach(),
         }
     return loss, metadata
 
@@ -79,8 +86,12 @@ def compute_grpo_no_clip_loss(
     policy_log_probs: torch.Tensor,
     old_log_probs: torch.Tensor,
 ) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:
-    ratio = torch.exp(policy_log_probs - old_log_probs)
-    return -(ratio * advantages), {"ratio": ratio.detach(), "ratio_mean": ratio.mean().detach()}
+    log_ratio = policy_log_probs.float() - old_log_probs.float()
+    ratio = torch.exp(log_ratio)
+    return -(ratio * advantages.float()), {
+        "ratio": ratio.detach(), "ratio_mean": ratio.mean().detach(),
+        "log_ratio_min": log_ratio.min().detach(), "log_ratio_max": log_ratio.max().detach(),
+    }
 
 
 def compute_policy_gradient_loss(

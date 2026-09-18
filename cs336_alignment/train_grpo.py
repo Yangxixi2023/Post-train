@@ -19,7 +19,7 @@ def main():
     ap.add_argument('--prompt-template',default='cs336_alignment/prompts/r1_zero.prompt'); ap.add_argument('--reward-type',choices=['r1_zero','question_only'],default='r1_zero')
     ap.add_argument('--lr',type=float,default=1e-5); ap.add_argument('--grad-accum',type=int,default=8); ap.add_argument('--train-batch-size',type=int,default=0,help='If >0, accumulate this many rollout samples per optimizer update (microbatch=1).'); ap.add_argument('--max-seq-len',type=int,default=768)
     ap.add_argument('--max-new-tokens',type=int,default=256); ap.add_argument('--eval-examples',type=int,default=64); ap.add_argument('--eval-every',type=int,default=1)
-    ap.add_argument('--save-intermediate',action=argparse.BooleanOptionalAction,default=False); ap.add_argument('--seed',type=int,default=42); ap.add_argument('--policy-device',default='cuda:0'); ap.add_argument('--vllm-device',default='cuda:1'); ap.add_argument('--vllm-gpu-util',type=float,default=.5)
+    ap.add_argument('--save-intermediate',action=argparse.BooleanOptionalAction,default=False); ap.add_argument('--save-every',type=int,default=0); ap.add_argument('--max-log-ratio',type=float,default=20.0,help='Fail fast before exp(log-ratio) becomes numerically/optimization unsafe; <=0 disables.'); ap.add_argument('--seed',type=int,default=42); ap.add_argument('--policy-device',default='cuda:0'); ap.add_argument('--vllm-device',default='cuda:1'); ap.add_argument('--vllm-gpu-util',type=float,default=.5)
     args=ap.parse_args(); seed_everything(args.seed)
     out=Path(args.output_dir); out.mkdir(parents=True,exist_ok=True); rng=random.Random(args.seed)
     train=read_jsonl(args.train_data); val=read_jsonl(args.val_data)[:args.eval_examples]; tpl=Path(args.prompt_template).read_text(); reward_fn = r1_zero_reward_fn if args.reward_type == 'r1_zero' else question_only_reward_fn
@@ -60,7 +60,7 @@ def main():
             for i,t in items:
                 ids=t['input_ids'].to(args.policy_device); lab=t['labels'].to(args.policy_device)
                 old.append(get_response_log_probs(policy,ids,lab,False)['log_probs'].detach().cpu())
-        policy.train(); updates=0; clip_sum=0.0; loss_sum=0.0; entropy_sum=0.0; entropy_count=0; grad_norm_sum=0.0; trained_samples=0; accum_target=args.train_batch_size if args.train_batch_size>0 else args.grad_accum
+        policy.train(); updates=0; clip_sum=0.0; loss_sum=0.0; entropy_sum=0.0; entropy_count=0; grad_norm_sum=0.0; trained_samples=0; log_ratio_min=float('inf'); log_ratio_max=float('-inf'); accum_target=args.train_batch_size if args.train_batch_size>0 else args.grad_accum
         for ep in range(args.epochs_per_rollout):
             order=list(range(len(items))); rng.shuffle(order); order=order[:min(len(order), args.train_batch_size or len(order))]; opt.zero_grad(set_to_none=True); acc=0
             for pos,j in enumerate(order):
@@ -69,15 +69,26 @@ def main():
                 rr=raw[orig].view(1,1).to(args.policy_device); aa=adv[orig].view(1,1).to(args.policy_device); olp=old[j].to(args.policy_device)
                 lt=args.loss_type
                 # clipping is meaningful after old-policy rollout; it is valid even on the first update where ratio starts at 1.
+                # Detect policy drift before it can overflow exp(log_ratio) or poison optimizer state.
+                if lt in ('grpo_clip','grpo_no_clip'):
+                    lr_token = (lp['log_probs'].float() - olp.float())[mask]
+                    if lr_token.numel():
+                        cur_min=float(lr_token.min()); cur_max=float(lr_token.max()); log_ratio_min=min(log_ratio_min,cur_min); log_ratio_max=max(log_ratio_max,cur_max)
+                        if args.max_log_ratio > 0 and max(abs(cur_min),abs(cur_max)) > args.max_log_ratio:
+                            raise FloatingPointError(f'unsafe log importance ratio at step={step} epoch={ep}: min={cur_min:.4g} max={cur_max:.4g}; lower LR/epochs or resume from an earlier checkpoint')
                 loss,meta=grpo_microbatch_train_step(lp['log_probs'],mask,accum_target,lt,rr,aa,olp,args.cliprange,args.length_normalization,args.constant_normalizer)
+                if not torch.isfinite(loss):
+                    raise FloatingPointError(f'non-finite GRPO loss at step={step} epoch={ep}')
                 loss_sum += float(loss.detach())*accum_target; clip_sum += float(meta.get('clip_fraction',torch.tensor(0.0))); entropy_sum += float((lp['token_entropy'] * mask).sum().detach()); entropy_count += int(mask.sum()); trained_samples += 1; acc+=1
                 if acc==accum_target or pos==len(order)-1:
-                    gn=torch.nn.utils.clip_grad_norm_(policy.parameters(),1.0); grad_norm_sum += float(gn); opt.step(); opt.zero_grad(set_to_none=True); acc=0; updates+=1
-        rec={'grpo_step':step,'elapsed_seconds':time.time()-run_start,'reward_meta':rmeta,'samples':len(items),'updates':updates,'loss_sum':loss_sum,'mean_clip_fraction':clip_sum/max(1,trained_samples),'mean_token_entropy':entropy_sum/max(1,entropy_count),'mean_grad_norm':grad_norm_sum/max(1,updates),'mean_response_tokens':sum(len(t['labels'][0]) for _,t in items)/max(1,len(items)),'train_batch_size':accum_target,'epochs_per_rollout':args.epochs_per_rollout}
+                    gn=torch.nn.utils.clip_grad_norm_(policy.parameters(),1.0, error_if_nonfinite=True); grad_norm_sum += float(gn)
+                    opt.step()
+                    opt.zero_grad(set_to_none=True); acc=0; updates+=1
+        rec={'grpo_step':step,'elapsed_seconds':time.time()-run_start,'reward_meta':rmeta,'samples':len(items),'updates':updates,'loss_sum':loss_sum,'mean_clip_fraction':clip_sum/max(1,trained_samples),'mean_token_entropy':entropy_sum/max(1,entropy_count),'mean_grad_norm':grad_norm_sum/max(1,updates),'mean_response_tokens':sum(len(t['labels'][0]) for _,t in items)/max(1,len(items)),'train_batch_size':accum_target,'epochs_per_rollout':args.epochs_per_rollout,'log_ratio_min':None if log_ratio_min==float('inf') else log_ratio_min,'log_ratio_max':None if log_ratio_max==float('-inf') else log_ratio_max}
         logf.write(json.dumps(rec)+'\n'); logf.flush(); print(rec,flush=True)
         if step%args.eval_every==0: eval_now(step)
         
-        if args.save_intermediate:
+        if args.save_intermediate or (args.save_every > 0 and step % args.save_every == 0):
             ck=out/f'checkpoint_grpo{step}'; policy.save_pretrained(ck,safe_serialization=True); tok.save_pretrained(ck)
     final=out/'checkpoint_final'; policy.save_pretrained(final,safe_serialization=True); tok.save_pretrained(final)
     commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(); save_run_metadata(str(out/'run.json'),{'git_commit':commit,'args':vars(args),'checkpoint':str(final.resolve())})
