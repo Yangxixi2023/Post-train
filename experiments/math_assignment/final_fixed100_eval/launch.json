@@ -1,0 +1,1 @@
+{"git_commit":"0c8a999fae9a1a441efae7ba037e8920e389bbd1","model":"leaderboard_fixed100_resume60/checkpoint_final","logical_grpo_steps":100,"n":5000,"seed":229,"max_tokens":1024,"gpu":"cuda:1"}

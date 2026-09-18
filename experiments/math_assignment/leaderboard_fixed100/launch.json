@@ -1,0 +1,1 @@
+{"git_commit":"0c8a999fae9a1a441efae7ba037e8920e389bbd1","purpose":"100-step stable GRPO rerun after late-stage NaN diagnosis","lr":5e-6,"epochs_per_rollout":4,"train_batch_size":128,"group_size":8,"cliprange":0.2,"max_log_ratio":12,"save_every":10,"seed":129,"policy_gpu":"cuda:0","vllm_gpu":"cuda:1"}
