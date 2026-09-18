@@ -1,0 +1,48 @@
+Using Python 3.12.14 environment at: .venv_run
+Resolved 149 packages in 17.75s
+Downloading mistral-common (6.2MiB)
+Downloading networkx (2.0MiB)
+Downloading xgrammar (1.2MiB)
+Downloading grpcio (6.8MiB)
+Downloading sentencepiece (1.3MiB)
+Downloading py-spy (2.8MiB)
+ Downloaded xgrammar
+Downloading pillow (6.6MiB)
+ Downloaded networkx
+Downloading uvloop (4.2MiB)
+Downloading ray (74.8MiB)
+ Downloaded sentencepiece
+Downloading virtualenv (5.1MiB)
+Downloading pycountry (7.7MiB)
+ Downloaded py-spy
+ Downloaded mistral-common
+Downloading pydantic-core (2.0MiB)
+ Downloaded grpcio
+ Downloaded uvloop
+ Downloaded pydantic-core
+Downloading openai (1.9MiB)
+ Downloaded pillow
+Downloading hf-xet (4.3MiB)
+Downloading aiohttp (1.7MiB)
+Downloading tiktoken (1.1MiB)
+Downloading tokenizers (3.0MiB)
+ Downloaded openai
+ Downloaded tiktoken
+ Downloaded aiohttp
+Downloading apache-tvm-ffi (3.1MiB)
+Downloading cryptography (4.5MiB)
+ Downloaded virtualenv
+Downloading pygments (1.2MiB)
+ Downloaded tokenizers
+ Downloaded pygments
+ Downloaded apache-tvm-ffi
+ Downloaded cryptography
+ Downloaded hf-xet
+ Downloaded pycountry
+ Downloaded ray
+error: Failed to download `diskcache==5.6.3`
+  cause: Failed to acquire lock on the distribution cache
+  cause: Could not acquire lock
+  cause: Timeout (300s) when waiting for lock on `/root/.cache/uv/wheels-v6/index/3ba65c4f41aac3a1/diskcache/5.6.3-py3-none-any.lock` at `/root/.cache/uv/wheels-v6/index/3ba65c4f41aac3a1/diskcache/5.6.3-py3-none-any.lock`, is another uv process running? You can set `UV_LOCK_TIMEOUT` to increase the timeout.
+
+hint: `diskcache` (v5.6.3) was included because `vllm` (v0.7.2) depends on `outlines` (v0.1.11) which depends on `diskcache`

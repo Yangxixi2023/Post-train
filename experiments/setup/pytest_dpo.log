@@ -1,0 +1,37 @@
+
+tests/test_dpo.py::test_per_instance_dpo_loss FAILED                     [100%]
+
+=================================== FAILURES ===================================
+__________________________ test_per_instance_dpo_loss __________________________
+
+    def test_per_instance_dpo_loss():
+        tokenizer = AutoTokenizer.from_pretrained("gpt2")
+    
+        model = AutoModelForCausalLM.from_pretrained(FIXTURES_PATH / "tiny-gpt2")
+        model_ref = AutoModelForCausalLM.from_pretrained(FIXTURES_PATH / "tiny-gpt2-ref")
+    
+        prompt = "The quick brown fox jumps over"
+        good_response = "the lazy dog."
+        bad_response = "their crazy frog."
+    
+        loss = compute_per_instance_dpo_loss(
+            lm=model,
+            lm_ref=model_ref,
+            tokenizer=tokenizer,
+            beta=0.5,
+            prompt=prompt,
+            response_chosen=good_response,
+            response_rejected=bad_response,
+        )
+    
+>       assert torch.isclose(loss, torch.tensor(0.5785), atol=1e-4)
+E       assert tensor(False)
+E        +  where tensor(False) = <built-in method isclose of type object at 0x7f7470a5e280>(tensor(0.5147, grad_fn=<NegBackward0>), tensor(0.5785), atol=0.0001)
+E        +    where <built-in method isclose of type object at 0x7f7470a5e280> = torch.isclose
+E        +    and   tensor(0.5785) = <built-in method tensor of type object at 0x7f7470a5e280>(0.5785)
+E        +      where <built-in method tensor of type object at 0x7f7470a5e280> = torch.tensor
+
+tests/test_dpo.py:28: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_dpo.py::test_per_instance_dpo_loss - assert tensor(False)
+============================== 1 failed in 1.44s ===============================

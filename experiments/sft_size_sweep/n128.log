@@ -1,0 +1,60 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+INFO 09-17 16:45:57 __init__.py:190] Automatically detected platform cuda.
+INFO 09-17 16:46:05 config.py:542] This model supports multiple tasks: {'generate', 'score', 'reward', 'embed', 'classify'}. Defaulting to 'generate'.
+INFO 09-17 16:46:05 llm_engine.py:234] Initializing a V0 LLM engine (v0.7.2) with config: model='/workspace/models/Qwen2.5-Math-1.5B', speculative_config=None, tokenizer='/workspace/models/Qwen2.5-Math-1.5B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=1024, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda:1, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=42, served_model_name=/workspace/models/Qwen2.5-Math-1.5B, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=True, chunked_prefill_enabled=False, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=False, 
+INFO 09-17 16:46:06 cuda.py:230] Using Flash Attention backend.
+INFO 09-17 16:46:11 model_runner.py:1110] Starting to load model /workspace/models/Qwen2.5-Math-1.5B...
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  2.61it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  2.60it/s]
+
+INFO 09-17 16:46:12 model_runner.py:1115] Loading model weights took 0.0000 GB
+INFO 09-17 16:46:13 worker.py:267] Memory profiling takes 0.49 seconds
+INFO 09-17 16:46:13 worker.py:267] the current vLLM instance can use total_gpu_memory (23.64GiB) x gpu_memory_utilization (0.45) = 10.64GiB
+INFO 09-17 16:46:13 worker.py:267] model weights take 0.00GiB; non_torch_memory takes 0.00GiB; PyTorch activation peak memory takes 0.00GiB; the rest of the memory reserved for KV Cache is 10.64GiB.
+INFO 09-17 16:46:13 executor_base.py:110] # CUDA blocks: 24902, # CPU blocks: 9362
+INFO 09-17 16:46:13 executor_base.py:115] Maximum concurrency for 1024 tokens per request: 389.09x
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank0]:   File "<frozen runpy>", line 88, in _run_code
+[rank0]:   File "/workspace/assignment5-alignment/cs336_alignment/train_sft.py", line 58, in <module>
+[rank0]:     if __name__=='__main__': main()
+[rank0]:                              ^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/cs336_alignment/train_sft.py", line 28, in main
+[rank0]:     llm=init_vllm(args.model,args.vllm_device,args.seed,args.vllm_gpu_util,max_model_len=max(1024,args.max_seq_len+args.max_new_tokens))
+[rank0]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/cs336_alignment/train_utils.py", line 52, in init_vllm
+[rank0]:     return LLM(model=model_id, device=device, dtype='bfloat16', enable_prefix_caching=True,
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/utils.py", line 1051, in inner
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 242, in __init__
+[rank0]:     self.llm_engine = self.engine_class.from_engine_args(
+[rank0]:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 484, in from_engine_args
+[rank0]:     engine = cls(
+[rank0]:              ^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 276, in __init__
+[rank0]:     self._initialize_kv_caches()
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 429, in _initialize_kv_caches
+[rank0]:     self.model_executor.initialize_cache(num_gpu_blocks, num_cpu_blocks)
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/executor/executor_base.py", line 121, in initialize_cache
+[rank0]:     self.collective_rpc("initialize_cache",
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 51, in collective_rpc
+[rank0]:     answer = run_method(self.driver_worker, method, args, kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/utils.py", line 2220, in run_method
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/worker/worker.py", line 306, in initialize_cache
+[rank0]:     self._init_cache_engine()
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/worker/worker.py", line 312, in _init_cache_engine
+[rank0]:     CacheEngine(self.cache_config, self.model_config,
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/worker/cache_engine.py", line 69, in __init__
+[rank0]:     self.gpu_cache = self._allocate_kv_cache(
+[rank0]:                      ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/workspace/assignment5-alignment/.venv_run/lib/python3.12/site-packages/vllm/worker/cache_engine.py", line 103, in _allocate_kv_cache
+[rank0]:     layer_kv_cache = torch.zeros(alloc_shape,
+[rank0]:                      ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 390.00 MiB. GPU 1 has a total capacity of 23.64 GiB of which 330.12 MiB is free. Process 34720 has 14.86 GiB memory in use. Including non-PyTorch memory, this process has 8.43 GiB memory in use. Of the allocated memory 7.84 GiB is allocated by PyTorch, and 147.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

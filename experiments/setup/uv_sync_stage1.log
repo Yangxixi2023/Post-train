@@ -1,0 +1,66 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting uv
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/1e/fd/432451d732917c49152a291de3ef171aa6b0f1a22d39780fb2c1f085ca4c/uv-0.12.15-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.1/20.1 MB 3.2 MB/s eta 0:00:00
+Installing collected packages: uv
+Successfully installed uv-0.12.15
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Downloading cpython-3.12.14-linux-x86_64-gnu (download) (32.6MiB)
+ Downloaded cpython-3.12.14-linux-x86_64-gnu (download)
+Installed Python 3.12.14 in 36.80s
+ + cpython-3.12.14-linux-x86_64-gnu (python3.12)
+warning: `/root/.local/bin` is not on your PATH. To use installed Python executables, run `export PATH="/root/.local/bin:$PATH"` or `uv python update-shell`.
+Using CPython 3.12.14
+Creating virtual environment at: .venv
+Resolved 246 packages in 2ms
+   Building alignment @ file:///workspace/assignment5-alignment
+   Updating https://github.com/nelson-liu/alpaca_eval.git (forward_kwargs_to_vllm)
+Downloading jedi (1.5MiB)
+Downloading pydantic-core (1.9MiB)
+Downloading networkx (1.6MiB)
+Downloading setuptools (1.1MiB)
+Downloading widgetsnbextension (2.1MiB)
+Downloading torchvision (6.9MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (23.5MiB)
+Downloading pygments (1.2MiB)
+Downloading sentencepiece (1.2MiB)
+Downloading tokenizers (2.9MiB)
+Downloading pandas (12.1MiB)
+Downloading xgrammar (4.6MiB)
+Downloading pillow (4.4MiB)
+Downloading vllm (252.0MiB)
+Downloading triton (199.8MiB)
+Downloading uvloop (4.5MiB)
+Downloading debugpy (4.0MiB)
+Downloading nvidia-nccl-cu12 (179.9MiB)
+Downloading torch (864.4MiB)
+Downloading tiktoken (1.1MiB)
+Downloading sympy (5.9MiB)
+Downloading mistral-common (6.2MiB)
+Downloading xformers (15.9MiB)
+Downloading nvidia-cufft-cu12 (201.7MiB)
+Downloading nvidia-cuda-cupti-cu12 (13.2MiB)
+Downloading nvidia-cudnn-cu12 (634.0MiB)
+Downloading hf-xet (24.3MiB)
+Downloading jupyterlab (11.7MiB)
+Downloading transformers (9.9MiB)
+Downloading torchaudio (3.2MiB)
+Downloading notebook (13.6MiB)
+Downloading py-spy (2.6MiB)
+Downloading ray (65.3MiB)
+Downloading nvidia-cusolver-cu12 (122.0MiB)
+Downloading pyarrow (40.3MiB)
+Downloading wandb (20.4MiB)
+Downloading scipy (35.6MiB)
+Downloading babel (9.7MiB)
+Downloading pycountry (6.0MiB)
+Downloading opencv-python-headless (47.7MiB)
+Downloading nvidia-nvjitlink-cu12 (20.1MiB)
+Downloading nvidia-cublas-cu12 (346.6MiB)
+Downloading nvidia-curand-cu12 (53.7MiB)
+Downloading grpcio (5.6MiB)
+Downloading nvidia-cusparse-cu12 (197.8MiB)
+Downloading numpy (17.1MiB)
+Downloading aiohttp (1.6MiB)
+Downloading virtualenv (5.8MiB)
+Downloading scikit-learn (12.5MiB)

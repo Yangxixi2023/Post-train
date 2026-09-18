@@ -1,0 +1,70 @@
+
+tests/test_data.py::test_packed_sft_dataset PASSED                       [  3%]
+tests/test_data.py::test_iterate_batches PASSED                          [  6%]
+tests/test_dpo.py::test_per_instance_dpo_loss FAILED                     [  9%]
+tests/test_grpo.py::test_compute_group_normalized_rewards_normalize_by_std PASSED [ 12%]
+tests/test_grpo.py::test_compute_group_normalized_rewards_no_normalize_by_std PASSED [ 16%]
+tests/test_grpo.py::test_compute_naive_policy_gradient_loss PASSED       [ 19%]
+tests/test_grpo.py::test_compute_grpo_clip_loss_large_cliprange PASSED   [ 22%]
+tests/test_grpo.py::test_compute_grpo_clip_loss_small_cliprange PASSED   [ 25%]
+tests/test_grpo.py::test_compute_policy_gradient_loss_no_baseline PASSED [ 29%]
+tests/test_grpo.py::test_compute_policy_gradient_loss_reinforce_with_baseline PASSED [ 32%]
+tests/test_grpo.py::test_compute_policy_gradient_loss_grpo_clip PASSED   [ 35%]
+tests/test_grpo.py::test_masked_mean_dim0 PASSED                         [ 38%]
+tests/test_grpo.py::test_masked_mean_dim1 PASSED                         [ 41%]
+tests/test_grpo.py::test_masked_mean_dimlast PASSED                      [ 45%]
+tests/test_grpo.py::test_masked_mean_dimNone PASSED                      [ 48%]
+tests/test_grpo.py::test_grpo_microbatch_train_step_grpo_clip PASSED     [ 51%]
+tests/test_grpo.py::test_grpo_microbatch_train_step_grpo_clip_10_steps PASSED [ 54%]
+tests/test_metrics.py::test_parse_mmlu_response PASSED                   [ 58%]
+tests/test_metrics.py::test_parse_mmlu_response_unknown PASSED           [ 61%]
+tests/test_metrics.py::test_parse_gsm8k_response PASSED                  [ 64%]
+tests/test_metrics.py::test_parse_gsm8k_response_unknown PASSED          [ 67%]
+tests/test_sft.py::test_tokenize_prompt_and_output PASSED                [ 70%]
+tests/test_sft.py::test_compute_entropy PASSED                           [ 74%]
+tests/test_sft.py::test_get_response_log_probs 
+-------------------------------- live log setup --------------------------------
+WARNING  transformers.models.qwen2.modeling_qwen2:logging.py:328 Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+PASSED                                                                   [ 77%]
+tests/test_sft.py::test_masked_normalize_dim0 PASSED                     [ 80%]
+tests/test_sft.py::test_masked_normalize_dim1 PASSED                     [ 83%]
+tests/test_sft.py::test_masked_normalize_dimlast PASSED                  [ 87%]
+tests/test_sft.py::test_masked_normalize_dimNone PASSED                  [ 90%]
+tests/test_sft.py::test_sft_microbatch_train_step PASSED                 [ 93%]
+tests/test_sft.py::test_sft_microbatch_train_step_normalize PASSED       [ 96%]
+tests/test_sft.py::test_sft_microbatch_train_step_10_steps PASSED        [100%]
+
+=================================== FAILURES ===================================
+__________________________ test_per_instance_dpo_loss __________________________
+
+    def test_per_instance_dpo_loss():
+        tokenizer = AutoTokenizer.from_pretrained("gpt2")
+    
+        model = AutoModelForCausalLM.from_pretrained(FIXTURES_PATH / "tiny-gpt2")
+        model_ref = AutoModelForCausalLM.from_pretrained(FIXTURES_PATH / "tiny-gpt2-ref")
+    
+        prompt = "The quick brown fox jumps over"
+        good_response = "the lazy dog."
+        bad_response = "their crazy frog."
+    
+        loss = compute_per_instance_dpo_loss(
+            lm=model,
+            lm_ref=model_ref,
+            tokenizer=tokenizer,
+            beta=0.5,
+            prompt=prompt,
+            response_chosen=good_response,
+            response_rejected=bad_response,
+        )
+    
+>       assert torch.isclose(loss, torch.tensor(0.5785), atol=1e-4)
+E       assert tensor(False)
+E        +  where tensor(False) = <built-in method isclose of type object at 0x7f19a6c5e280>(tensor(0.5147, grad_fn=<NegBackward0>), tensor(0.5785), atol=0.0001)
+E        +    where <built-in method isclose of type object at 0x7f19a6c5e280> = torch.isclose
+E        +    and   tensor(0.5785) = <built-in method tensor of type object at 0x7f19a6c5e280>(0.5785)
+E        +      where <built-in method tensor of type object at 0x7f19a6c5e280> = torch.tensor
+
+tests/test_dpo.py:28: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_dpo.py::test_per_instance_dpo_loss - assert tensor(False)
+========================= 1 failed, 30 passed in 4.30s =========================

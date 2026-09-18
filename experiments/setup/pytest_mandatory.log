@@ -1,0 +1,30 @@
+
+tests/test_sft.py::test_tokenize_prompt_and_output PASSED                [  4%]
+tests/test_sft.py::test_compute_entropy PASSED                           [  8%]
+tests/test_sft.py::test_get_response_log_probs 
+-------------------------------- live log setup --------------------------------
+WARNING  transformers.models.qwen2.modeling_qwen2:logging.py:328 Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+PASSED                                                                   [ 12%]
+tests/test_sft.py::test_masked_normalize_dim0 PASSED                     [ 16%]
+tests/test_sft.py::test_masked_normalize_dim1 PASSED                     [ 20%]
+tests/test_sft.py::test_masked_normalize_dimlast PASSED                  [ 25%]
+tests/test_sft.py::test_masked_normalize_dimNone PASSED                  [ 29%]
+tests/test_sft.py::test_sft_microbatch_train_step PASSED                 [ 33%]
+tests/test_sft.py::test_sft_microbatch_train_step_normalize PASSED       [ 37%]
+tests/test_sft.py::test_sft_microbatch_train_step_10_steps PASSED        [ 41%]
+tests/test_grpo.py::test_compute_group_normalized_rewards_normalize_by_std PASSED [ 45%]
+tests/test_grpo.py::test_compute_group_normalized_rewards_no_normalize_by_std PASSED [ 50%]
+tests/test_grpo.py::test_compute_naive_policy_gradient_loss PASSED       [ 54%]
+tests/test_grpo.py::test_compute_grpo_clip_loss_large_cliprange PASSED   [ 58%]
+tests/test_grpo.py::test_compute_grpo_clip_loss_small_cliprange PASSED   [ 62%]
+tests/test_grpo.py::test_compute_policy_gradient_loss_no_baseline PASSED [ 66%]
+tests/test_grpo.py::test_compute_policy_gradient_loss_reinforce_with_baseline PASSED [ 70%]
+tests/test_grpo.py::test_compute_policy_gradient_loss_grpo_clip PASSED   [ 75%]
+tests/test_grpo.py::test_masked_mean_dim0 PASSED                         [ 79%]
+tests/test_grpo.py::test_masked_mean_dim1 PASSED                         [ 83%]
+tests/test_grpo.py::test_masked_mean_dimlast PASSED                      [ 87%]
+tests/test_grpo.py::test_masked_mean_dimNone PASSED                      [ 91%]
+tests/test_grpo.py::test_grpo_microbatch_train_step_grpo_clip PASSED     [ 95%]
+tests/test_grpo.py::test_grpo_microbatch_train_step_grpo_clip_10_steps PASSED [100%]
+
+============================== 24 passed in 2.71s ==============================

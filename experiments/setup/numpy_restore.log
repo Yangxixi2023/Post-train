@@ -1,0 +1,9 @@
+Using Python 3.12.14 environment at: .venv_run
+Resolved 1 package in 458ms
+Downloading numpy (17.1MiB)
+ Downloaded numpy
+Prepared 1 package in 3.76s
+Uninstalled 1 package in 23ms
+Installed 1 package in 25ms
+ - numpy==2.5.3
+ + numpy==1.26.4

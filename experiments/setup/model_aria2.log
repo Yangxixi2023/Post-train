@@ -1,0 +1,380 @@
+
+09/17 14:18:22 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+09/17 14:18:23 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629503&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwM319fV19&Signature=MEUCIFTctHpQg5sXWnvq%7EVP5nKo5ZYJ9kCbJsDievKY7fR8iAiEAxjs%7Eg%7ED0YQl1OSjWDCdBKAIqDmCI165O7vEsBd-qC8U_&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061823Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=63837d063202902e324b494fcd80b5fe09cc0baf2065004a7888eee05204540c
+[#db5502 0B/0B CN:1 DL:0B]
+[#db5502 0B/0B CN:1 DL:0B]
+[#db5502 0B/0B CN:1 DL:0B]
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#21 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#23 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#19 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#18 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#20 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#14 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:26 [[1;32mNOTICE[0m] CUID#17 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+[#db5502 207MiB/2.8GiB(7%) CN:16 DL:0B]
+
+09/17 14:18:27 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629506&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwNn19fV19&Signature=MEUCIQCUn-2NFGUNGqakoXxyiGXH7OxUUKBVinrYYAXAtM%7EpDAIgMmwmWMP3MrZDnnL0wI2ScAznpRA%7EvGTT9z2CTWupSuo_&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061826Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8bfe21744641aa4276b3fb42b5e009ea282dc98afbf4775b88c57429db9901e5
+
+09/17 14:18:27 [[1;32mNOTICE[0m] CUID#16 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629507&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwN319fV19&Signature=MEYCIQCcA6XdY0bI1-jVzchSQMzBvQIJ3YjXVOTR%7EIRwXJHMygIhANTbPJevKf%7EGn11VFVbaZ-3qXI3pQuO7XSi5wewXI2gm&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061827Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=31ed83fbd78c96b40edaf66813f1cd28f2b0ad8b65e47d426fb57cd4dfb5d7b4
+
+09/17 14:18:27 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629507&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwN319fV19&Signature=MEYCIQCcA6XdY0bI1-jVzchSQMzBvQIJ3YjXVOTR%7EIRwXJHMygIhANTbPJevKf%7EGn11VFVbaZ-3qXI3pQuO7XSi5wewXI2gm&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061827Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=31ed83fbd78c96b40edaf66813f1cd28f2b0ad8b65e47d426fb57cd4dfb5d7b4
+ *** Download Progress Summary as of Thu Sep 17 14:18:28 2026 *** 
+===============================================================================
+[#db5502 207MiB/2.8GiB(7%) CN:16 DL:68KiB ETA:11h23m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 207MiB/2.8GiB(7%) CN:16 DL:68KiB ETA:11h23m50s]
+
+09/17 14:18:28 [[1;32mNOTICE[0m] CUID#22 - Redirecting to https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629508&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTUwOH19fV19&Signature=MEQCID0Q8z4WLq58oHRNGcsF4NnC5jsMtPGDreZWcpqiMOzIAiApGBRAWTyELEeN2hH-88Zhc-3mYmYdcXO6B2Ln1Ykw0w__&Key-Pair-Id=K3EPXBYC3CKDRZ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061828Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=77cf06ad28f6ee7cbbee72ccff6923cffa76c0282eba1c99c283b82bf20f9a18
+[#db5502 207MiB/2.8GiB(7%) CN:16 DL:351KiB ETA:2h12m46s]
+[#db5502 208MiB/2.8GiB(7%) CN:16 DL:570KiB ETA:1h21m51s]
+[#db5502 210MiB/2.8GiB(7%) CN:16 DL:1.0MiB ETA:44m3s]
+[#db5502 214MiB/2.8GiB(7%) CN:16 DL:1.4MiB ETA:31m4s]
+ *** Download Progress Summary as of Thu Sep 17 14:18:33 2026 *** 
+===============================================================================
+[#db5502 216MiB/2.8GiB(7%) CN:16 DL:1.6MiB ETA:27m43s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 216MiB/2.8GiB(7%) CN:16 DL:1.6MiB ETA:27m43s]
+[#db5502 218MiB/2.8GiB(7%) CN:16 DL:1.6MiB ETA:27m19s]
+[#db5502 225MiB/2.8GiB(7%) CN:16 DL:2.2MiB ETA:19m51s]
+[#db5502 227MiB/2.8GiB(7%) CN:16 DL:2.3MiB ETA:19m18s]
+[#db5502 230MiB/2.8GiB(7%) CN:16 DL:2.3MiB ETA:19m]
+ *** Download Progress Summary as of Thu Sep 17 14:18:38 2026 *** 
+===============================================================================
+[#db5502 235MiB/2.8GiB(7%) CN:16 DL:2.8MiB ETA:15m53s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 235MiB/2.8GiB(7%) CN:16 DL:2.8MiB ETA:15m53s]
+[#db5502 239MiB/2.8GiB(8%) CN:16 DL:3.1MiB ETA:14m10s]
+[#db5502 241MiB/2.8GiB(8%) CN:16 DL:3.2MiB ETA:13m41s]
+[#db5502 244MiB/2.8GiB(8%) CN:16 DL:3.1MiB ETA:14m10s]
+[#db5502 246MiB/2.8GiB(8%) CN:16 DL:3.3MiB ETA:13m32s]
+[#db5502 249MiB/2.8GiB(8%) CN:16 DL:3.3MiB ETA:13m20s]
+ *** Download Progress Summary as of Thu Sep 17 14:18:44 2026 *** 
+===============================================================================
+[#db5502 253MiB/2.8GiB(8%) CN:16 DL:3.4MiB ETA:13m8s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 253MiB/2.8GiB(8%) CN:16 DL:3.4MiB ETA:13m8s]
+[#db5502 256MiB/2.8GiB(8%) CN:16 DL:3.1MiB ETA:14m16s]
+[#db5502 258MiB/2.8GiB(8%) CN:16 DL:3.0MiB ETA:14m53s]
+[#db5502 260MiB/2.8GiB(8%) CN:16 DL:2.8MiB ETA:15m33s]
+[#db5502 262MiB/2.8GiB(8%) CN:16 DL:2.7MiB ETA:16m21s]
+ *** Download Progress Summary as of Thu Sep 17 14:18:49 2026 *** 
+===============================================================================
+[#db5502 265MiB/2.8GiB(9%) CN:16 DL:2.6MiB ETA:16m54s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 265MiB/2.8GiB(9%) CN:16 DL:2.6MiB ETA:16m54s]
+[#db5502 268MiB/2.8GiB(9%) CN:16 DL:2.6MiB ETA:16m32s]
+[#db5502 270MiB/2.8GiB(9%) CN:16 DL:2.6MiB ETA:16m55s]
+[#db5502 272MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m19s]
+[#db5502 275MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m34s]
+ *** Download Progress Summary as of Thu Sep 17 14:18:54 2026 *** 
+===============================================================================
+[#db5502 278MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m45s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 278MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m45s]
+[#db5502 281MiB/2.8GiB(9%) CN:16 DL:2.4MiB ETA:17m51s]
+[#db5502 283MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m21s]
+[#db5502 285MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m30s]
+[#db5502 288MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m12s]
+[#db5502 291MiB/2.8GiB(9%) CN:16 DL:2.4MiB ETA:17m49s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:00 2026 *** 
+===============================================================================
+[#db5502 293MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m29s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 293MiB/2.8GiB(9%) CN:16 DL:2.5MiB ETA:17m29s]
+[#db5502 295MiB/2.8GiB(10%) CN:16 DL:2.4MiB ETA:17m46s]
+[#db5502 297MiB/2.8GiB(10%) CN:16 DL:2.4MiB ETA:18m8s]
+[#db5502 299MiB/2.8GiB(10%) CN:16 DL:2.3MiB ETA:18m22s]
+[#db5502 301MiB/2.8GiB(10%) CN:16 DL:2.3MiB ETA:19m7s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:05 2026 *** 
+===============================================================================
+[#db5502 303MiB/2.8GiB(10%) CN:16 DL:2.1MiB ETA:20m3s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 303MiB/2.8GiB(10%) CN:16 DL:2.1MiB ETA:20m3s]
+[#db5502 306MiB/2.8GiB(10%) CN:16 DL:2.2MiB ETA:19m8s]
+[#db5502 309MiB/2.8GiB(10%) CN:16 DL:2.2MiB ETA:19m9s]
+[#db5502 311MiB/2.8GiB(10%) CN:16 DL:2.2MiB ETA:19m40s]
+[#db5502 313MiB/2.8GiB(10%) CN:16 DL:2.2MiB ETA:19m31s]
+[#db5502 316MiB/2.8GiB(10%) CN:16 DL:2.3MiB ETA:18m44s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:11 2026 *** 
+===============================================================================
+[#db5502 318MiB/2.8GiB(10%) CN:16 DL:2.4MiB ETA:18m8s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 318MiB/2.8GiB(10%) CN:16 DL:2.4MiB ETA:18m8s]
+[#db5502 321MiB/2.8GiB(10%) CN:16 DL:2.4MiB ETA:17m32s]
+[#db5502 323MiB/2.8GiB(10%) CN:16 DL:2.4MiB ETA:17m59s]
+[#db5502 325MiB/2.8GiB(11%) CN:16 DL:2.4MiB ETA:18m7s]
+[#db5502 327MiB/2.8GiB(11%) CN:16 DL:2.3MiB ETA:18m41s]
+[#db5502 331MiB/2.8GiB(11%) CN:16 DL:2.4MiB ETA:17m25s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:17 2026 *** 
+===============================================================================
+[#db5502 333MiB/2.8GiB(11%) CN:16 DL:2.4MiB ETA:17m42s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 333MiB/2.8GiB(11%) CN:16 DL:2.4MiB ETA:17m42s]
+[#db5502 336MiB/2.8GiB(11%) CN:16 DL:2.5MiB ETA:17m9s]
+[#db5502 338MiB/2.8GiB(11%) CN:16 DL:2.5MiB ETA:17m5s]
+[#db5502 341MiB/2.8GiB(11%) CN:16 DL:2.4MiB ETA:17m23s]
+[#db5502 344MiB/2.8GiB(11%) CN:16 DL:2.5MiB ETA:16m48s]
+[#db5502 346MiB/2.8GiB(11%) CN:16 DL:2.5MiB ETA:16m46s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:23 2026 *** 
+===============================================================================
+[#db5502 349MiB/2.8GiB(11%) CN:16 DL:2.6MiB ETA:16m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 349MiB/2.8GiB(11%) CN:16 DL:2.6MiB ETA:16m7s]
+[#db5502 351MiB/2.8GiB(11%) CN:16 DL:2.6MiB ETA:16m17s]
+[#db5502 353MiB/2.8GiB(12%) CN:16 DL:2.6MiB ETA:16m30s]
+[#db5502 356MiB/2.8GiB(12%) CN:16 DL:2.4MiB ETA:17m16s]
+[#db5502 358MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:16m52s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:28 2026 *** 
+===============================================================================
+[#db5502 361MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:17m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 361MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:17m]
+[#db5502 364MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:16m47s]
+[#db5502 367MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:16m36s]
+[#db5502 369MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:16m58s]
+[#db5502 371MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:17m]
+[#db5502 374MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:17m]
+ *** Download Progress Summary as of Thu Sep 17 14:19:34 2026 *** 
+===============================================================================
+[#db5502 376MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:17m2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 376MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:17m2s]
+[#db5502 379MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:16m36s]
+[#db5502 381MiB/2.8GiB(12%) CN:16 DL:2.5MiB ETA:16m41s]
+[#db5502 383MiB/2.8GiB(13%) CN:16 DL:2.4MiB ETA:17m13s]
+[#db5502 386MiB/2.8GiB(13%) CN:16 DL:2.4MiB ETA:17m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:39 2026 *** 
+===============================================================================
+[#db5502 388MiB/2.8GiB(13%) CN:16 DL:2.3MiB ETA:18m3s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 388MiB/2.8GiB(13%) CN:16 DL:2.3MiB ETA:18m3s]
+[#db5502 390MiB/2.8GiB(13%) CN:16 DL:2.3MiB ETA:17m59s]
+[#db5502 392MiB/2.8GiB(13%) CN:16 DL:2.2MiB ETA:18m56s]
+[#db5502 393MiB/2.8GiB(13%) CN:16 DL:2.1MiB ETA:19m23s]
+[#db5502 394MiB/2.8GiB(13%) CN:16 DL:2.0MiB ETA:20m42s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:44 2026 *** 
+===============================================================================
+[#db5502 395MiB/2.8GiB(13%) CN:16 DL:1.8MiB ETA:22m56s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 395MiB/2.8GiB(13%) CN:16 DL:1.8MiB ETA:22m56s]
+[#db5502 396MiB/2.8GiB(13%) CN:16 DL:1.7MiB ETA:24m38s]
+[#db5502 397MiB/2.8GiB(13%) CN:16 DL:1.5MiB ETA:26m36s]
+[#db5502 398MiB/2.8GiB(13%) CN:16 DL:1.4MiB ETA:28m29s]
+[#db5502 399MiB/2.8GiB(13%) CN:16 DL:1.3MiB ETA:32m33s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:49 2026 *** 
+===============================================================================
+[#db5502 400MiB/2.8GiB(13%) CN:16 DL:1.2MiB ETA:34m53s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 400MiB/2.8GiB(13%) CN:16 DL:1.2MiB ETA:34m53s]
+[#db5502 401MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:40m43s]
+[#db5502 402MiB/2.8GiB(13%) CN:16 DL:0.9MiB ETA:43m3s]
+[#db5502 404MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:39m41s]
+[#db5502 405MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:41m7s]
+ *** Download Progress Summary as of Thu Sep 17 14:19:54 2026 *** 
+===============================================================================
+[#db5502 406MiB/2.8GiB(13%) CN:16 DL:0.9MiB ETA:42m22s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 406MiB/2.8GiB(13%) CN:16 DL:0.9MiB ETA:42m22s]
+[#db5502 407MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:40m16s]
+[#db5502 408MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:39m11s]
+[#db5502 409MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:41m35s]
+[#db5502 410MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:40m36s]
+[#db5502 411MiB/2.8GiB(13%) CN:16 DL:1.0MiB ETA:39m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:00 2026 *** 
+===============================================================================
+[#db5502 412MiB/2.8GiB(14%) CN:16 DL:1.1MiB ETA:38m14s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 412MiB/2.8GiB(14%) CN:16 DL:1.1MiB ETA:38m14s]
+[#db5502 413MiB/2.8GiB(14%) CN:16 DL:1.0MiB ETA:39m39s]
+[#db5502 414MiB/2.8GiB(14%) CN:16 DL:1.0MiB ETA:40m33s]
+[#db5502 415MiB/2.8GiB(14%) CN:16 DL:1.0MiB ETA:40m30s]
+[#db5502 416MiB/2.8GiB(14%) CN:16 DL:1.0MiB ETA:39m12s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:05 2026 *** 
+===============================================================================
+[#db5502 418MiB/2.8GiB(14%) CN:16 DL:1.0MiB ETA:38m32s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 418MiB/2.8GiB(14%) CN:16 DL:1.0MiB ETA:38m32s]
+[#db5502 419MiB/2.8GiB(14%) CN:16 DL:1.1MiB ETA:37m19s]
+[#db5502 420MiB/2.8GiB(14%) CN:16 DL:1.1MiB ETA:36m22s]
+[#db5502 421MiB/2.8GiB(14%) CN:16 DL:1.1MiB ETA:37m5s]
+[#db5502 423MiB/2.8GiB(14%) CN:16 DL:1.2MiB ETA:34m39s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:10 2026 *** 
+===============================================================================
+[#db5502 425MiB/2.8GiB(14%) CN:16 DL:1.2MiB ETA:33m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 425MiB/2.8GiB(14%) CN:16 DL:1.2MiB ETA:33m50s]
+[#db5502 426MiB/2.8GiB(14%) CN:16 DL:1.3MiB ETA:31m56s]
+[#db5502 428MiB/2.8GiB(14%) CN:16 DL:1.3MiB ETA:30m38s]
+[#db5502 429MiB/2.8GiB(14%) CN:16 DL:1.4MiB ETA:29m45s]
+[#db5502 431MiB/2.8GiB(14%) CN:16 DL:1.5MiB ETA:27m34s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:15 2026 *** 
+===============================================================================
+[#db5502 433MiB/2.8GiB(14%) CN:16 DL:1.5MiB ETA:26m36s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 433MiB/2.8GiB(14%) CN:16 DL:1.5MiB ETA:26m36s]
+[#db5502 435MiB/2.8GiB(14%) CN:16 DL:1.6MiB ETA:25m3s]
+[#db5502 438MiB/2.8GiB(14%) CN:16 DL:1.7MiB ETA:23m19s]
+[#db5502 440MiB/2.8GiB(14%) CN:16 DL:1.8MiB ETA:22m14s]
+[#db5502 442MiB/2.8GiB(15%) CN:16 DL:1.8MiB ETA:22m14s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:20 2026 *** 
+===============================================================================
+[#db5502 445MiB/2.8GiB(15%) CN:16 DL:2.0MiB ETA:20m16s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 445MiB/2.8GiB(15%) CN:16 DL:2.0MiB ETA:20m16s]
+[#db5502 447MiB/2.8GiB(15%) CN:16 DL:2.1MiB ETA:19m41s]
+[#db5502 450MiB/2.8GiB(15%) CN:16 DL:2.2MiB ETA:18m25s]
+[#db5502 453MiB/2.8GiB(15%) CN:16 DL:2.3MiB ETA:17m40s]
+[#db5502 455MiB/2.8GiB(15%) CN:16 DL:2.4MiB ETA:16m59s]
+[#db5502 459MiB/2.8GiB(15%) CN:16 DL:2.5MiB ETA:15m56s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:26 2026 *** 
+===============================================================================
+[#db5502 462MiB/2.8GiB(15%) CN:16 DL:2.7MiB ETA:15m19s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 462MiB/2.8GiB(15%) CN:16 DL:2.7MiB ETA:15m19s]
+[#db5502 464MiB/2.8GiB(15%) CN:16 DL:2.6MiB ETA:15m41s]
+[#db5502 465MiB/2.8GiB(15%) CN:16 DL:2.6MiB ETA:15m50s]
+[#db5502 468MiB/2.8GiB(15%) CN:16 DL:2.6MiB ETA:15m42s]
+[#db5502 471MiB/2.8GiB(15%) CN:16 DL:2.6MiB ETA:15m46s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:31 2026 *** 
+===============================================================================
+[#db5502 473MiB/2.8GiB(16%) CN:16 DL:2.5MiB ETA:16m22s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 473MiB/2.8GiB(16%) CN:16 DL:2.5MiB ETA:16m22s]
+[#db5502 476MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m48s]
+[#db5502 479MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m27s]
+[#db5502 482MiB/2.8GiB(16%) CN:16 DL:2.5MiB ETA:16m4s]
+[#db5502 484MiB/2.8GiB(16%) CN:16 DL:2.4MiB ETA:16m49s]
+[#db5502 487MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:37 2026 *** 
+===============================================================================
+[#db5502 489MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m9s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 489MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m9s]
+[#db5502 492MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m21s]
+[#db5502 495MiB/2.8GiB(16%) CN:16 DL:2.6MiB ETA:15m16s]
+[#db5502 497MiB/2.8GiB(16%) CN:16 DL:2.7MiB ETA:15m]
+[#db5502 500MiB/2.8GiB(16%) CN:16 DL:2.7MiB ETA:14m39s]
+[#db5502 503MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:43 2026 *** 
+===============================================================================
+[#db5502 505MiB/2.8GiB(17%) CN:16 DL:2.5MiB ETA:15m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 505MiB/2.8GiB(17%) CN:16 DL:2.5MiB ETA:15m47s]
+[#db5502 507MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m19s]
+[#db5502 511MiB/2.8GiB(17%) CN:16 DL:2.5MiB ETA:15m48s]
+[#db5502 513MiB/2.8GiB(17%) CN:16 DL:2.5MiB ETA:15m54s]
+[#db5502 516MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m1s]
+[#db5502 518MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m24s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:49 2026 *** 
+===============================================================================
+[#db5502 521MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 521MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m7s]
+[#db5502 524MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m10s]
+[#db5502 526MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m22s]
+[#db5502 529MiB/2.8GiB(17%) CN:16 DL:2.6MiB ETA:15m21s]
+[#db5502 531MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m18s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:54 2026 *** 
+===============================================================================
+[#db5502 534MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 534MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m]
+[#db5502 536MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m21s]
+[#db5502 539MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m9s]
+[#db5502 542MiB/2.8GiB(18%) CN:16 DL:2.5MiB ETA:15m31s]
+[#db5502 545MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:14m53s]
+ *** Download Progress Summary as of Thu Sep 17 14:20:59 2026 *** 
+===============================================================================
+[#db5502 548MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#db5502 548MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:15m]
+[#db5502 551MiB/2.8GiB(18%) CN:16 DL:2.6MiB ETA:14m47s]
+
+09/17 14:21:00 [[1;32mNOTICE[0m] Emergency shutdown sequence commencing...
+
+09/17 14:21:00 [[1;32mNOTICE[0m] Download GID#db5502c4a605d1d2 not complete: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+db5502|INPR|   2.2MiB/s|/workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+
+Status Legend:
+(INPR):download in-progress.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.

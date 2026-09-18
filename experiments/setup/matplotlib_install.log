@@ -1,0 +1,22 @@
+Using Python 3.12.14 environment at: .venv_run
+Resolved 11 packages in 890ms
+Downloading fonttools (5.2MiB)
+Downloading matplotlib (9.4MiB)
+Downloading kiwisolver (1.4MiB)
+Downloading numpy (15.9MiB)
+ Downloaded kiwisolver
+ Downloaded fonttools
+ Downloaded matplotlib
+ Downloaded numpy
+Prepared 8 packages in 9.15s
+Uninstalled 1 package in 40ms
+Installed 8 packages in 30ms
+ + contourpy==1.4.0
+ + cycler==0.12.1
+ + fonttools==4.65.0
+ + kiwisolver==1.5.1
+ + matplotlib==3.11.2
+ - numpy==1.26.4
+ + numpy==2.5.3
+ + pyparsing==3.3.2
+ + python-dateutil==2.9.0.post0

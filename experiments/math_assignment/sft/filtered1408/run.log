@@ -1,0 +1,383 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+INFO 09-17 17:14:25 __init__.py:190] Automatically detected platform cuda.
+INFO 09-17 17:14:32 config.py:542] This model supports multiple tasks: {'generate', 'embed', 'score', 'reward', 'classify'}. Defaulting to 'generate'.
+INFO 09-17 17:14:32 llm_engine.py:234] Initializing a V0 LLM engine (v0.7.2) with config: model='/workspace/models/Qwen2.5-Math-1.5B', speculative_config=None, tokenizer='/workspace/models/Qwen2.5-Math-1.5B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=2560, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda:1, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=101, served_model_name=/workspace/models/Qwen2.5-Math-1.5B, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=True, chunked_prefill_enabled=False, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=False, 
+INFO 09-17 17:14:33 cuda.py:230] Using Flash Attention backend.
+INFO 09-17 17:14:38 model_runner.py:1110] Starting to load model /workspace/models/Qwen2.5-Math-1.5B...
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  2.76it/s]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:00<00:00,  2.75it/s]
+
+INFO 09-17 17:14:39 model_runner.py:1115] Loading model weights took 0.0000 GB
+INFO 09-17 17:14:40 worker.py:267] Memory profiling takes 0.47 seconds
+INFO 09-17 17:14:40 worker.py:267] the current vLLM instance can use total_gpu_memory (23.64GiB) x gpu_memory_utilization (0.45) = 10.64GiB
+INFO 09-17 17:14:40 worker.py:267] model weights take 0.00GiB; non_torch_memory takes 0.00GiB; PyTorch activation peak memory takes 0.00GiB; the rest of the memory reserved for KV Cache is 10.64GiB.
+INFO 09-17 17:14:40 executor_base.py:110] # CUDA blocks: 24902, # CPU blocks: 9362
+INFO 09-17 17:14:40 executor_base.py:115] Maximum concurrency for 2560 tokens per request: 155.64x
+INFO 09-17 17:14:43 model_runner.py:1434] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:00<00:15,  2.24it/s]Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:00<00:14,  2.30it/s]Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:01<00:14,  2.24it/s]Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:01<00:13,  2.25it/s]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:02<00:13,  2.24it/s]Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:02<00:12,  2.25it/s]Capturing CUDA graph shapes:  20%|██        | 7/35 [00:03<00:12,  2.27it/s]Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:03<00:11,  2.25it/s]Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:03<00:11,  2.26it/s]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:04<00:10,  2.28it/s]Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:04<00:10,  2.29it/s]Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:05<00:10,  2.27it/s]Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:05<00:09,  2.29it/s]Capturing CUDA graph shapes:  40%|████      | 14/35 [00:06<00:09,  2.28it/s]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:06<00:09,  2.14it/s]Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:07<00:08,  2.19it/s]Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:07<00:08,  2.20it/s]Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:08<00:07,  2.24it/s]Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:08<00:07,  2.25it/s]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:08<00:06,  2.28it/s]Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:09<00:06,  2.30it/s]Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:09<00:05,  2.31it/s]Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:10<00:05,  2.30it/s]Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:10<00:04,  2.28it/s]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:11<00:04,  2.30it/s]Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [00:11<00:03,  2.31it/s]Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [00:11<00:03,  2.30it/s]Capturing CUDA graph shapes:  80%|████████  | 28/35 [00:12<00:03,  2.32it/s]Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [00:12<00:02,  2.33it/s]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [00:13<00:02,  2.33it/s]Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [00:13<00:01,  2.34it/s]Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [00:14<00:01,  2.34it/s]Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [00:14<00:00,  2.31it/s]Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [00:14<00:00,  2.32it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:15<00:00,  2.33it/s]Capturing CUDA graph shapes: 100%|██████████| 35/35 [00:15<00:00,  2.28it/s]
+INFO 09-17 17:14:58 model_runner.py:1562] Graph capturing finished in 15 secs, took 0.00 GiB
+INFO 09-17 17:14:58 llm_engine.py:431] init engine (profile, create kv cache, warmup model) took 19.08 seconds
+Processed prompts:   0%|          | 0/256 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   0%|          | 1/256 [00:01<04:43,  1.11s/it, est. speed input: 177.22 toks/s, output: 20.69 toks/s]Processed prompts:   2%|▏         | 5/256 [00:01<00:47,  5.34it/s, est. speed input: 645.00 toks/s, output: 103.79 toks/s]Processed prompts:   3%|▎         | 8/256 [00:01<00:28,  8.76it/s, est. speed input: 889.26 toks/s, output: 162.65 toks/s]Processed prompts:   4%|▍         | 11/256 [00:01<00:21, 11.25it/s, est. speed input: 1078.20 toks/s, output: 217.54 toks/s]Processed prompts:   6%|▋         | 16/256 [00:01<00:13, 17.95it/s, est. speed input: 1375.54 toks/s, output: 325.82 toks/s]Processed prompts:  10%|▉         | 25/256 [00:01<00:07, 29.60it/s, est. speed input: 2004.06 toks/s, output: 528.54 toks/s]Processed prompts:  14%|█▎        | 35/256 [00:01<00:05, 38.81it/s, est. speed input: 2622.28 toks/s, output: 743.94 toks/s]Processed prompts:  16%|█▌        | 41/256 [00:02<00:05, 41.58it/s, est. speed input: 2892.63 toks/s, output: 869.08 toks/s]Processed prompts:  18%|█▊        | 47/256 [00:02<00:06, 34.09it/s, est. speed input: 2966.37 toks/s, output: 938.30 toks/s]Processed prompts:  20%|██        | 52/256 [00:02<00:06, 33.30it/s, est. speed input: 3021.64 toks/s, output: 1030.16 toks/s]Processed prompts:  24%|██▍       | 61/256 [00:02<00:04, 43.32it/s, est. speed input: 3397.37 toks/s, output: 1267.85 toks/s]Processed prompts:  26%|██▌       | 67/256 [00:02<00:04, 44.09it/s, est. speed input: 3527.19 toks/s, output: 1397.75 toks/s]Processed prompts:  28%|██▊       | 72/256 [00:02<00:04, 42.93it/s, est. speed input: 3715.25 toks/s, output: 1496.25 toks/s]Processed prompts:  31%|███       | 79/256 [00:02<00:04, 41.24it/s, est. speed input: 3797.15 toks/s, output: 1633.54 toks/s]Processed prompts:  33%|███▎      | 84/256 [00:03<00:04, 38.26it/s, est. speed input: 4045.50 toks/s, output: 1718.33 toks/s]Processed prompts:  35%|███▍      | 89/256 [00:03<00:04, 39.27it/s, est. speed input: 4121.56 toks/s, output: 1832.41 toks/s]Processed prompts:  37%|███▋      | 94/256 [00:03<00:04, 38.59it/s, est. speed input: 4141.47 toks/s, output: 1938.54 toks/s]Processed prompts:  38%|███▊      | 98/256 [00:03<00:04, 36.10it/s, est. speed input: 4142.03 toks/s, output: 2010.40 toks/s]Processed prompts:  42%|████▏     | 107/256 [00:03<00:03, 43.64it/s, est. speed input: 4282.86 toks/s, output: 2256.04 toks/s]Processed prompts:  44%|████▍     | 113/256 [00:03<00:03, 46.44it/s, est. speed input: 4397.67 toks/s, output: 2415.64 toks/s]Processed prompts:  46%|████▌     | 118/256 [00:03<00:02, 46.69it/s, est. speed input: 4669.14 toks/s, output: 2540.48 toks/s]Processed prompts:  48%|████▊     | 123/256 [00:03<00:02, 47.30it/s, est. speed input: 4718.04 toks/s, output: 2670.60 toks/s]Processed prompts:  50%|█████     | 128/256 [00:04<00:02, 45.77it/s, est. speed input: 4766.81 toks/s, output: 2791.04 toks/s]Processed prompts:  52%|█████▏    | 133/256 [00:04<00:02, 43.71it/s, est. speed input: 4813.25 toks/s, output: 2905.41 toks/s]Processed prompts:  54%|█████▍    | 138/256 [00:04<00:02, 44.23it/s, est. speed input: 4834.61 toks/s, output: 3034.34 toks/s]Processed prompts:  56%|█████▌    | 143/256 [00:04<00:02, 40.22it/s, est. speed input: 4844.37 toks/s, output: 3137.05 toks/s]Processed prompts:  58%|█████▊    | 148/256 [00:04<00:04, 25.10it/s, est. speed input: 4636.43 toks/s, output: 3089.24 toks/s]Processed prompts:  59%|█████▉    | 152/256 [00:05<00:04, 25.68it/s, est. speed input: 4614.57 toks/s, output: 3158.44 toks/s]Processed prompts:  61%|██████    | 156/256 [00:05<00:04, 24.56it/s, est. speed input: 4567.61 toks/s, output: 3211.06 toks/s]Processed prompts:  63%|██████▎   | 161/256 [00:05<00:03, 28.17it/s, est. speed input: 4640.03 toks/s, output: 3344.48 toks/s]Processed prompts:  64%|██████▍   | 165/256 [00:05<00:03, 26.83it/s, est. speed input: 4686.68 toks/s, output: 3411.75 toks/s]Processed prompts:  66%|██████▌   | 168/256 [00:05<00:03, 26.03it/s, est. speed input: 4653.54 toks/s, output: 3464.75 toks/s]Processed prompts:  67%|██████▋   | 171/256 [00:05<00:03, 26.85it/s, est. speed input: 4646.86 toks/s, output: 3536.31 toks/s]Processed prompts:  69%|██████▉   | 177/256 [00:05<00:02, 32.10it/s, est. speed input: 4663.08 toks/s, output: 3724.48 toks/s]Processed prompts:  71%|███████   | 181/256 [00:05<00:02, 33.44it/s, est. speed input: 4664.31 toks/s, output: 3840.29 toks/s]Processed prompts:  73%|███████▎  | 187/256 [00:06<00:01, 39.87it/s, est. speed input: 4710.77 toks/s, output: 4054.00 toks/s]Processed prompts:  75%|███████▌  | 192/256 [00:06<00:02, 28.16it/s, est. speed input: 4645.00 toks/s, output: 4100.40 toks/s]Processed prompts:  77%|███████▋  | 196/256 [00:06<00:02, 29.69it/s, est. speed input: 4689.25 toks/s, output: 4223.77 toks/s]Processed prompts:  78%|███████▊  | 200/256 [00:06<00:03, 17.42it/s, est. speed input: 4437.13 toks/s, output: 4132.54 toks/s]Processed prompts:  79%|███████▉  | 203/256 [00:07<00:02, 17.71it/s, est. speed input: 4398.39 toks/s, output: 4201.53 toks/s]Processed prompts:  81%|████████  | 207/256 [00:07<00:02, 18.10it/s, est. speed input: 4337.83 toks/s, output: 4297.29 toks/s]Processed prompts:  82%|████████▏ | 210/256 [00:07<00:02, 19.69it/s, est. speed input: 4333.66 toks/s, output: 4400.21 toks/s]Processed prompts:  83%|████████▎ | 213/256 [00:07<00:01, 21.56it/s, est. speed input: 4375.77 toks/s, output: 4511.06 toks/s]Processed prompts:  84%|████████▍ | 216/256 [00:08<00:03, 11.32it/s, est. speed input: 4097.97 toks/s, output: 4344.25 toks/s]Processed prompts:  86%|████████▌ | 219/256 [00:08<00:03, 10.61it/s, est. speed input: 4029.77 toks/s, output: 4358.91 toks/s]Processed prompts:  87%|████████▋ | 222/256 [00:08<00:02, 12.83it/s, est. speed input: 4031.80 toks/s, output: 4494.27 toks/s]Processed prompts:  88%|████████▊ | 225/256 [00:08<00:02, 14.90it/s, est. speed input: 4041.50 toks/s, output: 4624.57 toks/s]Processed prompts:  89%|████████▉ | 228/256 [00:08<00:01, 15.31it/s, est. speed input: 4044.39 toks/s, output: 4725.28 toks/s]Processed prompts:  90%|████████▉ | 230/256 [00:09<00:01, 14.90it/s, est. speed input: 4017.48 toks/s, output: 4782.57 toks/s]Processed prompts:  91%|█████████ | 232/256 [00:09<00:02, 10.01it/s, est. speed input: 3908.51 toks/s, output: 4710.19 toks/s]Processed prompts:  91%|█████████▏| 234/256 [00:09<00:02,  9.25it/s, est. speed input: 3828.60 toks/s, output: 4725.42 toks/s]Processed prompts:  92%|█████████▏| 236/256 [00:10<00:02,  7.92it/s, est. speed input: 3721.81 toks/s, output: 4703.83 toks/s]Processed prompts:  94%|█████████▍| 240/256 [00:10<00:01, 11.81it/s, est. speed input: 3797.49 toks/s, output: 4946.30 toks/s]Processed prompts:  95%|█████████▍| 242/256 [00:10<00:01,  7.90it/s, est. speed input: 3640.77 toks/s, output: 4856.04 toks/s]Processed prompts:  95%|█████████▌| 244/256 [00:10<00:01,  8.12it/s, est. speed input: 3594.14 toks/s, output: 4916.74 toks/s]Processed prompts:  96%|█████████▌| 246/256 [00:11<00:01,  6.37it/s, est. speed input: 3480.86 toks/s, output: 4865.23 toks/s]Processed prompts:  97%|█████████▋| 248/256 [00:11<00:01,  5.98it/s, est. speed input: 3404.81 toks/s, output: 4873.64 toks/s]Processed prompts: 100%|██████████| 256/256 [00:11<00:00, 21.65it/s, est. speed input: 3559.33 toks/s, output: 5566.31 toks/s]
+{'step': 0, 'eval': {'reward': 0.0859375, 'format_reward': 0.234375, 'answer_reward': 0.0859375, 'avg_response_tokens': 257.12109375}}
+{'step': 1, 'train_loss': 50.90625, 'grad_norm': 444.0}
+{'step': 2, 'train_loss': 96.1875, 'grad_norm': 752.0}
+{'step': 3, 'train_loss': 63.0, 'grad_norm': 524.0}
+{'step': 4, 'train_loss': 64.15625, 'grad_norm': 380.0}
+{'step': 5, 'train_loss': 42.46875, 'grad_norm': 316.0}
+{'step': 6, 'train_loss': 44.65625, 'grad_norm': 334.0}
+{'step': 7, 'train_loss': 59.75, 'grad_norm': 412.0}
+{'step': 8, 'train_loss': 45.125, 'grad_norm': 308.0}
+{'step': 9, 'train_loss': 59.828125, 'grad_norm': 456.0}
+{'step': 10, 'train_loss': 46.0625, 'grad_norm': 334.0}
+{'step': 11, 'train_loss': 46.5, 'grad_norm': 332.0}
+{'step': 12, 'train_loss': 43.3125, 'grad_norm': 300.0}
+{'step': 13, 'train_loss': 60.0625, 'grad_norm': 368.0}
+{'step': 14, 'train_loss': 39.59375, 'grad_norm': 284.0}
+{'step': 15, 'train_loss': 50.625, 'grad_norm': 336.0}
+{'step': 16, 'train_loss': 35.6875, 'grad_norm': 348.0}
+{'step': 17, 'train_loss': 56.6875, 'grad_norm': 414.0}
+{'step': 18, 'train_loss': 52.71875, 'grad_norm': 334.0}
+{'step': 19, 'train_loss': 34.625, 'grad_norm': 286.0}
+{'step': 20, 'train_loss': 90.6875, 'grad_norm': 472.0}
+{'step': 21, 'train_loss': 42.390625, 'grad_norm': 304.0}
+{'step': 22, 'train_loss': 34.96875, 'grad_norm': 284.0}
+{'step': 23, 'train_loss': 34.875, 'grad_norm': 318.0}
+{'step': 24, 'train_loss': 26.03125, 'grad_norm': 282.0}
+{'step': 25, 'train_loss': 50.84375, 'grad_norm': 408.0}
+{'step': 26, 'train_loss': 33.609375, 'grad_norm': 322.0}
+{'step': 27, 'train_loss': 66.0625, 'grad_norm': 414.0}
+{'step': 28, 'train_loss': 21.640625, 'grad_norm': 249.0}
+{'step': 29, 'train_loss': 29.40625, 'grad_norm': 302.0}
+{'step': 30, 'train_loss': 52.84375, 'grad_norm': 348.0}
+{'step': 31, 'train_loss': 44.15625, 'grad_norm': 328.0}
+{'step': 32, 'train_loss': 41.9375, 'grad_norm': 332.0}
+{'step': 33, 'train_loss': 56.5, 'grad_norm': 408.0}
+{'step': 34, 'train_loss': 42.09375, 'grad_norm': 328.0}
+{'step': 35, 'train_loss': 47.125, 'grad_norm': 352.0}
+{'step': 36, 'train_loss': 27.375, 'grad_norm': 304.0}
+{'step': 37, 'train_loss': 59.5, 'grad_norm': 434.0}
+{'step': 38, 'train_loss': 58.296875, 'grad_norm': 440.0}
+{'step': 39, 'train_loss': 40.03125, 'grad_norm': 338.0}
+{'step': 40, 'train_loss': 48.3125, 'grad_norm': 334.0}
+{'step': 41, 'train_loss': 76.25, 'grad_norm': 456.0}
+{'step': 42, 'train_loss': 18.03125, 'grad_norm': 248.0}
+{'step': 43, 'train_loss': 37.0625, 'grad_norm': 308.0}
+{'step': 44, 'train_loss': 73.6875, 'grad_norm': 524.0}
+{'step': 45, 'train_loss': 31.03125, 'grad_norm': 314.0}
+{'step': 46, 'train_loss': 26.375, 'grad_norm': 262.0}
+{'step': 47, 'train_loss': 39.40625, 'grad_norm': 342.0}
+{'step': 48, 'train_loss': 32.0, 'grad_norm': 336.0}
+{'step': 49, 'train_loss': 52.6875, 'grad_norm': 392.0}
+{'step': 50, 'train_loss': 29.421875, 'grad_norm': 314.0}
+{'step': 51, 'train_loss': 60.65625, 'grad_norm': 388.0}
+{'step': 52, 'train_loss': 58.984375, 'grad_norm': 370.0}
+{'step': 53, 'train_loss': 23.375, 'grad_norm': 358.0}
+{'step': 54, 'train_loss': 42.234375, 'grad_norm': 352.0}
+{'step': 55, 'train_loss': 60.40625, 'grad_norm': 410.0}
+{'step': 56, 'train_loss': 51.9375, 'grad_norm': 422.0}
+{'step': 57, 'train_loss': 33.6875, 'grad_norm': 388.0}
+{'step': 58, 'train_loss': 26.734375, 'grad_norm': 342.0}
+{'step': 59, 'train_loss': 37.65625, 'grad_norm': 410.0}
+{'step': 60, 'train_loss': 40.90625, 'grad_norm': 372.0}
+{'step': 61, 'train_loss': 42.984375, 'grad_norm': 360.0}
+{'step': 62, 'train_loss': 25.015625, 'grad_norm': 346.0}
+{'step': 63, 'train_loss': 23.9375, 'grad_norm': 352.0}
+{'step': 64, 'train_loss': 53.4375, 'grad_norm': 460.0}
+{'step': 65, 'train_loss': 36.3125, 'grad_norm': 376.0}
+{'step': 66, 'train_loss': 31.40625, 'grad_norm': 326.0}
+{'step': 67, 'train_loss': 38.75, 'grad_norm': 324.0}
+{'step': 68, 'train_loss': 24.4609375, 'grad_norm': 255.0}
+{'step': 69, 'train_loss': 26.53125, 'grad_norm': 308.0}
+{'step': 70, 'train_loss': 35.0625, 'grad_norm': 328.0}
+{'step': 71, 'train_loss': 42.53125, 'grad_norm': 430.0}
+{'step': 72, 'train_loss': 27.0546875, 'grad_norm': 284.0}
+{'step': 73, 'train_loss': 47.75, 'grad_norm': 366.0}
+{'step': 74, 'train_loss': 39.8125, 'grad_norm': 372.0}
+{'step': 75, 'train_loss': 24.34375, 'grad_norm': 280.0}
+{'step': 76, 'train_loss': 30.34375, 'grad_norm': 304.0}
+{'step': 77, 'train_loss': 25.859375, 'grad_norm': 308.0}
+{'step': 78, 'train_loss': 33.78125, 'grad_norm': 336.0}
+{'step': 79, 'train_loss': 64.65625, 'grad_norm': 528.0}
+{'step': 80, 'train_loss': 28.546875, 'grad_norm': 290.0}
+{'step': 81, 'train_loss': 40.5625, 'grad_norm': 398.0}
+{'step': 82, 'train_loss': 30.09375, 'grad_norm': 366.0}
+{'step': 83, 'train_loss': 28.046875, 'grad_norm': 276.0}
+{'step': 84, 'train_loss': 42.5, 'grad_norm': 326.0}
+{'step': 85, 'train_loss': 35.578125, 'grad_norm': 330.0}
+{'step': 86, 'train_loss': 26.328125, 'grad_norm': 300.0}
+{'step': 87, 'train_loss': 40.9375, 'grad_norm': 328.0}
+{'step': 88, 'train_loss': 65.78125, 'grad_norm': 434.0}
+Processed prompts:   0%|          | 0/256 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   0%|          | 1/256 [00:00<03:12,  1.33it/s, est. speed input: 1154.23 toks/s, output: 33.13 toks/s]Processed prompts:   1%|          | 2/256 [00:00<01:46,  2.38it/s, est. speed input: 1064.71 toks/s, output: 60.63 toks/s]Processed prompts:   2%|▏         | 5/256 [00:01<00:39,  6.38it/s, est. speed input: 1236.32 toks/s, output: 147.70 toks/s]Processed prompts:   4%|▎         | 9/256 [00:01<00:20, 12.32it/s, est. speed input: 1855.54 toks/s, output: 267.45 toks/s]Processed prompts:   5%|▌         | 14/256 [00:01<00:12, 19.81it/s, est. speed input: 2470.17 toks/s, output: 416.55 toks/s]Processed prompts:   7%|▋         | 18/256 [00:01<00:10, 22.91it/s, est. speed input: 3025.62 toks/s, output: 512.18 toks/s]Processed prompts:   9%|▉         | 23/256 [00:01<00:07, 29.15it/s, est. speed input: 3290.48 toks/s, output: 653.00 toks/s]Processed prompts:  12%|█▏        | 31/256 [00:01<00:05, 39.39it/s, est. speed input: 3701.98 toks/s, output: 881.85 toks/s]Processed prompts:  18%|█▊        | 45/256 [00:01<00:03, 61.48it/s, est. speed input: 4496.53 toks/s, output: 1314.88 toks/s]Processed prompts:  20%|██        | 52/256 [00:01<00:03, 57.90it/s, est. speed input: 4652.03 toks/s, output: 1468.51 toks/s]Processed prompts:  23%|██▎       | 59/256 [00:02<00:03, 58.83it/s, est. speed input: 4884.02 toks/s, output: 1642.63 toks/s]Processed prompts:  27%|██▋       | 68/256 [00:02<00:02, 65.10it/s, est. speed input: 5156.61 toks/s, output: 1891.35 toks/s]Processed prompts:  32%|███▏      | 82/256 [00:02<00:02, 84.14it/s, est. speed input: 5755.35 toks/s, output: 2325.68 toks/s]Processed prompts:  39%|███▊      | 99/256 [00:02<00:01, 98.54it/s, est. speed input: 6361.00 toks/s, output: 2830.60 toks/s]Processed prompts:  43%|████▎     | 111/256 [00:02<00:01, 101.66it/s, est. speed input: 6683.03 toks/s, output: 3169.23 toks/s]Processed prompts:  49%|████▉     | 125/256 [00:02<00:01, 111.07it/s, est. speed input: 7152.77 toks/s, output: 3595.50 toks/s]Processed prompts:  55%|█████▍    | 140/256 [00:02<00:00, 118.84it/s, est. speed input: 7697.37 toks/s, output: 4052.09 toks/s]Processed prompts:  60%|█████▉    | 153/256 [00:02<00:01, 101.03it/s, est. speed input: 8092.89 toks/s, output: 4343.72 toks/s]Processed prompts:  64%|██████▍   | 164/256 [00:02<00:00, 98.01it/s, est. speed input: 8379.56 toks/s, output: 4640.03 toks/s] Processed prompts:  71%|███████   | 181/256 [00:03<00:00, 113.74it/s, est. speed input: 9053.71 toks/s, output: 5231.81 toks/s]Processed prompts:  77%|███████▋  | 197/256 [00:03<00:00, 123.57it/s, est. speed input: 9868.52 toks/s, output: 5792.34 toks/s]Processed prompts:  82%|████████▏ | 210/256 [00:03<00:00, 123.87it/s, est. speed input: 10523.08 toks/s, output: 6233.16 toks/s]Processed prompts:  87%|████████▋ | 223/256 [00:03<00:00, 108.53it/s, est. speed input: 10530.43 toks/s, output: 6598.66 toks/s]Processed prompts:  92%|█████████▏| 235/256 [00:03<00:00, 71.27it/s, est. speed input: 10133.66 toks/s, output: 6694.05 toks/s] Processed prompts:  96%|█████████▌| 245/256 [00:04<00:00, 34.48it/s, est. speed input: 8825.65 toks/s, output: 6237.43 toks/s] Processed prompts:  98%|█████████▊| 252/256 [00:08<00:00,  7.61it/s, est. speed input: 4918.31 toks/s, output: 3894.11 toks/s]Processed prompts: 100%|██████████| 256/256 [00:08<00:00, 29.85it/s, est. speed input: 4907.53 toks/s, output: 4288.75 toks/s]
+{'step': 88, 'eval': {'reward': 0.3828125, 'format_reward': 0.8359375, 'answer_reward': 0.3828125, 'avg_response_tokens': 143.68359375}}
+{'step': 89, 'train_loss': 23.46875, 'grad_norm': 272.0}
+{'step': 90, 'train_loss': 26.6875, 'grad_norm': 316.0}
+{'step': 91, 'train_loss': 30.9375, 'grad_norm': 320.0}
+{'step': 92, 'train_loss': 30.65625, 'grad_norm': 368.0}
+{'step': 93, 'train_loss': 37.25, 'grad_norm': 396.0}
+{'step': 94, 'train_loss': 26.734375, 'grad_norm': 326.0}
+{'step': 95, 'train_loss': 35.0625, 'grad_norm': 346.0}
+{'step': 96, 'train_loss': 29.375, 'grad_norm': 288.0}
+{'step': 97, 'train_loss': 73.1875, 'grad_norm': 442.0}
+{'step': 98, 'train_loss': 23.703125, 'grad_norm': 276.0}
+{'step': 99, 'train_loss': 35.40625, 'grad_norm': 334.0}
+{'step': 100, 'train_loss': 38.28125, 'grad_norm': 326.0}
+{'step': 101, 'train_loss': 57.0625, 'grad_norm': 440.0}
+{'step': 102, 'train_loss': 26.875, 'grad_norm': 334.0}
+{'step': 103, 'train_loss': 35.34375, 'grad_norm': 326.0}
+{'step': 104, 'train_loss': 21.84375, 'grad_norm': 296.0}
+{'step': 105, 'train_loss': 37.65625, 'grad_norm': 320.0}
+{'step': 106, 'train_loss': 21.203125, 'grad_norm': 268.0}
+{'step': 107, 'train_loss': 22.78125, 'grad_norm': 294.0}
+{'step': 108, 'train_loss': 30.4375, 'grad_norm': 296.0}
+{'step': 109, 'train_loss': 36.875, 'grad_norm': 370.0}
+{'step': 110, 'train_loss': 40.71875, 'grad_norm': 384.0}
+{'step': 111, 'train_loss': 35.125, 'grad_norm': 374.0}
+{'step': 112, 'train_loss': 29.3125, 'grad_norm': 320.0}
+{'step': 113, 'train_loss': 27.4375, 'grad_norm': 294.0}
+{'step': 114, 'train_loss': 36.140625, 'grad_norm': 374.0}
+{'step': 115, 'train_loss': 70.765625, 'grad_norm': 608.0}
+{'step': 116, 'train_loss': 59.96875, 'grad_norm': 484.0}
+{'step': 117, 'train_loss': 23.4296875, 'grad_norm': 272.0}
+{'step': 118, 'train_loss': 42.2890625, 'grad_norm': 364.0}
+{'step': 119, 'train_loss': 29.625, 'grad_norm': 312.0}
+{'step': 120, 'train_loss': 22.140625, 'grad_norm': 274.0}
+{'step': 121, 'train_loss': 58.15625, 'grad_norm': 406.0}
+{'step': 122, 'train_loss': 59.90625, 'grad_norm': 448.0}
+{'step': 123, 'train_loss': 28.046875, 'grad_norm': 282.0}
+{'step': 124, 'train_loss': 16.84375, 'grad_norm': 226.0}
+{'step': 125, 'train_loss': 20.859375, 'grad_norm': 328.0}
+{'step': 126, 'train_loss': 30.171875, 'grad_norm': 322.0}
+{'step': 127, 'train_loss': 32.375, 'grad_norm': 368.0}
+{'step': 128, 'train_loss': 26.25, 'grad_norm': 286.0}
+{'step': 129, 'train_loss': 35.1875, 'grad_norm': 314.0}
+{'step': 130, 'train_loss': 19.984375, 'grad_norm': 246.0}
+{'step': 131, 'train_loss': 32.375, 'grad_norm': 380.0}
+{'step': 132, 'train_loss': 32.90625, 'grad_norm': 320.0}
+{'step': 133, 'train_loss': 35.3125, 'grad_norm': 360.0}
+{'step': 134, 'train_loss': 22.3515625, 'grad_norm': 262.0}
+{'step': 135, 'train_loss': 26.3125, 'grad_norm': 288.0}
+{'step': 136, 'train_loss': 21.328125, 'grad_norm': 258.0}
+{'step': 137, 'train_loss': 36.15625, 'grad_norm': 354.0}
+{'step': 138, 'train_loss': 59.25, 'grad_norm': 500.0}
+{'step': 139, 'train_loss': 37.65625, 'grad_norm': 400.0}
+{'step': 140, 'train_loss': 37.28125, 'grad_norm': 336.0}
+{'step': 141, 'train_loss': 36.875, 'grad_norm': 350.0}
+{'step': 142, 'train_loss': 28.4375, 'grad_norm': 354.0}
+{'step': 143, 'train_loss': 20.3359375, 'grad_norm': 312.0}
+{'step': 144, 'train_loss': 22.3125, 'grad_norm': 258.0}
+{'step': 145, 'train_loss': 49.3125, 'grad_norm': 392.0}
+{'step': 146, 'train_loss': 51.4375, 'grad_norm': 540.0}
+{'step': 147, 'train_loss': 40.0, 'grad_norm': 368.0}
+{'step': 148, 'train_loss': 30.75, 'grad_norm': 278.0}
+{'step': 149, 'train_loss': 23.625, 'grad_norm': 284.0}
+{'step': 150, 'train_loss': 40.125, 'grad_norm': 364.0}
+{'step': 151, 'train_loss': 38.625, 'grad_norm': 398.0}
+{'step': 152, 'train_loss': 31.5625, 'grad_norm': 352.0}
+{'step': 153, 'train_loss': 20.703125, 'grad_norm': 258.0}
+{'step': 154, 'train_loss': 29.9375, 'grad_norm': 310.0}
+{'step': 155, 'train_loss': 49.59375, 'grad_norm': 398.0}
+{'step': 156, 'train_loss': 41.9375, 'grad_norm': 344.0}
+{'step': 157, 'train_loss': 24.5703125, 'grad_norm': 264.0}
+{'step': 158, 'train_loss': 23.3125, 'grad_norm': 276.0}
+{'step': 159, 'train_loss': 41.125, 'grad_norm': 368.0}
+{'step': 160, 'train_loss': 46.9375, 'grad_norm': 498.0}
+{'step': 161, 'train_loss': 49.34375, 'grad_norm': 498.0}
+{'step': 162, 'train_loss': 61.96875, 'grad_norm': 424.0}
+{'step': 163, 'train_loss': 36.8125, 'grad_norm': 362.0}
+{'step': 164, 'train_loss': 16.703125, 'grad_norm': 264.0}
+{'step': 165, 'train_loss': 25.0625, 'grad_norm': 276.0}
+{'step': 166, 'train_loss': 34.6875, 'grad_norm': 334.0}
+{'step': 167, 'train_loss': 37.0625, 'grad_norm': 368.0}
+{'step': 168, 'train_loss': 34.8984375, 'grad_norm': 344.0}
+{'step': 169, 'train_loss': 32.1875, 'grad_norm': 320.0}
+{'step': 170, 'train_loss': 18.40625, 'grad_norm': 288.0}
+{'step': 171, 'train_loss': 18.890625, 'grad_norm': 246.0}
+{'step': 172, 'train_loss': 19.0625, 'grad_norm': 249.0}
+{'step': 173, 'train_loss': 37.15625, 'grad_norm': 364.0}
+{'step': 174, 'train_loss': 34.0, 'grad_norm': 334.0}
+{'step': 175, 'train_loss': 27.109375, 'grad_norm': 350.0}
+{'step': 176, 'train_loss': 34.71875, 'grad_norm': 348.0}
+Processed prompts:   0%|          | 0/256 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   0%|          | 1/256 [00:00<02:16,  1.86it/s, est. speed input: 367.17 toks/s, output: 31.68 toks/s]Processed prompts:   2%|▏         | 4/256 [00:00<00:43,  5.81it/s, est. speed input: 895.50 toks/s, output: 102.84 toks/s]Processed prompts:   2%|▏         | 5/256 [00:01<01:09,  3.60it/s, est. speed input: 625.57 toks/s, output: 86.72 toks/s] Processed prompts:   4%|▎         | 9/256 [00:01<00:30,  8.13it/s, est. speed input: 1160.89 toks/s, output: 180.40 toks/s]Processed prompts:   5%|▌         | 14/256 [00:01<00:17, 13.86it/s, est. speed input: 1843.28 toks/s, output: 298.56 toks/s]Processed prompts:   8%|▊         | 20/256 [00:01<00:10, 21.72it/s, est. speed input: 2257.08 toks/s, output: 445.11 toks/s]Processed prompts:  11%|█▏        | 29/256 [00:01<00:06, 33.56it/s, est. speed input: 3205.61 toks/s, output: 669.24 toks/s]Processed prompts:  15%|█▍        | 38/256 [00:01<00:04, 43.62it/s, est. speed input: 4018.51 toks/s, output: 887.46 toks/s]Processed prompts:  20%|█▉        | 50/256 [00:02<00:03, 58.48it/s, est. speed input: 4539.58 toks/s, output: 1194.08 toks/s]Processed prompts:  26%|██▌       | 67/256 [00:02<00:02, 82.53it/s, est. speed input: 5317.61 toks/s, output: 1651.31 toks/s]Processed prompts:  30%|███       | 77/256 [00:02<00:02, 82.05it/s, est. speed input: 5656.97 toks/s, output: 1877.60 toks/s]Processed prompts:  36%|███▋      | 93/256 [00:02<00:01, 97.38it/s, est. speed input: 6271.05 toks/s, output: 2299.11 toks/s]Processed prompts:  41%|████      | 105/256 [00:02<00:01, 100.51it/s, est. speed input: 6841.53 toks/s, output: 2593.23 toks/s]Processed prompts:  47%|████▋     | 120/256 [00:02<00:01, 112.13it/s, est. speed input: 7396.55 toks/s, output: 2999.43 toks/s]Processed prompts:  55%|█████▌    | 141/256 [00:02<00:00, 135.46it/s, est. speed input: 8283.19 toks/s, output: 3608.86 toks/s]Processed prompts:  64%|██████▍   | 164/256 [00:02<00:00, 157.36it/s, est. speed input: 9244.92 toks/s, output: 4303.28 toks/s]Processed prompts:  71%|███████   | 181/256 [00:03<00:00, 128.85it/s, est. speed input: 9551.32 toks/s, output: 4678.43 toks/s]Processed prompts:  78%|███████▊  | 199/256 [00:03<00:00, 136.62it/s, est. speed input: 10035.37 toks/s, output: 5240.15 toks/s]Processed prompts:  84%|████████▎ | 214/256 [00:03<00:00, 121.07it/s, est. speed input: 10329.51 toks/s, output: 5632.81 toks/s]Processed prompts:  89%|████████▊ | 227/256 [00:03<00:00, 108.24it/s, est. speed input: 10583.14 toks/s, output: 5982.48 toks/s]Processed prompts:  93%|█████████▎| 239/256 [00:03<00:00, 79.79it/s, est. speed input: 10282.33 toks/s, output: 6170.40 toks/s] Processed prompts:  97%|█████████▋| 249/256 [00:04<00:00, 40.64it/s, est. speed input: 9126.57 toks/s, output: 5827.56 toks/s] Processed prompts: 100%|██████████| 256/256 [00:06<00:00, 41.03it/s, est. speed input: 6746.14 toks/s, output: 4601.28 toks/s]
+{'step': 176, 'eval': {'reward': 0.44140625, 'format_reward': 0.91015625, 'answer_reward': 0.44140625, 'avg_response_tokens': 112.140625}}
+{'step': 177, 'train_loss': 22.640625, 'grad_norm': 356.0}
+{'step': 178, 'train_loss': 15.3828125, 'grad_norm': 236.0}
+{'step': 179, 'train_loss': 21.46875, 'grad_norm': 248.0}
+{'step': 180, 'train_loss': 46.1875, 'grad_norm': 374.0}
+{'step': 181, 'train_loss': 39.0, 'grad_norm': 536.0}
+{'step': 182, 'train_loss': 22.625, 'grad_norm': 290.0}
+{'step': 183, 'train_loss': 28.3828125, 'grad_norm': 294.0}
+{'step': 184, 'train_loss': 34.90625, 'grad_norm': 354.0}
+{'step': 185, 'train_loss': 39.21875, 'grad_norm': 382.0}
+{'step': 186, 'train_loss': 37.671875, 'grad_norm': 356.0}
+{'step': 187, 'train_loss': 43.078125, 'grad_norm': 410.0}
+{'step': 188, 'train_loss': 41.2421875, 'grad_norm': 346.0}
+{'step': 189, 'train_loss': 51.59375, 'grad_norm': 418.0}
+{'step': 190, 'train_loss': 17.546875, 'grad_norm': 338.0}
+{'step': 191, 'train_loss': 42.875, 'grad_norm': 414.0}
+{'step': 192, 'train_loss': 22.0390625, 'grad_norm': 274.0}
+{'step': 193, 'train_loss': 27.1875, 'grad_norm': 324.0}
+{'step': 194, 'train_loss': 17.953125, 'grad_norm': 253.0}
+{'step': 195, 'train_loss': 58.640625, 'grad_norm': 498.0}
+{'step': 196, 'train_loss': 20.9375, 'grad_norm': 282.0}
+{'step': 197, 'train_loss': 25.40625, 'grad_norm': 314.0}
+{'step': 198, 'train_loss': 26.296875, 'grad_norm': 320.0}
+{'step': 199, 'train_loss': 27.9375, 'grad_norm': 346.0}
+{'step': 200, 'train_loss': 30.97265625, 'grad_norm': 334.0}
+{'step': 201, 'train_loss': 45.53125, 'grad_norm': 420.0}
+{'step': 202, 'train_loss': 18.09375, 'grad_norm': 240.0}
+{'step': 203, 'train_loss': 32.203125, 'grad_norm': 440.0}
+{'step': 204, 'train_loss': 24.1875, 'grad_norm': 358.0}
+{'step': 205, 'train_loss': 20.3125, 'grad_norm': 276.0}
+{'step': 206, 'train_loss': 25.5, 'grad_norm': 290.0}
+{'step': 207, 'train_loss': 49.625, 'grad_norm': 444.0}
+{'step': 208, 'train_loss': 33.015625, 'grad_norm': 334.0}
+{'step': 209, 'train_loss': 18.1171875, 'grad_norm': 314.0}
+{'step': 210, 'train_loss': 23.515625, 'grad_norm': 320.0}
+{'step': 211, 'train_loss': 32.234375, 'grad_norm': 352.0}
+{'step': 212, 'train_loss': 30.71875, 'grad_norm': 312.0}
+{'step': 213, 'train_loss': 27.1953125, 'grad_norm': 316.0}
+{'step': 214, 'train_loss': 47.1875, 'grad_norm': 510.0}
+{'step': 215, 'train_loss': 54.2578125, 'grad_norm': 402.0}
+{'step': 216, 'train_loss': 16.546875, 'grad_norm': 228.0}
+{'step': 217, 'train_loss': 29.78125, 'grad_norm': 296.0}
+{'step': 218, 'train_loss': 36.125, 'grad_norm': 332.0}
+{'step': 219, 'train_loss': 55.21875, 'grad_norm': 462.0}
+{'step': 220, 'train_loss': 32.2265625, 'grad_norm': 276.0}
+{'step': 221, 'train_loss': 32.0, 'grad_norm': 328.0}
+{'step': 222, 'train_loss': 39.5625, 'grad_norm': 330.0}
+{'step': 223, 'train_loss': 35.28125, 'grad_norm': 342.0}
+{'step': 224, 'train_loss': 24.203125, 'grad_norm': 290.0}
+{'step': 225, 'train_loss': 24.1171875, 'grad_norm': 268.0}
+{'step': 226, 'train_loss': 20.890625, 'grad_norm': 270.0}
+{'step': 227, 'train_loss': 23.84375, 'grad_norm': 274.0}
+{'step': 228, 'train_loss': 71.328125, 'grad_norm': 462.0}
+{'step': 229, 'train_loss': 27.078125, 'grad_norm': 328.0}
+{'step': 230, 'train_loss': 15.5, 'grad_norm': 217.0}
+{'step': 231, 'train_loss': 23.328125, 'grad_norm': 316.0}
+{'step': 232, 'train_loss': 21.84375, 'grad_norm': 256.0}
+{'step': 233, 'train_loss': 31.421875, 'grad_norm': 368.0}
+{'step': 234, 'train_loss': 24.984375, 'grad_norm': 320.0}
+{'step': 235, 'train_loss': 31.90625, 'grad_norm': 334.0}
+{'step': 236, 'train_loss': 12.4765625, 'grad_norm': 233.0}
+{'step': 237, 'train_loss': 33.203125, 'grad_norm': 340.0}
+{'step': 238, 'train_loss': 29.8125, 'grad_norm': 324.0}
+{'step': 239, 'train_loss': 33.25, 'grad_norm': 350.0}
+{'step': 240, 'train_loss': 76.421875, 'grad_norm': 450.0}
+{'step': 241, 'train_loss': 20.40625, 'grad_norm': 254.0}
+{'step': 242, 'train_loss': 17.5390625, 'grad_norm': 296.0}
+{'step': 243, 'train_loss': 39.6875, 'grad_norm': 448.0}
+{'step': 244, 'train_loss': 26.90625, 'grad_norm': 298.0}
+{'step': 245, 'train_loss': 24.4609375, 'grad_norm': 316.0}
+{'step': 246, 'train_loss': 27.328125, 'grad_norm': 304.0}
+{'step': 247, 'train_loss': 34.34375, 'grad_norm': 362.0}
+{'step': 248, 'train_loss': 16.96875, 'grad_norm': 272.0}
+{'step': 249, 'train_loss': 17.96875, 'grad_norm': 245.0}
+{'step': 250, 'train_loss': 27.15625, 'grad_norm': 338.0}
+{'step': 251, 'train_loss': 25.59375, 'grad_norm': 394.0}
+{'step': 252, 'train_loss': 27.078125, 'grad_norm': 400.0}
+{'step': 253, 'train_loss': 28.6875, 'grad_norm': 356.0}
+{'step': 254, 'train_loss': 18.875, 'grad_norm': 290.0}
+{'step': 255, 'train_loss': 43.390625, 'grad_norm': 398.0}
+{'step': 256, 'train_loss': 59.84375, 'grad_norm': 462.0}
+{'step': 257, 'train_loss': 42.875, 'grad_norm': 406.0}
+{'step': 258, 'train_loss': 20.625, 'grad_norm': 296.0}
+{'step': 259, 'train_loss': 30.78125, 'grad_norm': 334.0}
+{'step': 260, 'train_loss': 46.96875, 'grad_norm': 360.0}
+{'step': 261, 'train_loss': 13.03125, 'grad_norm': 240.0}
+{'step': 262, 'train_loss': 41.8125, 'grad_norm': 370.0}
+{'step': 263, 'train_loss': 22.5, 'grad_norm': 274.0}
+{'step': 264, 'train_loss': 21.015625, 'grad_norm': 310.0}
+Processed prompts:   0%|          | 0/256 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   0%|          | 1/256 [00:00<04:01,  1.06it/s, est. speed input: 136.29 toks/s, output: 33.81 toks/s]Processed prompts:   3%|▎         | 7/256 [00:01<00:28,  8.73it/s, est. speed input: 2468.79 toks/s, output: 227.29 toks/s]Processed prompts:   4%|▍         | 11/256 [00:01<00:18, 13.07it/s, est. speed input: 2634.61 toks/s, output: 334.20 toks/s]Processed prompts:   6%|▌         | 15/256 [00:01<00:15, 15.08it/s, est. speed input: 2611.68 toks/s, output: 419.60 toks/s]Processed prompts:   7%|▋         | 18/256 [00:01<00:13, 17.62it/s, est. speed input: 2661.86 toks/s, output: 492.23 toks/s]Processed prompts:   9%|▉         | 24/256 [00:01<00:09, 24.88it/s, est. speed input: 2866.59 toks/s, output: 661.04 toks/s]Processed prompts:  15%|█▍        | 38/256 [00:01<00:04, 47.43it/s, est. speed input: 3855.92 toks/s, output: 1101.52 toks/s]Processed prompts:  21%|██        | 53/256 [00:01<00:02, 68.31it/s, est. speed input: 4625.07 toks/s, output: 1560.46 toks/s]Processed prompts:  26%|██▌       | 66/256 [00:01<00:02, 81.28it/s, est. speed input: 5404.82 toks/s, output: 1939.05 toks/s]Processed prompts:  30%|███       | 77/256 [00:02<00:02, 88.38it/s, est. speed input: 6265.01 toks/s, output: 2244.86 toks/s]Processed prompts:  35%|███▌      | 90/256 [00:02<00:01, 91.11it/s, est. speed input: 6673.28 toks/s, output: 2585.43 toks/s]Processed prompts:  41%|████      | 104/256 [00:02<00:01, 101.16it/s, est. speed input: 7199.13 toks/s, output: 2998.57 toks/s]Processed prompts:  48%|████▊     | 123/256 [00:02<00:01, 123.80it/s, est. speed input: 7964.38 toks/s, output: 3610.46 toks/s]Processed prompts:  54%|█████▎    | 137/256 [00:02<00:01, 111.49it/s, est. speed input: 8263.99 toks/s, output: 3950.06 toks/s]Processed prompts:  60%|██████    | 154/256 [00:02<00:00, 126.24it/s, est. speed input: 9062.01 toks/s, output: 4508.97 toks/s]Processed prompts:  66%|██████▌   | 168/256 [00:02<00:00, 128.81it/s, est. speed input: 9612.50 toks/s, output: 4939.41 toks/s]Processed prompts:  71%|███████   | 182/256 [00:02<00:00, 129.80it/s, est. speed input: 9957.20 toks/s, output: 5378.56 toks/s]Processed prompts:  77%|███████▋  | 198/256 [00:02<00:00, 136.54it/s, est. speed input: 10450.28 toks/s, output: 5925.39 toks/s]Processed prompts:  84%|████████▎ | 214/256 [00:03<00:00, 140.24it/s, est. speed input: 11059.39 toks/s, output: 6481.10 toks/s]Processed prompts:  89%|████████▉ | 229/256 [00:03<00:00, 115.58it/s, est. speed input: 11058.91 toks/s, output: 6865.27 toks/s]Processed prompts:  95%|█████████▍| 242/256 [00:03<00:00, 102.44it/s, est. speed input: 11270.13 toks/s, output: 7251.57 toks/s]Processed prompts:  99%|█████████▉| 254/256 [00:06<00:00, 15.51it/s, est. speed input: 6782.31 toks/s, output: 4634.93 toks/s]  Processed prompts: 100%|██████████| 256/256 [00:07<00:00, 32.32it/s, est. speed input: 5314.51 toks/s, output: 3781.77 toks/s]
+{'step': 264, 'eval': {'reward': 0.484375, 'format_reward': 0.93359375, 'answer_reward': 0.484375, 'avg_response_tokens': 116.99609375}}
+{'step': 265, 'train_loss': 33.875, 'grad_norm': 356.0}
+{'step': 266, 'train_loss': 17.21875, 'grad_norm': 278.0}
+{'step': 267, 'train_loss': 26.75, 'grad_norm': 318.0}
+{'step': 268, 'train_loss': 17.78125, 'grad_norm': 288.0}
+{'step': 269, 'train_loss': 43.8671875, 'grad_norm': 368.0}
+{'step': 270, 'train_loss': 19.703125, 'grad_norm': 288.0}
+{'step': 271, 'train_loss': 42.34375, 'grad_norm': 384.0}
+{'step': 272, 'train_loss': 26.96875, 'grad_norm': 304.0}
+{'step': 273, 'train_loss': 33.890625, 'grad_norm': 326.0}
+{'step': 274, 'train_loss': 28.6875, 'grad_norm': 372.0}
+{'step': 275, 'train_loss': 16.640625, 'grad_norm': 264.0}
+{'step': 276, 'train_loss': 20.0, 'grad_norm': 318.0}
+{'step': 277, 'train_loss': 28.125, 'grad_norm': 354.0}
+{'step': 278, 'train_loss': 19.5234375, 'grad_norm': 306.0}
+{'step': 279, 'train_loss': 32.71875, 'grad_norm': 350.0}
+{'step': 280, 'train_loss': 21.1171875, 'grad_norm': 256.0}
+{'step': 281, 'train_loss': 28.3515625, 'grad_norm': 336.0}
+{'step': 282, 'train_loss': 35.875, 'grad_norm': 358.0}
+{'step': 283, 'train_loss': 21.9765625, 'grad_norm': 254.0}
+{'step': 284, 'train_loss': 32.375, 'grad_norm': 366.0}
+{'step': 285, 'train_loss': 25.109375, 'grad_norm': 326.0}
+{'step': 286, 'train_loss': 32.765625, 'grad_norm': 350.0}
+{'step': 287, 'train_loss': 31.9296875, 'grad_norm': 360.0}
+{'step': 288, 'train_loss': 42.28125, 'grad_norm': 338.0}
+{'step': 289, 'train_loss': 22.28125, 'grad_norm': 286.0}
+{'step': 290, 'train_loss': 20.015625, 'grad_norm': 246.0}
+{'step': 291, 'train_loss': 26.75, 'grad_norm': 294.0}
+{'step': 292, 'train_loss': 40.96875, 'grad_norm': 378.0}
+{'step': 293, 'train_loss': 27.1875, 'grad_norm': 328.0}
+{'step': 294, 'train_loss': 46.125, 'grad_norm': 426.0}
+{'step': 295, 'train_loss': 54.4921875, 'grad_norm': 368.0}
+{'step': 296, 'train_loss': 19.125, 'grad_norm': 266.0}
+{'step': 297, 'train_loss': 46.59375, 'grad_norm': 390.0}
+{'step': 298, 'train_loss': 18.8984375, 'grad_norm': 268.0}
+{'step': 299, 'train_loss': 45.2421875, 'grad_norm': 398.0}
+{'step': 300, 'train_loss': 17.904296875, 'grad_norm': 255.0}
+{'step': 301, 'train_loss': 27.859375, 'grad_norm': 368.0}
+{'step': 302, 'train_loss': 21.71875, 'grad_norm': 340.0}
+{'step': 303, 'train_loss': 57.40625, 'grad_norm': 446.0}
+{'step': 304, 'train_loss': 25.7890625, 'grad_norm': 294.0}
+{'step': 305, 'train_loss': 26.3515625, 'grad_norm': 386.0}
+{'step': 306, 'train_loss': 23.375, 'grad_norm': 342.0}
+{'step': 307, 'train_loss': 48.78125, 'grad_norm': 394.0}
+{'step': 308, 'train_loss': 30.28125, 'grad_norm': 326.0}
+{'step': 309, 'train_loss': 28.4375, 'grad_norm': 310.0}
+{'step': 310, 'train_loss': 41.3203125, 'grad_norm': 378.0}
+{'step': 311, 'train_loss': 20.703125, 'grad_norm': 258.0}
+{'step': 312, 'train_loss': 27.90625, 'grad_norm': 324.0}
+{'step': 313, 'train_loss': 25.53125, 'grad_norm': 320.0}
+{'step': 314, 'train_loss': 22.625, 'grad_norm': 298.0}
+{'step': 315, 'train_loss': 20.734375, 'grad_norm': 290.0}
+{'step': 316, 'train_loss': 31.734375, 'grad_norm': 350.0}
+{'step': 317, 'train_loss': 32.25, 'grad_norm': 394.0}
+{'step': 318, 'train_loss': 25.921875, 'grad_norm': 326.0}
+{'step': 319, 'train_loss': 47.859375, 'grad_norm': 500.0}
+{'step': 320, 'train_loss': 21.234375, 'grad_norm': 292.0}
+{'step': 321, 'train_loss': 15.890625, 'grad_norm': 314.0}
+{'step': 322, 'train_loss': 27.328125, 'grad_norm': 354.0}
+{'step': 323, 'train_loss': 18.6875, 'grad_norm': 260.0}
+{'step': 324, 'train_loss': 41.21875, 'grad_norm': 388.0}
+{'step': 325, 'train_loss': 45.03125, 'grad_norm': 386.0}
+{'step': 326, 'train_loss': 16.71875, 'grad_norm': 232.0}
+{'step': 327, 'train_loss': 23.890625, 'grad_norm': 274.0}
+{'step': 328, 'train_loss': 27.2578125, 'grad_norm': 270.0}
+{'step': 329, 'train_loss': 44.28125, 'grad_norm': 410.0}
+{'step': 330, 'train_loss': 41.78125, 'grad_norm': 386.0}
+{'step': 331, 'train_loss': 56.9375, 'grad_norm': 434.0}
+{'step': 332, 'train_loss': 27.625, 'grad_norm': 312.0}
+{'step': 333, 'train_loss': 27.0, 'grad_norm': 386.0}
+{'step': 334, 'train_loss': 40.890625, 'grad_norm': 372.0}
+{'step': 335, 'train_loss': 22.65625, 'grad_norm': 276.0}
+{'step': 336, 'train_loss': 20.875, 'grad_norm': 298.0}
+{'step': 337, 'train_loss': 37.890625, 'grad_norm': 396.0}
+{'step': 338, 'train_loss': 45.078125, 'grad_norm': 400.0}
+{'step': 339, 'train_loss': 25.546875, 'grad_norm': 362.0}
+{'step': 340, 'train_loss': 39.328125, 'grad_norm': 318.0}
+{'step': 341, 'train_loss': 16.703125, 'grad_norm': 238.0}
+{'step': 342, 'train_loss': 33.59375, 'grad_norm': 360.0}
+{'step': 343, 'train_loss': 21.84375, 'grad_norm': 310.0}
+{'step': 344, 'train_loss': 12.5859375, 'grad_norm': 288.0}
+{'step': 345, 'train_loss': 24.078125, 'grad_norm': 294.0}
+{'step': 346, 'train_loss': 13.046875, 'grad_norm': 235.0}
+{'step': 347, 'train_loss': 14.34375, 'grad_norm': 286.0}
+{'step': 348, 'train_loss': 27.75, 'grad_norm': 324.0}
+{'step': 349, 'train_loss': 16.15625, 'grad_norm': 306.0}
+{'step': 350, 'train_loss': 25.890625, 'grad_norm': 294.0}
+{'step': 351, 'train_loss': 36.35546875, 'grad_norm': 340.0}
+{'step': 352, 'train_loss': 11.875, 'grad_norm': 224.0}
+Processed prompts:   0%|          | 0/256 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   0%|          | 1/256 [00:00<02:57,  1.44it/s, est. speed input: 227.55 toks/s, output: 31.68 toks/s]Processed prompts:   2%|▏         | 4/256 [00:00<00:43,  5.75it/s, est. speed input: 655.07 toks/s, output: 115.05 toks/s]Processed prompts:   3%|▎         | 7/256 [00:00<00:24, 10.07it/s, est. speed input: 1327.71 toks/s, output: 199.68 toks/s]Processed prompts:   5%|▍         | 12/256 [00:01<00:15, 15.66it/s, est. speed input: 1706.99 toks/s, output: 320.99 toks/s]Processed prompts:   6%|▌         | 15/256 [00:01<00:13, 17.54it/s, est. speed input: 1887.02 toks/s, output: 388.78 toks/s]Processed prompts:   7%|▋         | 18/256 [00:01<00:11, 20.12it/s, est. speed input: 2012.05 toks/s, output: 461.50 toks/s]Processed prompts:  11%|█         | 27/256 [00:01<00:06, 34.34it/s, est. speed input: 2581.43 toks/s, output: 726.06 toks/s]Processed prompts:  12%|█▎        | 32/256 [00:01<00:05, 37.91it/s, est. speed input: 2957.69 toks/s, output: 854.00 toks/s]Processed prompts:  18%|█▊        | 45/256 [00:02<00:06, 31.81it/s, est. speed input: 3600.44 toks/s, output: 1033.47 toks/s]Processed prompts:  22%|██▏       | 56/256 [00:02<00:04, 43.07it/s, est. speed input: 4027.76 toks/s, output: 1305.82 toks/s]Processed prompts:  27%|██▋       | 70/256 [00:02<00:03, 59.70it/s, est. speed input: 4778.12 toks/s, output: 1668.57 toks/s]Processed prompts:  35%|███▌      | 90/256 [00:02<00:01, 88.06it/s, est. speed input: 5886.68 toks/s, output: 2222.59 toks/s]Processed prompts:  44%|████▍     | 113/256 [00:02<00:01, 117.21it/s, est. speed input: 6892.52 toks/s, output: 2860.15 toks/s]Processed prompts:  50%|█████     | 128/256 [00:02<00:01, 120.50it/s, est. speed input: 7645.11 toks/s, output: 3228.16 toks/s]Processed prompts:  57%|█████▋    | 147/256 [00:02<00:00, 136.42it/s, est. speed input: 8546.38 toks/s, output: 3758.59 toks/s]Processed prompts:  66%|██████▌   | 169/256 [00:02<00:00, 156.04it/s, est. speed input: 9383.34 toks/s, output: 4403.70 toks/s]Processed prompts:  73%|███████▎  | 186/256 [00:02<00:00, 140.95it/s, est. speed input: 9776.80 toks/s, output: 4825.58 toks/s]Processed prompts:  79%|███████▉  | 202/256 [00:03<00:00, 138.82it/s, est. speed input: 10278.01 toks/s, output: 5278.00 toks/s]Processed prompts:  85%|████████▍ | 217/256 [00:03<00:00, 128.51it/s, est. speed input: 10651.76 toks/s, output: 5691.85 toks/s]Processed prompts:  90%|█████████ | 231/256 [00:03<00:00, 116.12it/s, est. speed input: 11004.29 toks/s, output: 6078.03 toks/s]Processed prompts:  95%|█████████▌| 244/256 [00:03<00:00, 72.86it/s, est. speed input: 10484.79 toks/s, output: 6158.27 toks/s] Processed prompts:  99%|█████████▉| 254/256 [00:05<00:00, 24.12it/s, est. speed input: 8073.27 toks/s, output: 5045.78 toks/s] Processed prompts: 100%|██████████| 256/256 [00:06<00:00, 39.90it/s, est. speed input: 6560.55 toks/s, output: 4232.94 toks/s]
+{'step': 352, 'eval': {'reward': 0.45703125, 'format_reward': 0.94921875, 'answer_reward': 0.45703125, 'avg_response_tokens': 106.08203125}}
+[rank0]:[W917 17:19:28.132685863 ProcessGroupNCCL.cpp:1250] Warning: WARNING: process group has NOT been destroyed before we destruct ProcessGroupNCCL. On normal program exit, the application should call destroy_process_group to ensure that any pending NCCL operations have finished in this process. In rare cases this process can exit before this point and block the progress of another member of the process group. This constraint has always been present,  but this warning has only been added since PyTorch 2.4 (function operator())

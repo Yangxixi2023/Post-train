@@ -1,0 +1,29 @@
+
+tests/test_data.py::test_packed_sft_dataset FAILED                       [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_packed_sft_dataset ____________________________
+
+    def test_packed_sft_dataset():
+        sft_sample_path = FIXTURES_PATH / "sft_sample.jsonl"
+        tokenizer = AutoTokenizer.from_pretrained(FIXTURES_PATH / "Meta-Llama-3-8B")
+        seq_length = 32
+        packed_sft_dataset = get_packed_sft_dataset(
+            tokenizer=tokenizer,
+            dataset_path=sft_sample_path,
+            seq_length=seq_length,
+            shuffle=False,
+        )
+    
+        with open(FIXTURES_PATH / "tokenized_sft_sample.json") as f:
+            expected_examples = json.load(f)
+    
+>       assert len(packed_sft_dataset) == len(expected_examples)
+E       AssertionError: assert 73 == 75
+E        +  where 73 = len(<cs336_alignment.sft_dataset.InstructionDataset object at 0x7ff3e8f0eab0>)
+E        +  and   75 = len([{'input_ids': [128000, 39314, 374, 459, 7754, 430, ...], 'labels': [39314, 374, 459, 7754, 430, 16964, ...]}, {'input_ids': [4948, 1732, 7347, 1486, 315, 1684, ...], 'labels': [1732, 7347, 1486, 315, 1684, 922, ...]}, {'input_ids': [11, 323, 22599, 389, 813, 2324, ...], 'labels': [323, 22599, 389, 813, 2324, 11709, ...]}, {'input_ids': [11175, 430, 11141, 279, 6742, 449, ...], 'labels': [430, 11141, 279, 6742, 449, 264, ...]}, {'input_ids': [13, 1283, 1047, 7543, 4038, 20646, ...], 'labels': [1283, 1047, 7543, 4038, 20646, 323, ...]}, {'input_ids': [279, 802, 1072, 788, 25911, 315, ...], 'labels': [802, 1072, 788, 25911, 315, 279, ...]}, ...])
+
+tests/test_data.py:28: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_data.py::test_packed_sft_dataset - AssertionError: assert 7...
+============================== 1 failed in 0.40s ===============================

@@ -1,0 +1,9 @@
+
+tests/test_data.py::test_packed_sft_dataset PASSED                       [ 16%]
+tests/test_data.py::test_iterate_batches PASSED                          [ 33%]
+tests/test_metrics.py::test_parse_mmlu_response PASSED                   [ 50%]
+tests/test_metrics.py::test_parse_mmlu_response_unknown PASSED           [ 66%]
+tests/test_metrics.py::test_parse_gsm8k_response PASSED                  [ 83%]
+tests/test_metrics.py::test_parse_gsm8k_response_unknown PASSED          [100%]
+
+============================== 6 passed in 0.96s ===============================

@@ -1,0 +1,3 @@
+ea27935eb5df3f400edad012bd1e36344b7a3fd47c28aba5620ea840657f8cc5  experiments/data/gsm8k_train_r1.jsonl
+ea27935eb5df3f400edad012bd1e36344b7a3fd47c28aba5620ea840657f8cc5  experiments/data/gsm8k_train_r1_filtered.jsonl
+filtered dataset byte-identical: yes

@@ -1,0 +1,5 @@
+Using Python 3.12.14 environment at: .venv_run
+Resolved 4 packages in 338ms
+Prepared 1 package in 75ms
+Installed 1 package in 11ms
+ + pylatexenc==2.11

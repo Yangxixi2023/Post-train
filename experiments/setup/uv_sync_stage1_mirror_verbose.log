@@ -1,0 +1,1008 @@
+DEBUG Found workspace root: `/workspace/assignment5-alignment`
+DEBUG Adding root workspace member: `/workspace/assignment5-alignment`
+DEBUG Found workspace configuration at `/workspace/assignment5-alignment/pyproject.toml`
+DEBUG Searching for user configuration in: `/root/.config/uv/uv.toml`
+DEBUG Found user configuration in: `/root/.config/uv/uv.toml`
+DEBUG uv 0.12.15 (x86_64-unknown-linux-gnu)
+DEBUG Found project root: `/workspace/assignment5-alignment`
+DEBUG Reading Python requests from version file at `/workspace/assignment5-alignment/.python-version`
+DEBUG Using Python request `3.12` from version file at `.python-version`
+DEBUG Checking for Python environment at: `.venv`
+DEBUG The project environment's Python version satisfies the request: `Python 3.12`
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Found static `requires-dist` for: /workspace/assignment5-alignment/
+DEBUG Existing `uv.lock` satisfies workspace requirements
+Resolved 254 packages in 2ms
+DEBUG Omitting `flash-attn` from resolution due to `--no-install-package`
+DEBUG Computed cache info: Timestamp(SystemTime { tv_sec: 1789625268, tv_nsec: 607879786 }), None, None, {}, {"src": None}. Most recently modified: pyproject.toml
+DEBUG Identified uncached distribution: alignment @ file:///workspace/assignment5-alignment
+DEBUG Identified uncached distribution: accelerate==1.6.0
+DEBUG Git source requirement already cached: alpaca-eval==0.6.2 (from git+https://github.com/nelson-liu/alpaca_eval.git@33d1d5b150363ff64e13418814d3de2e067b565a)
+DEBUG Identified uncached distribution: jupyter==1.1.1
+DEBUG Identified uncached distribution: math-verify==0.7.0
+DEBUG Identified uncached distribution: notebook==7.4.2
+DEBUG Identified uncached distribution: pylatexenc==2.10
+DEBUG Identified uncached distribution: pytest==8.3.5
+DEBUG Identified uncached distribution: torch==2.5.1
+DEBUG Identified uncached distribution: tqdm==4.67.1
+DEBUG Identified uncached distribution: transformers==4.51.3
+DEBUG Identified uncached distribution: typer==0.15.4
+DEBUG Identified uncached distribution: vllm==0.7.2
+DEBUG Identified uncached distribution: wandb==0.19.11
+DEBUG Identified uncached distribution: xopen==2.0.2
+DEBUG Identified uncached distribution: huggingface-hub==0.31.1
+DEBUG Identified uncached distribution: numpy==1.26.4
+DEBUG Identified uncached distribution: packaging==25.0
+DEBUG Identified uncached distribution: psutil==7.0.0
+DEBUG Identified uncached distribution: pyyaml==6.0.2
+DEBUG Identified uncached distribution: safetensors==0.5.3
+DEBUG Identified uncached distribution: datasets==2.14.4
+DEBUG Identified uncached distribution: fire==0.7.0
+DEBUG Identified uncached distribution: openai==1.78.1
+DEBUG Identified uncached distribution: pandas==2.2.3
+DEBUG Identified uncached distribution: patsy==1.0.1
+DEBUG Identified uncached distribution: python-dotenv==1.1.0
+DEBUG Identified uncached distribution: scikit-learn==1.6.1
+DEBUG Identified uncached distribution: scipy==1.15.3
+DEBUG Identified uncached distribution: tiktoken==0.9.0
+DEBUG Identified uncached distribution: einops==0.8.1
+DEBUG Identified uncached distribution: setuptools==80.4.0
+DEBUG Identified uncached distribution: ipykernel==6.29.5
+DEBUG Identified uncached distribution: ipywidgets==8.1.7
+DEBUG Identified uncached distribution: jupyter-console==6.6.3
+DEBUG Identified uncached distribution: jupyterlab==4.4.2
+DEBUG Identified uncached distribution: nbconvert==7.16.6
+DEBUG Identified uncached distribution: latex2sympy2-extended==1.10.1
+DEBUG Identified uncached distribution: jupyter-server==2.16.0
+DEBUG Registry requirement already cached: jupyterlab-server==2.27.3
+DEBUG Identified uncached distribution: notebook-shim==0.2.4
+DEBUG Identified uncached distribution: tornado==6.4.2
+DEBUG Identified uncached distribution: iniconfig==2.1.0
+DEBUG Identified uncached distribution: pluggy==1.5.0
+DEBUG Registry requirement already cached: filelock==3.18.0
+DEBUG Identified uncached distribution: fsspec==2025.3.2
+DEBUG Identified uncached distribution: jinja2==3.1.6
+DEBUG Identified uncached distribution: networkx==3.4.2
+DEBUG Identified uncached distribution: nvidia-cublas-cu12==12.4.5.8
+DEBUG Identified uncached distribution: nvidia-cuda-cupti-cu12==12.4.127
+DEBUG Identified uncached distribution: nvidia-cuda-nvrtc-cu12==12.4.127
+DEBUG Identified uncached distribution: nvidia-cuda-runtime-cu12==12.4.127
+DEBUG Identified uncached distribution: nvidia-cudnn-cu12==9.1.0.70
+DEBUG Identified uncached distribution: nvidia-cufft-cu12==11.2.1.3
+DEBUG Identified uncached distribution: nvidia-curand-cu12==10.3.5.147
+DEBUG Identified uncached distribution: nvidia-cusolver-cu12==11.6.1.9
+DEBUG Identified uncached distribution: nvidia-cusparse-cu12==12.3.1.170
+DEBUG Identified uncached distribution: nvidia-nccl-cu12==2.21.5
+DEBUG Identified uncached distribution: nvidia-nvjitlink-cu12==12.4.127
+DEBUG Identified uncached distribution: nvidia-nvtx-cu12==12.4.127
+DEBUG Identified uncached distribution: sympy==1.13.1
+DEBUG Identified uncached distribution: triton==3.1.0
+DEBUG Identified uncached distribution: typing-extensions==4.13.2
+DEBUG Identified uncached distribution: regex==2024.11.6
+DEBUG Identified uncached distribution: requests==2.32.3
+DEBUG Identified uncached distribution: tokenizers==0.21.1
+DEBUG Identified uncached distribution: click==8.1.8
+DEBUG Identified uncached distribution: rich==14.0.0
+DEBUG Identified uncached distribution: shellingham==1.5.4
+DEBUG Identified uncached distribution: aiohttp==3.11.18
+DEBUG Identified uncached distribution: blake3==1.0.4
+DEBUG Identified uncached distribution: cloudpickle==3.1.1
+DEBUG Identified uncached distribution: compressed-tensors==0.9.1
+DEBUG Identified uncached distribution: depyf==0.18.0
+DEBUG Identified uncached distribution: fastapi==0.115.12
+DEBUG Identified uncached distribution: gguf==0.10.0
+DEBUG Identified uncached distribution: importlib-metadata==8.0.0
+DEBUG Identified uncached distribution: lark==1.2.2
+DEBUG Identified uncached distribution: lm-format-enforcer==0.10.11
+DEBUG Identified uncached distribution: mistral-common==1.5.4
+DEBUG Identified uncached distribution: msgspec==0.19.0
+DEBUG Registry requirement already cached: nvidia-ml-py==12.575.51
+DEBUG Identified uncached distribution: outlines==0.1.11
+DEBUG Identified uncached distribution: partial-json-parser==0.2.1.1.post5
+DEBUG Identified uncached distribution: pillow==11.2.1
+DEBUG Identified uncached distribution: prometheus-client==0.21.1
+DEBUG Identified uncached distribution: prometheus-fastapi-instrumentator==7.1.0
+DEBUG Identified uncached distribution: protobuf==4.25.7
+DEBUG Identified uncached distribution: py-cpuinfo==9.0.0
+DEBUG Identified uncached distribution: pydantic==2.11.4
+DEBUG Identified uncached distribution: pyzmq==26.4.0
+DEBUG Identified uncached distribution: ray==2.46.0
+DEBUG Identified uncached distribution: sentencepiece==0.2.0
+DEBUG Identified uncached distribution: six==1.17.0
+DEBUG Identified uncached distribution: torchaudio==2.5.1
+DEBUG Identified uncached distribution: torchvision==0.20.1
+DEBUG Identified uncached distribution: uvicorn==0.34.2
+DEBUG Identified uncached distribution: xformers==0.0.28.post3
+DEBUG Identified uncached distribution: xgrammar==0.1.18
+DEBUG Identified uncached distribution: docker-pycreds==0.4.0
+DEBUG Identified uncached distribution: gitpython==3.1.44
+DEBUG Registry requirement already cached: platformdirs==4.3.8
+DEBUG Identified uncached distribution: sentry-sdk==2.28.0
+DEBUG Identified uncached distribution: setproctitle==1.3.6
+DEBUG Identified uncached distribution: isal==1.7.2
+DEBUG Identified uncached distribution: zlib-ng==0.5.1
+DEBUG Identified uncached distribution: hf-xet==1.1.1
+DEBUG Identified uncached distribution: dill==0.3.7
+DEBUG Identified uncached distribution: multiprocess==0.70.15
+DEBUG Identified uncached distribution: pyarrow==20.0.0
+DEBUG Identified uncached distribution: xxhash==3.5.0
+DEBUG Identified uncached distribution: termcolor==3.1.0
+DEBUG Identified uncached distribution: anyio==4.9.0
+DEBUG Identified uncached distribution: distro==1.9.0
+DEBUG Identified uncached distribution: httpx==0.28.1
+DEBUG Identified uncached distribution: jiter==0.9.0
+DEBUG Identified uncached distribution: sniffio==1.3.1
+DEBUG Identified uncached distribution: python-dateutil==2.9.0.post0
+DEBUG Identified uncached distribution: pytz==2025.2
+DEBUG Identified uncached distribution: tzdata==2025.2
+DEBUG Identified uncached distribution: joblib==1.5.0
+DEBUG Identified uncached distribution: threadpoolctl==3.6.0
+DEBUG Identified uncached distribution: comm==0.2.2
+DEBUG Identified uncached distribution: debugpy==1.8.14
+DEBUG Identified uncached distribution: ipython==9.2.0
+DEBUG Identified uncached distribution: jupyter-client==8.6.3
+DEBUG Identified uncached distribution: jupyter-core==5.7.2
+DEBUG Identified uncached distribution: matplotlib-inline==0.1.7
+DEBUG Identified uncached distribution: nest-asyncio==1.6.0
+DEBUG Identified uncached distribution: traitlets==5.14.3
+DEBUG Identified uncached distribution: jupyterlab-widgets==3.0.15
+DEBUG Identified uncached distribution: widgetsnbextension==4.0.14
+DEBUG Identified uncached distribution: prompt-toolkit==3.0.51
+DEBUG Identified uncached distribution: pygments==2.19.1
+DEBUG Identified uncached distribution: async-lru==2.0.5
+DEBUG Identified uncached distribution: jupyter-lsp==2.2.5
+DEBUG Identified uncached distribution: beautifulsoup4==4.13.4
+DEBUG Identified uncached distribution: bleach==6.2.0
+DEBUG Registry requirement already cached: defusedxml==0.7.1
+DEBUG Registry requirement already cached: jupyterlab-pygments==0.3.0
+DEBUG Identified uncached distribution: markupsafe==3.0.2
+DEBUG Identified uncached distribution: mistune==3.1.3
+DEBUG Identified uncached distribution: nbclient==0.10.2
+DEBUG Identified uncached distribution: nbformat==5.10.4
+DEBUG Identified uncached distribution: pandocfilters==1.5.1
+DEBUG Identified uncached distribution: antlr4-python3-runtime==4.13.2
+DEBUG Identified uncached distribution: argon2-cffi==23.1.0
+DEBUG Identified uncached distribution: jupyter-events==0.12.0
+DEBUG Identified uncached distribution: jupyter-server-terminals==0.5.3
+DEBUG Identified uncached distribution: overrides==7.7.0
+DEBUG Identified uncached distribution: send2trash==1.8.3
+DEBUG Identified uncached distribution: terminado==0.18.1
+DEBUG Identified uncached distribution: websocket-client==1.8.0
+DEBUG Identified uncached distribution: babel==2.17.0
+DEBUG Identified uncached distribution: json5==0.12.0
+DEBUG Identified uncached distribution: jsonschema==4.23.0
+DEBUG Identified uncached distribution: mpmath==1.3.0
+DEBUG Identified uncached distribution: certifi==2025.4.26
+DEBUG Identified uncached distribution: charset-normalizer==3.4.2
+DEBUG Identified uncached distribution: idna==3.10
+DEBUG Identified uncached distribution: urllib3==2.4.0
+DEBUG Identified uncached distribution: markdown-it-py==3.0.0
+DEBUG Identified uncached distribution: aiohappyeyeballs==2.6.1
+DEBUG Identified uncached distribution: aiosignal==1.3.2
+DEBUG Registry requirement already cached: attrs==25.3.0
+DEBUG Identified uncached distribution: frozenlist==1.6.0
+DEBUG Identified uncached distribution: multidict==6.4.3
+DEBUG Identified uncached distribution: propcache==0.3.1
+DEBUG Identified uncached distribution: yarl==1.20.0
+DEBUG Identified uncached distribution: astor==0.8.1
+DEBUG Identified uncached distribution: starlette==0.46.2
+DEBUG Identified uncached distribution: zipp==3.21.0
+DEBUG Registry requirement already cached: interegular==0.3.3
+DEBUG Identified uncached distribution: opencv-python-headless==4.11.0.86
+DEBUG Identified uncached distribution: airportsdata==20250224
+DEBUG Registry requirement already cached: diskcache==5.6.3
+DEBUG Identified uncached distribution: outlines-core==0.1.26
+DEBUG Identified uncached distribution: pycountry==24.6.1
+DEBUG Identified uncached distribution: referencing==0.36.2
+DEBUG Registry requirement already cached: annotated-types==0.7.0
+DEBUG Identified uncached distribution: pydantic-core==2.33.2
+DEBUG Identified uncached distribution: typing-inspection==0.4.0
+DEBUG Identified uncached distribution: msgpack==1.1.0
+DEBUG Identified uncached distribution: aiohttp-cors==0.8.1
+DEBUG Identified uncached distribution: colorful==0.5.6
+DEBUG Identified uncached distribution: grpcio==1.71.0
+DEBUG Identified uncached distribution: opencensus==0.11.4
+DEBUG Identified uncached distribution: py-spy==0.4.0
+DEBUG Identified uncached distribution: smart-open==7.1.0
+DEBUG Identified uncached distribution: virtualenv==20.31.2
+DEBUG Identified uncached distribution: h11==0.16.0
+DEBUG Identified uncached distribution: httptools==0.6.4
+DEBUG Identified uncached distribution: uvloop==0.21.0
+DEBUG Identified uncached distribution: watchfiles==1.0.5
+DEBUG Identified uncached distribution: websockets==15.0.1
+DEBUG Identified uncached distribution: ninja==1.11.1.4
+DEBUG Identified uncached distribution: gitdb==4.0.12
+DEBUG Identified uncached distribution: httpcore==1.0.9
+DEBUG Identified uncached distribution: decorator==5.2.1
+DEBUG Identified uncached distribution: ipython-pygments-lexers==1.1.1
+DEBUG Identified uncached distribution: jedi==0.19.2
+DEBUG Identified uncached distribution: pexpect==4.9.0
+DEBUG Registry requirement already cached: stack-data==0.6.3
+DEBUG Identified uncached distribution: wcwidth==0.2.13
+DEBUG Identified uncached distribution: soupsieve==2.7
+DEBUG Identified uncached distribution: webencodings==0.5.1
+DEBUG Identified uncached distribution: tinycss2==1.4.0
+DEBUG Identified uncached distribution: fastjsonschema==2.21.1
+DEBUG Identified uncached distribution: argon2-cffi-bindings==21.2.0
+DEBUG Identified uncached distribution: python-json-logger==3.3.0
+DEBUG Identified uncached distribution: rfc3339-validator==0.1.4
+DEBUG Identified uncached distribution: rfc3986-validator==0.1.1
+DEBUG Identified uncached distribution: ptyprocess==0.7.0
+DEBUG Identified uncached distribution: jsonschema-specifications==2025.4.1
+DEBUG Identified uncached distribution: rpds-py==0.24.0
+DEBUG Identified uncached distribution: mdurl==0.1.2
+DEBUG Identified uncached distribution: google-api-core==2.24.2
+DEBUG Identified uncached distribution: opencensus-context==0.1.3
+DEBUG Identified uncached distribution: wrapt==1.17.2
+DEBUG Identified uncached distribution: distlib==0.3.9
+DEBUG Identified uncached distribution: smmap==5.0.2
+DEBUG Identified uncached distribution: parso==0.8.4
+DEBUG Identified uncached distribution: asttokens==3.0.0
+DEBUG Identified uncached distribution: executing==2.2.0
+DEBUG Identified uncached distribution: pure-eval==0.2.3
+DEBUG Identified uncached distribution: cffi==1.17.1
+DEBUG Identified uncached distribution: fqdn==1.5.1
+DEBUG Identified uncached distribution: isoduration==20.11.0
+DEBUG Registry requirement already cached: jsonpointer==3.0.0
+DEBUG Registry requirement already cached: uri-template==1.3.0
+DEBUG Identified uncached distribution: webcolors==24.11.1
+DEBUG Identified uncached distribution: google-auth==2.40.1
+DEBUG Identified uncached distribution: googleapis-common-protos==1.70.0
+DEBUG Identified uncached distribution: proto-plus==1.26.1
+DEBUG Identified uncached distribution: pycparser==2.22
+DEBUG Identified uncached distribution: arrow==1.3.0
+DEBUG Identified uncached distribution: cachetools==5.5.2
+DEBUG Identified uncached distribution: pyasn1-modules==0.4.2
+DEBUG Identified uncached distribution: rsa==4.9.1
+DEBUG Identified uncached distribution: types-python-dateutil==2.9.0.20241206
+DEBUG Identified uncached distribution: pyasn1==0.6.1
+DEBUG Using request connect timeout of 10s and read timeout of 30s
+DEBUG Computed cache info: Timestamp(SystemTime { tv_sec: 1789625268, tv_nsec: 607879786 }), None, None, {}, {"src": None}. Most recently modified: pyproject.toml
+   Building alignment @ file:///workspace/assignment5-alignment
+DEBUG Building: alignment @ file:///workspace/assignment5-alignment
+DEBUG Assessing Python executable as base candidate: /root/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12
+DEBUG Creating build environment for: alignment @ file:///workspace/assignment5-alignment
+DEBUG Assessing Python executable as base candidate: /root/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12
+DEBUG Using base executable for virtual environment: /root/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12
+DEBUG Resolving build requirements
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG Solving with installed Python version: 3.12.14
+DEBUG Solving with target Python version: >=3.12.14
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Adding direct dependency: setuptools>=40.8.0
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/60/e8/c0e05e4684d13459f93d312077a9a2efbe04d59c393bc2b8802248c908d4/webcolors-24.11.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/60/e8/c0e05e4684d13459f93d312077a9a2efbe04d59c393bc2b8802248c908d4/webcolors-24.11.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/88/5f/e351af9a41f866ac3f1fac4ca0613908d9a41741cfcf2228f4ad853b697d/pluggy-1.5.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/88/5f/e351af9a41f866ac3f1fac4ca0613908d9a41741cfcf2228f4ad853b697d/pluggy-1.5.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/d8/efc291d5c69a9905515055d23977643dd0d482ebfeb0dbabef1947ee75d8/depyf-0.18.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/d8/efc291d5c69a9905515055d23977643dd0d482ebfeb0dbabef1947ee75d8/depyf-0.18.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl
+Downloading jupyterlab (11.7MiB)
+Downloading torch (864.4MiB)
+Downloading nvidia-cudnn-cu12 (634.0MiB)
+Downloading vllm (252.0MiB)
+Downloading nvidia-cublas-cu12 (346.6MiB)
+Downloading nvidia-cufft-cu12 (201.7MiB)
+Downloading triton (199.8MiB)
+Downloading nvidia-cusparse-cu12 (197.8MiB)
+Downloading nvidia-nccl-cu12 (179.9MiB)
+Downloading nvidia-cusolver-cu12 (122.0MiB)
+Downloading ray (65.3MiB)
+Downloading opencv-python-headless (47.7MiB)
+Downloading pyarrow (40.3MiB)
+Downloading scipy (35.6MiB)
+Downloading hf-xet (24.3MiB)
+Downloading nvidia-curand-cu12 (53.7MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (23.5MiB)
+Downloading wandb (20.4MiB)
+Downloading nvidia-nvjitlink-cu12 (20.1MiB)
+Downloading numpy (17.1MiB)
+Downloading xformers (15.9MiB)
+Downloading notebook (13.6MiB)
+Downloading scikit-learn (12.5MiB)
+Downloading nvidia-cuda-cupti-cu12 (13.2MiB)
+Downloading pandas (12.1MiB)
+Downloading babel (9.7MiB)
+Downloading transformers (9.9MiB)
+Downloading torchvision (6.9MiB)
+Downloading mistral-common (6.2MiB)
+Downloading pycountry (6.0MiB)
+Downloading sympy (5.9MiB)
+Downloading virtualenv (5.8MiB)
+Downloading grpcio (5.6MiB)
+Downloading xgrammar (4.6MiB)
+Downloading uvloop (4.5MiB)
+Downloading pillow (4.4MiB)
+Downloading debugpy (4.0MiB)
+Downloading torchaudio (3.2MiB)
+Downloading tokenizers (2.9MiB)
+Downloading py-spy (2.6MiB)
+Downloading widgetsnbextension (2.1MiB)
+Downloading networkx (1.6MiB)
+Downloading pydantic-core (1.9MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+Downloading aiohttp (1.6MiB)
+Downloading jedi (1.5MiB)
+Downloading sentencepiece (1.2MiB)
+Downloading pygments (1.2MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+Downloading setuptools (1.1MiB)
+Downloading tiktoken (1.1MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 1.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl; retrying after 1.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl; retrying after 1.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl; retrying after 1.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl; retrying after 1.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.4s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl; retrying after 1.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl; retrying after 1.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl; retrying after 1.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl; retrying after 1.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.9s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.3s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl; retrying after 1.2s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 1.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 1.4s...
+Downloading nvidia-cudnn-cu12 (634.0MiB)
+Downloading torch (864.4MiB)
+Downloading vllm (252.0MiB)
+Downloading nvidia-cufft-cu12 (201.7MiB)
+Downloading nvidia-cublas-cu12 (346.6MiB)
+Downloading triton (199.8MiB)
+Downloading nvidia-cusparse-cu12 (197.8MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl; retrying after 1.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.3s...
+Downloading nvidia-nccl-cu12 (179.9MiB)
+Downloading nvidia-cusolver-cu12 (122.0MiB)
+Downloading opencv-python-headless (47.7MiB)
+Downloading ray (65.3MiB)
+Downloading pyarrow (40.3MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.9s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl; retrying after 1.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl; retrying after 1.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 1.3s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl; retrying after 1.4s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+Downloading hf-xet (24.3MiB)
+Downloading scipy (35.6MiB)
+Downloading nvidia-curand-cu12 (53.7MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (23.5MiB)
+Downloading wandb (20.4MiB)
+Downloading nvidia-nvjitlink-cu12 (20.1MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl; retrying after 1.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl; retrying after 1.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl; retrying after 1.2s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.4s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 1.4s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 1.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl
+Downloading numpy (17.1MiB)
+Downloading xformers (15.9MiB)
+Downloading notebook (13.6MiB)
+Downloading scikit-learn (12.5MiB)
+Downloading nvidia-cuda-cupti-cu12 (13.2MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.9s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl; retrying after 1.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl; retrying after 1.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+Downloading pandas (12.1MiB)
+Downloading babel (9.7MiB)
+Downloading transformers (9.9MiB)
+Downloading torchvision (6.9MiB)
+Downloading mistral-common (6.2MiB)
+Downloading pycountry (6.0MiB)
+Downloading sympy (5.9MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl; retrying after 1.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl; retrying after 1.0s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl; retrying after 1.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+Downloading virtualenv (5.8MiB)
+Downloading grpcio (5.6MiB)
+Downloading xgrammar (4.6MiB)
+Downloading uvloop (4.5MiB)
+Downloading pillow (4.4MiB)
+Downloading debugpy (4.0MiB)
+Downloading torchaudio (3.2MiB)
+Downloading py-spy (2.6MiB)
+Downloading tokenizers (2.9MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl; retrying after 1.5s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl; retrying after 1.1s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+Downloading widgetsnbextension (2.1MiB)
+Downloading networkx (1.6MiB)
+Downloading pydantic-core (1.9MiB)
+Downloading aiohttp (1.6MiB)
+Downloading jedi (1.5MiB)
+Downloading sentencepiece (1.2MiB)
+Downloading pygments (1.2MiB)
+Downloading jupyterlab (11.7MiB)
+Downloading setuptools (1.1MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl; retrying after 3.3s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl; retrying after 3.3s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl; retrying after 2.5s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 3.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl; retrying after 1.4s...
+Downloading tiktoken (1.1MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl; retrying after 1.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl; retrying after 3.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 3.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl; retrying after 4.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 1.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 3.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl; retrying after 3.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 3.3s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 3.4s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading nvidia-cusparse-cu12 (197.8MiB)
+Downloading nvidia-cublas-cu12 (346.6MiB)
+Downloading vllm (252.0MiB)
+Downloading nvidia-cufft-cu12 (201.7MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 3.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl; retrying after 2.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 3.4s...
+Downloading triton (199.8MiB)
+Downloading pyarrow (40.3MiB)
+Downloading nvidia-nccl-cu12 (179.9MiB)
+Downloading opencv-python-headless (47.7MiB)
+Downloading nvidia-cusolver-cu12 (122.0MiB)
+Downloading ray (65.3MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl; retrying after 2.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl; retrying after 3.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 2.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl; retrying after 3.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl; retrying after 3.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl; retrying after 2.7s...
+Downloading wandb (20.4MiB)
+Downloading hf-xet (24.3MiB)
+Downloading nvidia-curand-cu12 (53.7MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (23.5MiB)
+Downloading nvidia-nvjitlink-cu12 (20.1MiB)
+Downloading scipy (35.6MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/a9/b6/5257d04ae327b44db31f15cce39e6020cc986333c715660b1315a9724d82/transformers-4.51.3-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/ec/1fb891d8a2660716aadb2143235481d15ed1cbfe3ad669194690b0604492/pycountry-24.6.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/80/7a/421819257cd642b33d71819e2ff259fb019a49ea48e830e5a32558c52cb7/mistral_common-1.5.4-py3-none-any.whl
+Downloading scikit-learn (12.5MiB)
+Downloading notebook (13.6MiB)
+Downloading numpy (17.1MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl; retrying after 1.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 1.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 3.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl; retrying after 3.3s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.9s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f3/40/b1c265d4b2b62b58576588510fc4d1fe60a86319c8de99fd8e9fec617d2c/virtualenv-20.31.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/fe/7c/d8b1330458e4d2f3f45d9508796d7caf0c0d3764c00c823d10f6f1a3b76d/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/10/53/0a0cb5d79dd9f7039169f8bf94a144ad3efa52cc519940b3b7dde23bcb89/debugpy-1.8.14-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading nvidia-cuda-cupti-cu12 (13.2MiB)
+Downloading xformers (15.9MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl; retrying after 1.5s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl; retrying after 2.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 3.1s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+Downloading babel (9.7MiB)
+Downloading torchvision (6.9MiB)
+Downloading sympy (5.9MiB)
+Downloading pandas (12.1MiB)
+Downloading transformers (9.9MiB)
+Downloading pycountry (6.0MiB)
+Downloading mistral-common (6.2MiB)
+Downloading virtualenv (5.8MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl; retrying after 2.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl; retrying after 3.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl; retrying after 3.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl; retrying after 2.9s...
+Downloading pillow (4.4MiB)
+Downloading tokenizers (2.9MiB)
+Downloading debugpy (4.0MiB)
+Downloading xgrammar (4.6MiB)
+Downloading uvloop (4.5MiB)
+Downloading grpcio (5.6MiB)
+Downloading py-spy (2.6MiB)
+Downloading torchaudio (3.2MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl; retrying after 2.5s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 3.7s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+Downloading widgetsnbextension (2.1MiB)
+Downloading pydantic-core (1.9MiB)
+Downloading networkx (1.6MiB)
+Downloading aiohttp (1.6MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 3.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl; retrying after 2.4s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+Downloading jedi (1.5MiB)
+Downloading sentencepiece (1.2MiB)
+Downloading setuptools (1.1MiB)
+Downloading pygments (1.2MiB)
+Downloading jupyterlab (11.7MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading nvidia-cudnn-cu12 (634.0MiB)
+Downloading torch (864.4MiB)
+Downloading tiktoken (1.1MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 5.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 7.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.3s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl; retrying after 4.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 1.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl; retrying after 4.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.4s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl; retrying after 7.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 1.7s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/49/9d/e12ddc726dc8bd1aa6cba67c85ce42a12ba5b9dd75d5042214a59ccf28ce/grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl; retrying after 1.8s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 2.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/34/1c/345d11bf492a1414dced70a9572ff1eb2c73013578d24fb4d728a91a09d1/torchaudio-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl; retrying after 4.3s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl; retrying after 2.5s...
+Downloading grpcio (5.6MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/41/4b043778cf9c4285d59742281a769eac371b9e47e35f98ad321349cc5d61/pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl; retrying after 3.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl; retrying after 1.9s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl; retrying after 4.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl; retrying after 7.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl; retrying after 5.2s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl; retrying after 5.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/23/06/4203ffa2beb5bedb07f0da0f79b7d9039d1c33f522e0d1a2d5b6218e6f2e/aiohttp-3.11.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl; retrying after 7.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 4.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c0/5a/9cac0c82afec3d09ccd97c8b6502d48f165f9124db81b4bcb90b4af974ee/jedi-0.19.2-py2.py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 3.0s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 6.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 6.8s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading torchaudio (3.2MiB)
+Downloading pydantic-core (1.9MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl; retrying after 3.7s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 4.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl; retrying after 5.5s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/db/f7/97a9ea26ed4bbbfc2d470994b8b4f338ef663be97b8f677519ac195e113d/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl; retrying after 7.0s...
+Downloading aiohttp (1.6MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/c9/c1/5e012669ebb687e546dc99fcfc4861ebfcf3a337b7a41af945df23140bb5/py_spy-0.4.0-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 4.6s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 7.6s...
+Downloading jedi (1.5MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl; retrying after 3.2s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8f/c3/54acf006969aae4b0f3760998f0a9695fa4cadb5044e783ee9af40a1d2cc/xgrammar-0.1.18-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 8.0s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 5.6s...
+Downloading sentencepiece (1.2MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b1/93/dba5ed08c2e31ec7cdc2ce75705a484ef0be1a2fecac8a58272489349de8/setuptools-80.4.0-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f6/ae/fbb93f4990b7648849b19112d8b3e7427bbfc9c5cc8fdc6bf14c0e86d104/jupyterlab-4.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/bb/1b/2168d6050e52ff1e6cefc61d600723870bf569cbf41d13db939c8cf97a16/pyarrow-20.0.0-cp312-cp312-manylinux_2_28_x86_64.whl
+Downloading nvidia-cusparse-cu12 (197.8MiB)
+Downloading pygments (1.2MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 7.2s...
+Downloading py-spy (2.6MiB)
+Downloading xgrammar (4.6MiB)
+Downloading widgetsnbextension (2.1MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/06/a7/b4e6a19925c900be9f98bec0a75e6e8f79bb53bdeb891916609ab3958967/uvloop-0.21.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 4.9s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/19/c3/3fc94ab580f50f56a8f68fd4e619730fbc8c079f0028cf37664c1c7411de/airportsdata-20250224-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl
+Downloading setuptools (1.1MiB)
+Downloading jupyterlab (11.7MiB)
+Downloading pyarrow (40.3MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/f9/31/eeb2878b26566c04c3e9b8b20b3ec3c54a2be50535088d36a37c008e07a3/wandb-0.19.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl; retrying after 6.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/3a/e1/5b9089a4b2a4790dfdea8b3a006052cfecff58139d5a4e34cb1a51df8d6f/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
+Downloading nvidia-cublas-cu12 (346.6MiB)
+Downloading triton (199.8MiB)
+Downloading uvloop (4.5MiB)
+Downloading nvidia-nccl-cu12 (179.9MiB)
+Downloading nvidia-cudnn-cu12 (634.0MiB)
+Downloading nvidia-curand-cu12 (53.7MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/8b/5c/36c114d120bfe10f9323ed35061bc5878cc74f3f594003854b0ea298942f/torch-2.5.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/e7/c0/5b7f019aa798dedfb44c30971e9becf3c6a2db7dde311570178fa66c49c8/vllm-0.7.2-cp38-abi3-manylinux1_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1b/40/da42522018ca496432ffd02793c3a72a739ac04c3794a4914570c9bb2925/tiktoken-0.9.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 3.6s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/21/c3/b2f2f09da4a85a8dcd5a3e63a5707b6c126c5be29bf846aa78dfb1168631/ray-2.46.0-cp312-cp312-manylinux2014_x86_64.whl
+Downloading opencv-python-headless (47.7MiB)
+Downloading networkx (1.6MiB)
+Downloading wandb (20.4MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl; retrying after 4.2s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b0/c1/4f770cc7be79287905e13765d4a7e1949dce3483f90867f532ff56e7126b/hf_xet-1.1.1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading nvidia-cusolver-cu12 (122.0MiB)
+Downloading nvidia-cufft-cu12 (201.7MiB)
+Downloading torch (864.4MiB)
+Downloading vllm (252.0MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/29/7a/8bce8968883e9465de20be15542f4c7e221952441727c4dad24d534c6d99/scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl; retrying after 7.1s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+Downloading tiktoken (1.1MiB)
+Downloading nvidia-nvjitlink-cu12 (20.1MiB)
+Downloading ray (65.3MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0b/1f/03f52c282437a168ee2c7c14a1a0d0781a9a4a8962d84ac05c06b4c5b555/scipy-1.15.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl; retrying after 2.2s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading hf-xet (24.3MiB)
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl; retrying after 1.2s...
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/1e/16/d3c36a0b1f6dfcf218add8eaf803bf0473ff50681ac4d51acb7ba02bce34/notebook-7.4.2-py3-none-any.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b7/b8/3fe70c75fe32afc4bb507f75563d39bc5642255d1d94f1f23604725780bf/babel-2.17.0-py3-none-any.whl
+Downloading scikit-learn (12.5MiB)
+Downloading nvidia-cuda-nvrtc-cu12 (23.5MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/d4/75/00a852275ade58d3dc474530f7a7b6bc999a817148f0eb59d4fde12eb955/torchvision-0.20.1-cp312-cp312-manylinux1_x86_64.whl
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl; retrying after 5.1s...
+DEBUG Transient failure while handling response from https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl; retrying after 6.8s...
+Downloading scipy (35.6MiB)
+Downloading numpy (17.1MiB)
+Downloading notebook (13.6MiB)
+Downloading nvidia-cuda-cupti-cu12 (13.2MiB)
+Downloading babel (9.7MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/01/ba/048171c15dfd4f9bff63aaf6e93586ea1ea3e14cc66cd2cea59a50fc2047/xformers-0.0.28.post3-cp312-cp312-manylinux_2_28_x86_64.whl
+Downloading torchvision (6.9MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl
+Downloading xformers (15.9MiB)
+DEBUG No cache entry for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+DEBUG Sending fresh GET request for: https://pypi.tuna.tsinghua.edu.cn/packages/38/f8/d8fddee9ed0d0c0f4a2132c1dfcf0e3e53265055da8df952a53e7eaf178c/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Downloading sympy (5.9MiB)
+Downloading pandas (12.1MiB)
+error: Failed to download `pygments==2.19.1`
+  cause: Failed to extract archive: pygments-2.19.1-py3-none-any.whl
+  cause: I/O operation failed during extraction
+  cause: Failed to download distribution due to network timeout. Try increasing UV_HTTP_TIMEOUT (current value: 30s).
+
+hint: `pygments` (v2.19.1) was included because `alignment` (v1.0.0) depends on `typer` (v0.15.4) which depends on `rich` (v14.0.0) which depends on `pygments`

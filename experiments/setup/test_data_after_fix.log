@@ -1,0 +1,5 @@
+
+tests/test_data.py::test_packed_sft_dataset PASSED                       [ 50%]
+tests/test_data.py::test_iterate_batches PASSED                          [100%]
+
+============================== 2 passed in 0.98s ===============================

@@ -1,0 +1,19 @@
+--2026-09-17 14:16:19--  https://hf-mirror.com/Qwen/Qwen2.5-Math-1.5B/resolve/main/model.safetensors
+Resolving hf-mirror.com (hf-mirror.com)... 160.16.86.14
+Connecting to hf-mirror.com (hf-mirror.com)|160.16.86.14|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629380&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTM4MH19fV19&Signature=MEYCIQDZ3YPplpyjhLLLwhF1AMhNEj-yZNcodwDp%7EQ-JkJyEsgIhAIOBfsCejdd79qPBQ-RNXmO5QB-uOAogfVa6nZ9A2K-q&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061620Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c23c962d7cca41d547d3060ba08f9addecccd58ecf99c696d2bff01cbf75eeea [following]
+--2026-09-17 14:16:20--  https://cas-bridge.xethub.hf.co/xet-bridge-us/66e81d379ebf20e0639888fd/b04c487402df159327d7a9a07cff090f93375103f6760f3f3fba58f38920a9ab?Expires=1789629380&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ZTgxZDM3OWViZjIwZTA2Mzk4ODhmZC9iMDRjNDg3NDAyZGYxNTkzMjdkN2E5YTA3Y2ZmMDkwZjkzMzc1MTAzZjY3NjBmM2YzZmJhNThmMzg5MjBhOWFiKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4OTYyOTM4MH19fV19&Signature=MEYCIQDZ3YPplpyjhLLLwhF1AMhNEj-yZNcodwDp%7EQ-JkJyEsgIhAIOBfsCejdd79qPBQ-RNXmO5QB-uOAogfVa6nZ9A2K-q&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20260917%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260917T061620Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c23c962d7cca41d547d3060ba08f9addecccd58ecf99c696d2bff01cbf75eeea
+Resolving cas-bridge.xethub.hf.co (cas-bridge.xethub.hf.co)... 108.156.221.84, 108.156.221.58, 108.156.221.45
+Connecting to cas-bridge.xethub.hf.co (cas-bridge.xethub.hf.co)|108.156.221.84|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3087467144 (2.9G)
+Saving to: ‘/workspace/models/Qwen2.5-Math-1.5B/model.safetensors’
+
+     0K ........ ........ ........ ........  1% 1.55M 31m13s
+ 32768K ........ ........ ........ ........  2% 1.83M 28m35s
+ 65536K ........ ........ ........ ........  3% 1.76M 27m49s
+ 98304K ........ ........ ........ ........  4% 1.93M 26m42s
+131072K ........ ........ ........ ........  5% 1.67M 26m39s
+163840K ........ ........ ........ ........  6% 1.72M 26m24s
+196608K ........ .......

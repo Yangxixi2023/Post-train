@@ -1,0 +1,2191 @@
+
+09/17 14:21:15 [[1;32mNOTICE[0m] Downloading 1 item(s)
+
+09/17 14:21:15 [[1;32mNOTICE[0m] CUID#7 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626075-bc3e3f7bc2644a44bf9b44964bb5174d-0-78347b49c4e9a40831a7fb106cb53724
+
+09/17 14:21:15 [[1;32mNOTICE[0m] CUID#9 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626075-d3eaefa2d5f64aa2a430841ca1425d3b-0-a9fe2cfb5f557336fb9829b4d816db9b
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#10 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-4278c3ee092442f3b71b95bd93f5d2e8-0-f94a48a52cf2cf4b36ca2c67b51f42b4
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#16 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-346b853323d74489a4a19a6413c25cca-0-b09c90866af5363359b6808efd61b03a
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#12 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-fc1e4eddfb474ffb900e03e522a47cc9-0-be7672d0b7636eabc9ec453f97cd67e0
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#13 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-0a00d933314d4a069197a3f8091262f6-0-7def00a1d72b94213783962f515adc36
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#14 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-f60529a227564a0697118fe9144c0791-0-6a2b5fc4df2b31814716df9a9aa07c1b
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#15 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-81c097549d03483d93e1750399dbe1b9-0-c42aadb6abd2079a7af3e4010934aede
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#22 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-d52134a7a4374d4ebdf13c89128e1edc-0-13394d221b374308a3b00d1b26ffd565
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#23 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-3a9c8aa8b7ca478da77c186dac9c2d08-0-721341bdd24abe878440a280b4ee9c11
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#17 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-0474185bc9a74b38bef4f07c25bba4a1-0-dc1c9c3e0ec794f4cff16d9d0bade5f0
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#11 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-fcd63b91aba8451bbaa57226b9b3567f-0-8e060db909990c93798523d05056119a
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#19 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-b8e8832c6c33486abc3d7ef359829b96-0-a336f8a16d96eccccd1d2fdb21edf276
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#18 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-09c6f3c7b4b34e598bafb5f99fcd0388-0-a023e1e90744267dff22288e9885b693
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#20 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-58262e15309a4f29b3cc7c060d3b81f5-0-933d7f2ff39bff08ced885f7bbb47b4f
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#21 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-d671bb5f1e4745458f9500e29104e86b-0-afd0edb6765958f70d04584c6b659445
+
+09/17 14:21:16 [[1;32mNOTICE[0m] CUID#20 - Redirecting to https://cdn-lfs-cn-1.modelscope.cn/prod/lfs-objects/f7/aa/8d665ab44d3b461bed742fe93cdcedc15d2e31e50dc372c126e6f720857b?filename=model.safetensors&namespace=Qwen&repository=Qwen2.5-Math-1.5B&revision=master&tag=model&auth_key=1789626076-33201e6a18f04e91aabdf004827b7a80-0-7f298255d1011f830340f3f62837ef3c
+[#f9ef40 552MiB/2.8GiB(18%) CN:16 DL:1.8MiB ETA:21m54s]
+[#f9ef40 560MiB/2.8GiB(19%) CN:16 DL:7.9MiB ETA:5m]
+[#f9ef40 563MiB/2.8GiB(19%) CN:16 DL:5.4MiB ETA:7m14s]
+[#f9ef40 565MiB/2.8GiB(19%) CN:16 DL:4.5MiB ETA:8m41s]
+[#f9ef40 568MiB/2.8GiB(19%) CN:16 DL:4.1MiB ETA:9m30s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:21 2026 *** 
+===============================================================================
+[#f9ef40 571MiB/2.8GiB(19%) CN:16 DL:3.8MiB ETA:10m9s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 571MiB/2.8GiB(19%) CN:16 DL:3.8MiB ETA:10m9s]
+[#f9ef40 574MiB/2.8GiB(19%) CN:16 DL:3.7MiB ETA:10m39s]
+[#f9ef40 577MiB/2.8GiB(19%) CN:16 DL:3.5MiB ETA:11m2s]
+[#f9ef40 579MiB/2.8GiB(19%) CN:16 DL:3.4MiB ETA:11m18s]
+[#f9ef40 582MiB/2.8GiB(19%) CN:16 DL:3.4MiB ETA:11m33s]
+[#f9ef40 585MiB/2.8GiB(19%) CN:16 DL:3.3MiB ETA:11m43s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:27 2026 *** 
+===============================================================================
+[#f9ef40 588MiB/2.8GiB(19%) CN:16 DL:2.8MiB ETA:13m59s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 588MiB/2.8GiB(19%) CN:16 DL:2.8MiB ETA:13m59s]
+[#f9ef40 591MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m56s]
+[#f9ef40 593MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m50s]
+[#f9ef40 596MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m52s]
+[#f9ef40 599MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m47s]
+[#f9ef40 602MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m45s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:33 2026 *** 
+===============================================================================
+[#f9ef40 605MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m45s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 605MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m45s]
+[#f9ef40 608MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m39s]
+[#f9ef40 611MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m35s]
+[#f9ef40 613MiB/2.8GiB(20%) CN:16 DL:2.8MiB ETA:13m44s]
+[#f9ef40 616MiB/2.8GiB(20%) CN:16 DL:2.7MiB ETA:13m51s]
+[#f9ef40 618MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m58s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:39 2026 *** 
+===============================================================================
+[#f9ef40 621MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m56s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 621MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m56s]
+[#f9ef40 624MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m50s]
+[#f9ef40 627MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m53s]
+[#f9ef40 630MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m48s]
+[#f9ef40 632MiB/2.8GiB(21%) CN:16 DL:2.7MiB ETA:13m46s]
+[#f9ef40 635MiB/2.8GiB(21%) CN:16 DL:2.8MiB ETA:13m42s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:45 2026 *** 
+===============================================================================
+[#f9ef40 638MiB/2.8GiB(21%) CN:16 DL:2.8MiB ETA:13m42s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 638MiB/2.8GiB(21%) CN:16 DL:2.8MiB ETA:13m42s]
+[#f9ef40 641MiB/2.8GiB(21%) CN:16 DL:2.8MiB ETA:13m30s]
+[#f9ef40 644MiB/2.8GiB(21%) CN:16 DL:2.8MiB ETA:13m20s]
+[#f9ef40 647MiB/2.8GiB(21%) CN:16 DL:2.9MiB ETA:13m11s]
+[#f9ef40 650MiB/2.8GiB(22%) CN:16 DL:2.8MiB ETA:13m12s]
+[#f9ef40 653MiB/2.8GiB(22%) CN:16 DL:2.8MiB ETA:13m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:51 2026 *** 
+===============================================================================
+[#f9ef40 656MiB/2.8GiB(22%) CN:16 DL:2.8MiB ETA:13m9s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 656MiB/2.8GiB(22%) CN:16 DL:2.8MiB ETA:13m9s]
+[#f9ef40 658MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:13m7s]
+[#f9ef40 661MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:13m6s]
+[#f9ef40 664MiB/2.8GiB(22%) CN:16 DL:2.8MiB ETA:13m6s]
+[#f9ef40 667MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:13m3s]
+[#f9ef40 670MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:12m57s]
+ *** Download Progress Summary as of Thu Sep 17 14:21:57 2026 *** 
+===============================================================================
+[#f9ef40 673MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:13m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 673MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:13m]
+[#f9ef40 676MiB/2.8GiB(22%) CN:16 DL:2.9MiB ETA:12m58s]
+[#f9ef40 679MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m59s]
+[#f9ef40 682MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m55s]
+[#f9ef40 685MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m51s]
+[#f9ef40 687MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:03 2026 *** 
+===============================================================================
+[#f9ef40 690MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 690MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m47s]
+[#f9ef40 693MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m48s]
+[#f9ef40 696MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m46s]
+[#f9ef40 699MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m45s]
+[#f9ef40 702MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m44s]
+[#f9ef40 705MiB/2.8GiB(23%) CN:16 DL:2.9MiB ETA:12m45s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:09 2026 *** 
+===============================================================================
+[#f9ef40 708MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m40s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 708MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m40s]
+[#f9ef40 711MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m42s]
+[#f9ef40 714MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m40s]
+[#f9ef40 717MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m38s]
+[#f9ef40 720MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m37s]
+[#f9ef40 723MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m35s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:14 2026 *** 
+===============================================================================
+[#f9ef40 725MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m35s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 725MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m35s]
+[#f9ef40 728MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m35s]
+[#f9ef40 731MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m31s]
+[#f9ef40 734MiB/2.8GiB(24%) CN:16 DL:2.9MiB ETA:12m30s]
+[#f9ef40 737MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m34s]
+[#f9ef40 740MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:20 2026 *** 
+===============================================================================
+[#f9ef40 743MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m28s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 743MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m28s]
+[#f9ef40 746MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m29s]
+[#f9ef40 749MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m26s]
+[#f9ef40 752MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m26s]
+[#f9ef40 755MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m25s]
+[#f9ef40 758MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m23s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:26 2026 *** 
+===============================================================================
+[#f9ef40 760MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m23s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 760MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m23s]
+[#f9ef40 763MiB/2.8GiB(25%) CN:16 DL:2.9MiB ETA:12m24s]
+[#f9ef40 766MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m20s]
+[#f9ef40 769MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m19s]
+[#f9ef40 772MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m18s]
+[#f9ef40 775MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m18s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:32 2026 *** 
+===============================================================================
+[#f9ef40 778MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m19s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 778MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m19s]
+[#f9ef40 781MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m16s]
+[#f9ef40 784MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m17s]
+[#f9ef40 787MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m14s]
+[#f9ef40 790MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m16s]
+[#f9ef40 792MiB/2.8GiB(26%) CN:16 DL:2.9MiB ETA:12m12s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:38 2026 *** 
+===============================================================================
+[#f9ef40 795MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m12s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 795MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m12s]
+[#f9ef40 798MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m10s]
+[#f9ef40 801MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m7s]
+[#f9ef40 804MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m9s]
+[#f9ef40 807MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m5s]
+[#f9ef40 810MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m5s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:44 2026 *** 
+===============================================================================
+[#f9ef40 813MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 813MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m2s]
+[#f9ef40 816MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m5s]
+[#f9ef40 819MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m1s]
+[#f9ef40 822MiB/2.8GiB(27%) CN:16 DL:2.9MiB ETA:12m1s]
+[#f9ef40 824MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:12m2s]
+[#f9ef40 827MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m59s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:50 2026 *** 
+===============================================================================
+[#f9ef40 830MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:12m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 830MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:12m]
+[#f9ef40 833MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m55s]
+[#f9ef40 836MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m57s]
+[#f9ef40 839MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m56s]
+[#f9ef40 842MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m55s]
+[#f9ef40 845MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m54s]
+ *** Download Progress Summary as of Thu Sep 17 14:22:56 2026 *** 
+===============================================================================
+[#f9ef40 848MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m54s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 848MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m54s]
+[#f9ef40 851MiB/2.8GiB(28%) CN:16 DL:2.9MiB ETA:11m52s]
+[#f9ef40 854MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m52s]
+[#f9ef40 856MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m52s]
+[#f9ef40 860MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m49s]
+[#f9ef40 862MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m48s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:02 2026 *** 
+===============================================================================
+[#f9ef40 865MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 865MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m50s]
+[#f9ef40 868MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m48s]
+[#f9ef40 871MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m45s]
+[#f9ef40 874MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m52s]
+[#f9ef40 877MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m51s]
+[#f9ef40 879MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:08 2026 *** 
+===============================================================================
+[#f9ef40 882MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 882MiB/2.8GiB(29%) CN:16 DL:2.9MiB ETA:11m47s]
+[#f9ef40 885MiB/2.8GiB(30%) CN:16 DL:2.9MiB ETA:11m48s]
+[#f9ef40 888MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m52s]
+[#f9ef40 891MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m51s]
+[#f9ef40 894MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m49s]
+[#f9ef40 897MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:14 2026 *** 
+===============================================================================
+[#f9ef40 900MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 900MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m50s]
+[#f9ef40 902MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m46s]
+[#f9ef40 905MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m43s]
+[#f9ef40 908MiB/2.8GiB(30%) CN:16 DL:2.9MiB ETA:11m41s]
+[#f9ef40 911MiB/2.8GiB(30%) CN:16 DL:2.8MiB ETA:11m42s]
+[#f9ef40 914MiB/2.8GiB(31%) CN:16 DL:2.8MiB ETA:11m41s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:20 2026 *** 
+===============================================================================
+[#f9ef40 917MiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m38s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 917MiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m38s]
+[#f9ef40 920MiB/2.8GiB(31%) CN:16 DL:2.8MiB ETA:11m38s]
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m33s]
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m34s]
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m31s]
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m30s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:26 2026 *** 
+===============================================================================
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m27s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m27s]
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m22s]
+[#f9ef40 0.9GiB/2.8GiB(31%) CN:16 DL:2.9MiB ETA:11m21s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.8MiB ETA:11m32s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.8MiB ETA:11m41s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.8MiB ETA:11m52s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:32 2026 *** 
+===============================================================================
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.7MiB ETA:12m6s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.7MiB ETA:12m6s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.6MiB ETA:12m18s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.6MiB ETA:12m27s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.6MiB ETA:12m37s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.5MiB ETA:12m52s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.5MiB ETA:13m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:38 2026 *** 
+===============================================================================
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.4MiB ETA:13m13s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.4MiB ETA:13m13s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.4MiB ETA:13m10s]
+[#f9ef40 0.9GiB/2.8GiB(32%) CN:16 DL:2.5MiB ETA:13m6s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.5MiB ETA:13m8s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m9s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.5MiB ETA:13m6s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:44 2026 *** 
+===============================================================================
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m7s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m9s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m9s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m11s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m7s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m2s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:50 2026 *** 
+===============================================================================
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.4MiB ETA:13m]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.5MiB ETA:12m57s]
+[#f9ef40 0.9GiB/2.8GiB(33%) CN:16 DL:2.5MiB ETA:12m54s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m51s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m47s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m44s]
+ *** Download Progress Summary as of Thu Sep 17 14:23:56 2026 *** 
+===============================================================================
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m38s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m38s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m38s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m41s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m43s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m45s]
+[#f9ef40 0.9GiB/2.8GiB(34%) CN:16 DL:2.5MiB ETA:12m43s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:02 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(34%) CN:16 DL:2.4MiB ETA:12m48s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(34%) CN:16 DL:2.4MiB ETA:12m48s]
+[#f9ef40 1.0GiB/2.8GiB(34%) CN:16 DL:2.4MiB ETA:12m49s]
+[#f9ef40 1.0GiB/2.8GiB(34%) CN:16 DL:2.4MiB ETA:12m50s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m48s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m45s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m43s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:08 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m42s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m42s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m40s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m40s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m40s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m42s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.4MiB ETA:12m38s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:14 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.5MiB ETA:12m32s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.5MiB ETA:12m32s]
+[#f9ef40 1.0GiB/2.8GiB(35%) CN:16 DL:2.5MiB ETA:12m34s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m25s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m24s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m23s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m21s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:19 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m20s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m20s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m9s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.5MiB ETA:12m2s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.6MiB ETA:11m48s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.6MiB ETA:11m39s]
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.7MiB ETA:11m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:25 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.7MiB ETA:11m20s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(36%) CN:16 DL:2.7MiB ETA:11m20s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.7MiB ETA:11m7s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.8MiB ETA:10m53s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.8MiB ETA:10m43s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.9MiB ETA:10m35s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.9MiB ETA:10m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:31 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.9MiB ETA:10m28s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.9MiB ETA:10m28s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.9MiB ETA:10m26s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.9MiB ETA:10m31s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.8MiB ETA:10m34s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.8MiB ETA:10m32s]
+[#f9ef40 1.0GiB/2.8GiB(37%) CN:16 DL:2.8MiB ETA:10m46s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:37 2026 *** 
+===============================================================================
+[#f9ef40 1.0GiB/2.8GiB(38%) CN:16 DL:2.7MiB ETA:10m54s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.0GiB/2.8GiB(38%) CN:16 DL:2.7MiB ETA:10m54s]
+[#f9ef40 1.0GiB/2.8GiB(38%) CN:16 DL:2.7MiB ETA:11m5s]
+[#f9ef40 1.0GiB/2.8GiB(38%) CN:16 DL:2.6MiB ETA:11m16s]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.6MiB ETA:11m30s]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.5MiB ETA:11m44s]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.5MiB ETA:11m52s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:43 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.5MiB ETA:12m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.5MiB ETA:12m]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.5MiB ETA:12m]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.4MiB ETA:12m4s]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.4MiB ETA:12m1s]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.4MiB ETA:12m3s]
+[#f9ef40 1.1GiB/2.8GiB(38%) CN:16 DL:2.4MiB ETA:12m4s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:49 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:12m2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:12m2s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m58s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m58s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.5MiB ETA:11m53s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m57s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m54s]
+ *** Download Progress Summary as of Thu Sep 17 14:24:55 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m55s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m55s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m55s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m57s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m53s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m50s]
+[#f9ef40 1.1GiB/2.8GiB(39%) CN:16 DL:2.4MiB ETA:11m51s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:01 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m48s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m48s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m50s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m52s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m49s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m48s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m45s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:07 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m50s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m46s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m48s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m47s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m49s]
+[#f9ef40 1.1GiB/2.8GiB(40%) CN:16 DL:2.4MiB ETA:11m47s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:13 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m47s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m45s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m46s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m44s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m43s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m40s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:19 2026 *** 
+===============================================================================
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m39s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m39s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m38s]
+[#f9ef40 1.1GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m37s]
+[#f9ef40 1.2GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m32s]
+[#f9ef40 1.2GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m37s]
+[#f9ef40 1.2GiB/2.8GiB(41%) CN:16 DL:2.4MiB ETA:11m36s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:25 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m37s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m37s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m33s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m33s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m33s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m29s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m33s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:31 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m26s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m26s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m30s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m20s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m21s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m18s]
+[#f9ef40 1.2GiB/2.8GiB(42%) CN:16 DL:2.4MiB ETA:11m15s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:37 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m20s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m20s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m16s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m13s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m13s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m13s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m16s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:43 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m12s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m12s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m17s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m12s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m8s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m9s]
+[#f9ef40 1.2GiB/2.8GiB(43%) CN:16 DL:2.4MiB ETA:11m10s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:49 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m9s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m9s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m5s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m4s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m4s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m2s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:25:55 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:10m59s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:10m59s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:11m]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:10m58s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:10m59s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:10m55s]
+[#f9ef40 1.2GiB/2.8GiB(44%) CN:16 DL:2.4MiB ETA:10m55s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:01 2026 *** 
+===============================================================================
+[#f9ef40 1.2GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m53s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.2GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m53s]
+[#f9ef40 1.2GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m55s]
+[#f9ef40 1.2GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m53s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m52s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m48s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:07 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m48s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m48s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m45s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m45s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m42s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m42s]
+[#f9ef40 1.3GiB/2.8GiB(45%) CN:16 DL:2.4MiB ETA:10m41s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:13 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m38s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m38s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m37s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m36s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m38s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m34s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m36s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:19 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m36s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m36s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m34s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m31s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m34s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m33s]
+[#f9ef40 1.3GiB/2.8GiB(46%) CN:16 DL:2.4MiB ETA:10m31s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:25 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m29s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m29s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m30s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m27s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m27s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m25s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m25s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:31 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m27s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m27s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m23s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m21s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m20s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m18s]
+[#f9ef40 1.3GiB/2.8GiB(47%) CN:16 DL:2.4MiB ETA:10m20s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:36 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m16s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m16s]
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m19s]
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m15s]
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m16s]
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m10s]
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:42 2026 *** 
+===============================================================================
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m10s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m10s]
+[#f9ef40 1.3GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m8s]
+[#f9ef40 1.4GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m10s]
+[#f9ef40 1.4GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m11s]
+[#f9ef40 1.4GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m18s]
+[#f9ef40 1.4GiB/2.8GiB(48%) CN:16 DL:2.4MiB ETA:10m23s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:48 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.3MiB ETA:10m29s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.3MiB ETA:10m29s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.3MiB ETA:10m38s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.3MiB ETA:10m50s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.2MiB ETA:10m58s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.2MiB ETA:11m7s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:53 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.2MiB ETA:11m14s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.2MiB ETA:11m14s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m25s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m25s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m25s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m23s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m23s]
+ *** Download Progress Summary as of Thu Sep 17 14:26:59 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m17s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m17s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m16s]
+[#f9ef40 1.4GiB/2.8GiB(49%) CN:16 DL:2.1MiB ETA:11m23s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m16s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m19s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:04 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m17s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m17s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m19s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m11s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m10s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m8s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:10 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m7s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m6s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m11s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m12s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m14s]
+[#f9ef40 1.4GiB/2.8GiB(50%) CN:16 DL:2.1MiB ETA:11m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:16 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m20s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m20s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m22s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m14s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m14s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m8s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m12s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:22 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m8s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m8s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m3s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:11m3s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:10m58s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:10m56s]
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:10m58s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:28 2026 *** 
+===============================================================================
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:10m55s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.4GiB/2.8GiB(51%) CN:16 DL:2.1MiB ETA:10m55s]
+[#f9ef40 1.4GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m54s]
+[#f9ef40 1.4GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m53s]
+[#f9ef40 1.4GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m53s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m57s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m52s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:34 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m50s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m47s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m49s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m56s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m53s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m52s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:40 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m50s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m49s]
+[#f9ef40 1.5GiB/2.8GiB(52%) CN:16 DL:2.1MiB ETA:10m47s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m43s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m45s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m44s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:46 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m41s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m41s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m40s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m41s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m38s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m37s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m35s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:52 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m39s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m39s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m39s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m40s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m36s]
+[#f9ef40 1.5GiB/2.8GiB(53%) CN:16 DL:2.1MiB ETA:10m36s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m31s]
+ *** Download Progress Summary as of Thu Sep 17 14:27:58 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m31s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m31s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m30s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m29s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m29s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m27s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m24s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:04 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m24s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m24s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m18s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m19s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m18s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m20s]
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m18s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:10 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m16s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(54%) CN:16 DL:2.1MiB ETA:10m16s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m16s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m12s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m12s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m8s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m10s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:16 2026 *** 
+===============================================================================
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m10s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m10s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m8s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m4s]
+[#f9ef40 1.5GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m5s]
+[#f9ef40 1.6GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m4s]
+[#f9ef40 1.6GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m4s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:22 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m]
+[#f9ef40 1.6GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:10m2s]
+[#f9ef40 1.6GiB/2.8GiB(55%) CN:16 DL:2.1MiB ETA:9m57s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:10m]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:10m]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:9m55s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:28 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:9m56s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:9m56s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:9m55s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.1MiB ETA:9m46s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.2MiB ETA:9m40s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.2MiB ETA:9m32s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.2MiB ETA:9m25s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:34 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.2MiB ETA:9m15s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.2MiB ETA:9m15s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.3MiB ETA:9m8s]
+[#f9ef40 1.6GiB/2.8GiB(56%) CN:16 DL:2.3MiB ETA:8m57s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:8m54s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.4MiB ETA:8m43s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.4MiB ETA:8m42s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:40 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:8m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:8m47s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:8m46s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:8m52s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:8m55s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.3MiB ETA:9m1s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.2MiB ETA:9m8s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:46 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.2MiB ETA:9m16s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.2MiB ETA:9m16s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.2MiB ETA:9m18s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.1MiB ETA:9m27s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.1MiB ETA:9m30s]
+[#f9ef40 1.6GiB/2.8GiB(57%) CN:16 DL:2.1MiB ETA:9m29s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m27s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:52 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m29s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m29s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m26s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m28s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m25s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m26s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m24s]
+ *** Download Progress Summary as of Thu Sep 17 14:28:58 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m26s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m26s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m19s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m21s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m21s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m18s]
+[#f9ef40 1.6GiB/2.8GiB(58%) CN:16 DL:2.1MiB ETA:9m17s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:04 2026 *** 
+===============================================================================
+[#f9ef40 1.6GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m18s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.6GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m18s]
+[#f9ef40 1.6GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m17s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m16s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m14s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m15s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m12s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:09 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m11s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m11s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m11s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m8s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m8s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m10s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m5s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:15 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m9s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m9s]
+[#f9ef40 1.7GiB/2.8GiB(59%) CN:16 DL:2.1MiB ETA:9m7s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m5s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m5s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m7s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:21 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m3s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m3s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m3s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m6s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m2s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m7s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:9m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:27 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:8m56s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:8m56s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:8m55s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:8m54s]
+[#f9ef40 1.7GiB/2.8GiB(60%) CN:16 DL:2.1MiB ETA:8m52s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m52s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:33 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m47s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m44s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m46s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m46s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m46s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m45s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:39 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m41s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m41s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m41s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m41s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m39s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m41s]
+[#f9ef40 1.7GiB/2.8GiB(61%) CN:16 DL:2.1MiB ETA:8m40s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:45 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m38s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m38s]
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m36s]
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m40s]
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m35s]
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m34s]
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m36s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:51 2026 *** 
+===============================================================================
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m32s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m32s]
+[#f9ef40 1.7GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m33s]
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m31s]
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m33s]
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m30s]
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m31s]
+ *** Download Progress Summary as of Thu Sep 17 14:29:57 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m28s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m28s]
+[#f9ef40 1.8GiB/2.8GiB(62%) CN:16 DL:2.1MiB ETA:8m29s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m27s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m25s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m25s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m27s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:03 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m22s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m22s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m21s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m22s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m18s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m18s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m15s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:09 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m15s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m15s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m14s]
+[#f9ef40 1.8GiB/2.8GiB(63%) CN:16 DL:2.1MiB ETA:8m12s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m13s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m10s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m8s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:15 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m8s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m8s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m7s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m5s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m5s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m3s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:21 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m3s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m3s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m1s]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m]
+[#f9ef40 1.8GiB/2.8GiB(64%) CN:16 DL:2.1MiB ETA:8m]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:8m]
+ *** Download Progress Summary as of Thu Sep 17 14:30:27 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m59s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m59s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:8m]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m58s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:8m]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:8m]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m57s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:33 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m57s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m57s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m56s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m54s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m54s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m54s]
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m52s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:39 2026 *** 
+===============================================================================
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m52s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.8GiB/2.8GiB(65%) CN:16 DL:2.1MiB ETA:7m52s]
+[#f9ef40 1.8GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m52s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m51s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m47s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m50s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m46s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:45 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m46s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m46s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m44s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m41s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m38s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m38s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m36s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:51 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m33s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m33s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m32s]
+[#f9ef40 1.9GiB/2.8GiB(66%) CN:16 DL:2.1MiB ETA:7m29s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m27s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m29s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m29s]
+ *** Download Progress Summary as of Thu Sep 17 14:30:57 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m29s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m29s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m28s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m27s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m26s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m26s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m25s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:03 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m27s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m27s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m25s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m23s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m21s]
+[#f9ef40 1.9GiB/2.8GiB(67%) CN:16 DL:2.1MiB ETA:7m22s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m23s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:09 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m20s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m20s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m17s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m16s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m12s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m12s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m10s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:15 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m5s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m5s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m5s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m3s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m2s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m3s]
+[#f9ef40 1.9GiB/2.8GiB(68%) CN:16 DL:2.1MiB ETA:7m2s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:21 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:7m1s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:7m1s]
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:7m1s]
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:7m1s]
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m59s]
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:7m2s]
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m59s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:27 2026 *** 
+===============================================================================
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m58s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m58s]
+[#f9ef40 1.9GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m56s]
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m57s]
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m52s]
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m52s]
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:33 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m50s]
+[#f9ef40 2.0GiB/2.8GiB(69%) CN:16 DL:2.1MiB ETA:6m51s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m49s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m44s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m46s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m43s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:39 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m44s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m44s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m40s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m38s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m38s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m35s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m36s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:44 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m34s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m34s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m35s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m33s]
+[#f9ef40 2.0GiB/2.8GiB(70%) CN:16 DL:2.1MiB ETA:6m34s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.1MiB ETA:6m32s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.1MiB ETA:6m35s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:50 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.1MiB ETA:6m38s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.1MiB ETA:6m38s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.1MiB ETA:6m39s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.1MiB ETA:6m41s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m45s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m50s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m54s]
+ *** Download Progress Summary as of Thu Sep 17 14:31:56 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m50s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m50s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m55s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:2.0MiB ETA:6m55s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:1.9MiB ETA:6m58s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:1.9MiB ETA:6m55s]
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:1.9MiB ETA:6m53s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:02 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:1.9MiB ETA:6m52s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(71%) CN:16 DL:1.9MiB ETA:6m52s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m51s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:2.0MiB ETA:6m48s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:2.0MiB ETA:6m47s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m51s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m49s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:08 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m47s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m48s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m47s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m43s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m45s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:1.9MiB ETA:6m41s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:14 2026 *** 
+===============================================================================
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:2.0MiB ETA:6m36s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:2.0MiB ETA:6m36s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:2.0MiB ETA:6m37s]
+[#f9ef40 2.0GiB/2.8GiB(72%) CN:16 DL:2.0MiB ETA:6m34s]
+[#f9ef40 2.0GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m33s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m32s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m31s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:20 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m28s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m28s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m27s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m27s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m26s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m26s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m25s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:26 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m24s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m24s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m24s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m25s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m21s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m22s]
+[#f9ef40 2.1GiB/2.8GiB(73%) CN:16 DL:2.0MiB ETA:6m22s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:32 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m22s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m22s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m21s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m20s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m20s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m20s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m15s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:38 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m15s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m15s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m13s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m13s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:2.0MiB ETA:6m12s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m12s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m14s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:44 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m10s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m10s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m11s]
+[#f9ef40 2.1GiB/2.8GiB(74%) CN:16 DL:1.9MiB ETA:6m12s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:1.9MiB ETA:6m11s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:1.9MiB ETA:6m10s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:1.9MiB ETA:6m6s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:50 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:6m3s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:6m3s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:1.9MiB ETA:6m3s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:6m]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m59s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m57s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m55s]
+ *** Download Progress Summary as of Thu Sep 17 14:32:56 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m52s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m52s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m51s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m50s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m48s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m49s]
+[#f9ef40 2.1GiB/2.8GiB(75%) CN:16 DL:2.0MiB ETA:5m47s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:02 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m41s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m41s]
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m41s]
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m36s]
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m38s]
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m38s]
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m37s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:08 2026 *** 
+===============================================================================
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m37s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.1GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m37s]
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m38s]
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m36s]
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m35s]
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m38s]
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m39s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:14 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:1.9MiB ETA:5m40s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:1.9MiB ETA:5m40s]
+[#f9ef40 2.2GiB/2.8GiB(76%) CN:16 DL:2.0MiB ETA:5m39s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m39s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m38s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m41s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m37s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:20 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m37s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m37s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m35s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m34s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m33s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m33s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m32s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:26 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m28s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m28s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m28s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m26s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:2.0MiB ETA:5m24s]
+[#f9ef40 2.2GiB/2.8GiB(77%) CN:16 DL:1.9MiB ETA:5m25s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m24s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:32 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m23s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m23s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m22s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m18s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m19s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m20s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m20s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:38 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m16s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m16s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m17s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m16s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:1.9MiB ETA:5m15s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m11s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:44 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m9s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m9s]
+[#f9ef40 2.2GiB/2.8GiB(78%) CN:16 DL:2.0MiB ETA:5m8s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m6s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m5s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m4s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m4s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:50 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m2s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m2s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:5m]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m59s]
+ *** Download Progress Summary as of Thu Sep 17 14:33:55 2026 *** 
+===============================================================================
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m57s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m57s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m55s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m56s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m55s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:1.9MiB ETA:4m56s]
+[#f9ef40 2.2GiB/2.8GiB(79%) CN:16 DL:2.0MiB ETA:4m54s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:01 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m54s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m54s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m52s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m50s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m51s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m49s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m49s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:07 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m47s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m47s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m45s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m45s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:1.9MiB ETA:4m44s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m43s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m41s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:13 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m40s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m40s]
+[#f9ef40 2.3GiB/2.8GiB(80%) CN:16 DL:2.0MiB ETA:4m39s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:2.0MiB ETA:4m38s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:2.0MiB ETA:4m38s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m38s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m38s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:19 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m35s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m35s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m35s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m36s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m34s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m32s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m31s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:25 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m31s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:1.9MiB ETA:4m31s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:2.0MiB ETA:4m27s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:2.0MiB ETA:4m26s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:2.0MiB ETA:4m24s]
+[#f9ef40 2.3GiB/2.8GiB(81%) CN:16 DL:2.0MiB ETA:4m22s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m19s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:31 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m19s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m19s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m16s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m16s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m17s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m15s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m13s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:36 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m13s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m13s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m14s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m13s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m13s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m11s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:1.9MiB ETA:4m12s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:42 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m10s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m10s]
+[#f9ef40 2.3GiB/2.8GiB(82%) CN:16 DL:2.0MiB ETA:4m9s]
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:2.0MiB ETA:4m8s]
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:2.0MiB ETA:4m8s]
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:2.0MiB ETA:4m6s]
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:2.0MiB ETA:4m6s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:48 2026 *** 
+===============================================================================
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m7s]
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m6s]
+[#f9ef40 2.3GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m4s]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m3s]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m1s]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m2s]
+ *** Download Progress Summary as of Thu Sep 17 14:34:54 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m2s]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:4m]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:3m57s]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:3m58s]
+[#f9ef40 2.4GiB/2.8GiB(83%) CN:16 DL:1.9MiB ETA:3m56s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m56s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:00 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m55s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m55s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m53s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m53s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m52s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m50s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:1.9MiB ETA:3m49s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:06 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m46s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m46s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m46s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m44s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m43s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m42s]
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m41s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:12 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m40s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(84%) CN:16 DL:2.0MiB ETA:3m40s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m39s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m38s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m37s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m35s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m34s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:18 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m34s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m34s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m32s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m32s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m30s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m30s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:24 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m29s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m29s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m25s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m26s]
+[#f9ef40 2.4GiB/2.8GiB(85%) CN:16 DL:2.0MiB ETA:3m26s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m23s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m23s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:30 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m21s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m21s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m19s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m18s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m17s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m16s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m17s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:36 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m16s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m16s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m14s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m13s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m13s]
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m11s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:41 2026 *** 
+===============================================================================
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m11s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.4GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m11s]
+[#f9ef40 2.5GiB/2.8GiB(86%) CN:16 DL:2.0MiB ETA:3m10s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m9s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m7s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m7s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m7s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:47 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m5s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m5s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m4s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m3s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m2s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:3m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:52 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:2m59s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:2m59s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:2m59s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:2m59s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:2m58s]
+[#f9ef40 2.5GiB/2.8GiB(87%) CN:16 DL:2.0MiB ETA:2m56s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m55s]
+ *** Download Progress Summary as of Thu Sep 17 14:35:58 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m55s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m55s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:1.9MiB ETA:2m54s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m53s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m50s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m48s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m47s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:04 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m46s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m46s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m47s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m46s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m45s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m44s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m43s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:10 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m42s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:2.0MiB ETA:2m42s]
+[#f9ef40 2.5GiB/2.8GiB(88%) CN:16 DL:1.9MiB ETA:2m42s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m41s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:1.9MiB ETA:2m41s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m38s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m37s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:16 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m36s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m36s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m35s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m34s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m33s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m32s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m32s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:22 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m31s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:2.0MiB ETA:2m31s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:1.9MiB ETA:2m30s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:1.9MiB ETA:2m30s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:1.9MiB ETA:2m29s]
+[#f9ef40 2.5GiB/2.8GiB(89%) CN:16 DL:1.9MiB ETA:2m30s]
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:1.9MiB ETA:2m28s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:28 2026 *** 
+===============================================================================
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:1.9MiB ETA:2m26s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:1.9MiB ETA:2m26s]
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:1.9MiB ETA:2m25s]
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m23s]
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:1.9MiB ETA:2m23s]
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m21s]
+[#f9ef40 2.5GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m20s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:34 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m18s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m18s]
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m17s]
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m14s]
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m14s]
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m13s]
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m12s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:40 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m11s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m11s]
+[#f9ef40 2.6GiB/2.8GiB(90%) CN:16 DL:2.0MiB ETA:2m10s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m10s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m9s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m8s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m8s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:46 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m7s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m6s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m5s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m4s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m3s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m1s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:52 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:2m]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:1m59s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:1m57s]
+[#f9ef40 2.6GiB/2.8GiB(91%) CN:16 DL:2.0MiB ETA:1m56s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m56s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m55s]
+ *** Download Progress Summary as of Thu Sep 17 14:36:58 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m54s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m54s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m53s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m53s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m52s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m51s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m50s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:04 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m48s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m48s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m47s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m47s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m46s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m44s]
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m43s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:10 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m43s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(92%) CN:16 DL:2.0MiB ETA:1m43s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m42s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m40s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m39s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m38s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m38s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:16 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m37s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m37s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m36s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m34s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m33s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m33s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m32s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:21 2026 *** 
+===============================================================================
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m31s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m31s]
+[#f9ef40 2.6GiB/2.8GiB(93%) CN:16 DL:1.9MiB ETA:1m30s]
+[#f9ef40 2.7GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m29s]
+[#f9ef40 2.7GiB/2.8GiB(93%) CN:16 DL:2.0MiB ETA:1m27s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:1.9MiB ETA:1m27s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m26s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:27 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m25s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m25s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m24s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:1.9MiB ETA:1m23s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m22s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m21s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m20s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:33 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m18s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m18s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m18s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m17s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m16s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m15s]
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m14s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:39 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m13s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(94%) CN:16 DL:2.0MiB ETA:1m13s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:2.0MiB ETA:1m12s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:2.0MiB ETA:1m11s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:2.0MiB ETA:1m10s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m9s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m8s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:45 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m7s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:2.0MiB ETA:1m6s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m5s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m4s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m4s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:2.0MiB ETA:1m2s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:51 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m2s]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m]
+[#f9ef40 2.7GiB/2.8GiB(95%) CN:16 DL:1.9MiB ETA:1m]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:1.9MiB ETA:58s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:1.9MiB ETA:58s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:1.9MiB ETA:56s]
+ *** Download Progress Summary as of Thu Sep 17 14:37:57 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:55s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:55s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:54s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:53s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:51s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:50s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:49s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:03 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:48s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:48s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:47s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:47s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:46s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:45s]
+[#f9ef40 2.7GiB/2.8GiB(96%) CN:16 DL:2.0MiB ETA:44s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:09 2026 *** 
+===============================================================================
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:43s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:43s]
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:42s]
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:41s]
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:40s]
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:39s]
+[#f9ef40 2.7GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:38s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:15 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:37s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:37s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:36s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:35s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:34s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:33s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:32s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:21 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:31s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:31s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:1.9MiB ETA:30s]
+[#f9ef40 2.8GiB/2.8GiB(97%) CN:16 DL:2.0MiB ETA:29s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:28s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:1.9MiB ETA:27s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:26s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:27 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:25s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:25s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:1.9MiB ETA:24s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:1.9MiB ETA:23s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:22s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:21s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:20s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:33 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:19s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:19s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:18s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:17s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:16s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:15s]
+[#f9ef40 2.8GiB/2.8GiB(98%) CN:16 DL:2.0MiB ETA:14s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:39 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:13s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:13s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:12s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:11s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:10s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:9s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:8s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:45 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:7s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:2.0MiB ETA:7s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:1.9MiB ETA:6s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:1.9MiB ETA:5s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:1.9MiB ETA:4s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:16 DL:1.9MiB ETA:4s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:13 DL:1.9MiB ETA:3s]
+ *** Download Progress Summary as of Thu Sep 17 14:38:51 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:11 DL:1.9MiB ETA:2s]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:11 DL:1.9MiB ETA:2s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:7 DL:1.8MiB ETA:1s]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:4 DL:1.7MiB]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:3 DL:1.6MiB]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:1 DL:1.4MiB]
+ *** Download Progress Summary as of Thu Sep 17 14:38:56 2026 *** 
+===============================================================================
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:1 DL:1.2MiB]
+FILE: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+-------------------------------------------------------------------------------
+
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:1 DL:1.2MiB]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:1 DL:1.0MiB]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:1 DL:0.9MiB]
+[#f9ef40 2.8GiB/2.8GiB(99%) CN:1 DL:728KiB]
+
+09/17 14:38:59 [[1;32mNOTICE[0m] Download complete: /workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+f9ef40|OK  |   2.2MiB/s|/workspace/models/Qwen2.5-Math-1.5B/model.safetensors
+
+Status Legend:
+(OK):download completed.
