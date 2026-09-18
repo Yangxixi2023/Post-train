@@ -28,3 +28,7 @@ Initially, all tests should fail with `NotImplementedError`s.
 To connect your implementation to the tests, complete the
 functions in [./tests/adapters.py](./tests/adapters.py).
 
+
+## Completed experiment report
+
+The completed two-GPU Qwen2.5-Math-1.5B SFT / Expert Iteration / GRPO implementation, MATH experiments, ablations, stability analysis, and final evaluation are summarized in **[RESULTS.md](RESULTS.md)**. Machine-readable metrics are in `results/assignment5_summary.json`, with plots under `plots/`.

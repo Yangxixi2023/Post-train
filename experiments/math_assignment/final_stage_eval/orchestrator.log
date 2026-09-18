@@ -1,0 +1,8 @@
+START sft_full 2026-09-18T23:42:56+08:00
+DONE sft_full 2026-09-18T23:46:16+08:00
+{
+  "reward": 0.36,
+  "format_reward": 0.7552,
+  "answer_reward": 0.36,
+  "avg_response_tokens": 150.3068
+}START sft_filtered 2026-09-18T23:46:16+08:00
